@@ -1,0 +1,61 @@
+{
+  "protocol_sha256": "12f00e254473a067024eba32dcde6368b97fe59b12f38eeb5639cdcd93522e6a",
+  "git_commit": "89f89e861dfbd965bb42283f2069129371affaf8",
+  "python": "3.13.15",
+  "numpy": "2.5.3",
+  "torch": "2.14.0+cu126",
+  "native_thread_pools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "cpu": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "device": "cpu",
+  "run_id": "E8-12f00e254473a067",
+  "created_utc": "2026-10-03T17:12:25.556966+00:00",
+  "experiment_id": "CAL-MATCHED-01",
+  "seed": 5102,
+  "sha256": "0db05be82b5fa7a46bba6217623e635d77cc77654f73ca7658c84e845114ef1f",
+  "frames": 128
+}

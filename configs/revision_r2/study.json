@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "baseline": "d390938358debc04893bb3f774e85d2907d7ed6d",
+  "seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105
+  ],
+  "policies": [
+    {
+      "id": "joint_d0.5",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "joint_d1",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 1.0,
+      "stratum": null
+    },
+    {
+      "id": "joint_d3",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 3.0,
+      "stratum": null
+    },
+    {
+      "id": "conditional_d0.5",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "conditional",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "conditional_d1",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "conditional",
+      "delta_db": 1.0,
+      "stratum": null
+    },
+    {
+      "id": "conditional_d3",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "conditional",
+      "delta_db": 3.0,
+      "stratum": null
+    },
+    {
+      "id": "block_huber",
+      "environment": "SYN_A",
+      "score": "block_score",
+      "fallback": "block",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "pilot_anchor",
+      "environment": "SYN_A",
+      "score": "g3_anchor",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "g2_25",
+      "environment": "SYN_A",
+      "score": "g2_25",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "g2_33",
+      "environment": "SYN_A",
+      "score": "g2_33",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "g2_50",
+      "environment": "SYN_A",
+      "score": "g2_50",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "snr_joint_0",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": 0
+    },
+    {
+      "id": "snr_joint_1",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": 1
+    },
+    {
+      "id": "snr_joint_2",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": 2
+    },
+    {
+      "id": "snr_joint_3",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": 3
+    },
+    {
+      "id": "snr_joint_4",
+      "environment": "SYN_A",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": 4
+    },
+    {
+      "id": "tdl_joint",
+      "environment": "TDLA",
+      "score": "g3_hard",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    },
+    {
+      "id": "tdl_anchor",
+      "environment": "TDLA",
+      "score": "g3_anchor",
+      "fallback": "base",
+      "target": "joint",
+      "delta_db": 0.5,
+      "stratum": null
+    }
+  ],
+  "frame_counts": {
+    "R2_CAL": {
+      "SYN_A": 8192,
+      "TDLA": 8192
+    },
+    "R2_TEST": {
+      "SYN_A": 8192,
+      "SYN_C": 4096,
+      "TDLA": 8192,
+      "TDLC": 4096,
+      "TIMING": 128
+    }
+  },
+  "alpha": 0.05,
+  "epsilon_family": 0.05,
+  "max_thresholds": 102,
+  "certificate_paths": 90,
+  "bonferroni_tests": 9180,
+  "error_each": 5.446623093681918e-06,
+  "min_accepted": 200,
+  "min_coverage": 0.05,
+  "min_joint_useful": 0.05,
+  "delta_u_db": 0.5,
+  "estimated_snr_boundaries_db": [
+    2.5,
+    7.5,
+    12.5,
+    17.5
+  ],
+  "stratum_rule": "np.digitize(10log10(mean_active|H_base|^2/v),boundaries,right=False)",
+  "snr_truth_use": "offline reporting only; never threshold/bin selection or deployment",
+  "tdl": {
+    "implementation": "Sionna2.2.0 TDL spec_version16.1",
+    "matched": "A",
+    "shift": "C",
+    "carrier_hz": 3500000000.0,
+    "speed_mps": 8.333333333333334,
+    "speed_kmh": 30,
+    "delay_spread_s": 1e-07,
+    "doppler_hz": 97.28952776612769,
+    "sample_rate_hz": 1920000,
+    "fft": 128,
+    "cp": 16,
+    "symbols": 8,
+    "l_min": -6,
+    "l_max": 8,
+    "num_sinusoids": 20,
+    "normalization": "unit ensemble PDP; cir_to_time_channel normalize=False; no per-realization scaling",
+    "waveform": "sample-rate time-varying linear convolution with sinc fractional-delay taps; known l_min FFT phase compensation",
+    "label": "exact diagonal OFDM transfer coefficient: FFT of mean effective taps across each128-sample receive window with timing phase compensation; ICI remains in received waveform"
+  },
+  "perturbation_parent_count": 1024,
+  "perturbation_environment": "SYN_A",
+  "perturbations": {
+    "phase_degrees": [
+      -90,
+      90,
+      -15,
+      -5,
+      5,
+      15
+    ],
+    "per_carrier": "j^(k mod4),constant across symbols",
+    "amplitudes": [
+      0.75,
+      1.25
+    ],
+    "masks": [
+      "all_active",
+      "data_only"
+    ]
+  },
+  "bootstrap": {
+    "seed": 202610050291,
+    "draws_descriptive": 5000,
+    "draws_comparative": 20000,
+    "unit": "whole paired frame; same multiplicities across methods and seeds",
+    "seed_treatment": "primary intervals conditional on five retained trained models: average paired per-frame quantity before frame bootstrap; also descriptive crossed5-seed bootstrap for seed sensitivity",
+    "stratified": "resample within true-SNR strata for per-SNR tables, within estimated-SNR strata for stratum results",
+    "conditional": "recompute harmful-accepted/accepted separately per seed then equal-seed mean; undefined resamples counted and omitted; >5% undefined => insufficient"
+  },
+  "comparison_family": [
+    "conditional_d0.5_vs_joint_d0.5_coverage",
+    "joint_d0.5_ber_vs_base",
+    "block_huber_nmse_vs_block",
+    "snr_stratified_vs_joint_d0.5_coverage",
+    "pilot_anchor_vs_joint_d0.5_useful",
+    "pilot_anchor_vs_joint_d0.5_rotated_harm",
+    "g3_vs_g2_25_aurc_joint",
+    "g3_vs_g2_33_aurc_joint",
+    "g3_vs_g2_50_aurc_joint",
+    "tdl_joint_ber_vs_base",
+    "tdlc_vs_tdla_useful",
+    "timing_g3_g2_25_ratio",
+    "timing_g3_g2_50_ratio"
+  ],
+  "comparison_correction": "two-sided Bonferroni13 intervals; marginal95% descriptive intervals also retained; separate from calibration family",
+  "comparison_details": {
+    "rotated_harm": "mean of joint harmful acceptance under global+90 and-90 on all active elements, first1024 SYN_A test parents; all seeds equally weighted",
+    "tdlc_vs_tdla": "independent frame bootstrap for the two environments; pair methods/seeds within an environment, not different channel draws",
+    "rank_and_aurc": "recompute ranking in every whole-frame bootstrap draw, including multiplicities; do not hold test-derived cutoffs fixed"
+  },
+  "aurc": "right-endpoint step integral over coverage[0,1]: (1/N)sum_{m=1}^N risk(m/N); R_J=h_m/N, R_C=h_m/m; lower score first, independent frame tie key; ranks diagnostic only",
+  "rank_coverages": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "timing": {
+    "repetitions": 30,
+    "warmups": 10,
+    "frames": 128,
+    "seed": 5101,
+    "threads": 1,
+    "batch": 1,
+    "random_order_seed": 202610050292,
+    "methods": [
+      "g3_hard",
+      "g3_anchor",
+      "g2_25",
+      "g2_33",
+      "g2_50"
+    ],
+    "coverage": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "boundaries": "C_val: FFT grid to selected channel including candidates/scoring/refit; C_rx: CP buffer to hard bits; G3 reuses validation detections",
+    "paired_intervals": "paired frame clusters preserving all30 repetitions; descriptive repetition-level variability also reported",
+    "inference": "only G3/G2 half-holdout25/50 ratios are revised inferential timing comparisons;75 and other variants descriptive",
+    "frequency": "record Windows active power plan and CPU clock information; no governor or OS changes"
+  },
+  "compute_budget": {
+    "max_cpu_hours": 24,
+    "resume_shard_frames": 128,
+    "sequential_models": true,
+    "device": "cpu",
+    "reserve_disk_gib": 8,
+    "rule": "no sample-count adaptation; resource interruption => resume exact IDs or report incomplete; no success-dependent stopping"
+  },
+  "claim_rules": {
+    "conditional": "all5 seeds have a certified useful policy plus independent test coverage/useful>=.05 and accepted>=200; test RC exceeding.05 is reported and marks test corroboration NOT_SUPPORTED, never recertification",
+    "joint": "same useful criteria; joint population certificate is a calibration statement, not a claim every test estimate<=alpha",
+    "comparative": "directional benefit only if the specified Bonferroni-adjusted paired interval excludes0 (ratio excludes1); otherwise INCONCLUSIVE or NOT_SUPPORTED",
+    "standardized": "TDL-A certificate applies only to its freshly calibrated IID model; TDL-C and all interventions empirical stress tests without transferred guarantee",
+    "failures": "reject-all is NOT_SUPPORTED useful calibration; harmful invariant acceptance is LIMITATION_CONFIRMED; no seed exclusions or retuning"
+  }
+}

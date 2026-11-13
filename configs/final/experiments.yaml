@@ -1,0 +1,2617 @@
+experiments:
+- id: P0-GATES-01
+  tier: P0
+  kind: iid
+  distribution: matched_iid
+  frames: 8192
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods:
+  - ls
+  - delay
+  - base
+  - block_huber
+  - g0
+  - helena
+  - g1
+  - g2
+  - g3_hard
+  - g3_soft
+  - g3_anchor
+  - evm
+  - evm_neural
+  - evm_robust
+  - evm_robust_neural
+  - weighted_mean
+  - weighted_mean_neural
+  - weighted_normalized
+  - weighted_normalized_neural
+  - weighted_robust_neural
+  - llr
+  - llr_neural
+  - pilot
+  - pilot_mean
+  - g3_soft_mean
+  - g3_mean_only
+  - perfect_csi
+  - matched_lmmse
+  - oracle_gate
+  - weighted_evm_identity
+  claim: primary
+  metrics:
+  - PRIMARY_METRIC_RJ
+  - A
+  - U_joint
+  - RC
+  - accepted_gain
+  - regrets
+  - NMSE
+  - BER
+  - AUROC
+  - AUPRC
+  - pAURC
+  - Brier_increment
+  output: outputs/e8/P0-GATES-01
+- id: P0-MATCHED-01
+  tier: P0
+  kind: fixed_cells
+  cells:
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: &id001
+      id: none
+      inr_db: 0
+      duration: 1
+      probability: 0.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: &id002
+      id: short10
+      inr_db: 10
+      duration: 8
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: &id003
+      id: long10
+      inr_db: 10
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: &id004
+      id: long20
+      inr_db: 20
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id004
+  frames_per_cell: 512
+  frames: 14336
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods: &id005
+  - ls
+  - delay
+  - base
+  - block_huber
+  - g0
+  - helena
+  - g1
+  - g2
+  - g3_hard
+  - g3_soft
+  - weighted_mean
+  - pilot
+  - evm
+  - llr
+  - perfect_csi
+  - matched_lmmse
+  - oracle_gate
+  claim: secondary/empirical
+  metrics:
+  - mean_linear_nmse
+  - ber
+  - ser
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - baseline_regret
+  - oracle_regret
+  output: outputs/e8/P0-MATCHED-01
+- id: P0-CHANSHIFT-01
+  tier: P0
+  kind: fixed_cells
+  cells:
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id001
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id002
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id003
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id004
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id001
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id002
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id003
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id004
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id001
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id002
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id003
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id004
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id001
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id002
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id003
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id004
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id001
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id002
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id003
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id004
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id001
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id002
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id003
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id004
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id001
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id002
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id003
+  - family: B
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id004
+  frames_per_cell: 512
+  frames: 28672
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods: *id005
+  claim: empirical only
+  metrics:
+  - mean_linear_nmse
+  - ber
+  - ser
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - baseline_regret
+  - oracle_regret
+  output: outputs/e8/P0-CHANSHIFT-01
+- id: P0-INTSHIFT-01
+  tier: P0
+  kind: fixed_cells
+  cells:
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: &id006
+      id: stress20
+      inr_db: 20
+      duration: 128
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id006
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id006
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id006
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id006
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id006
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id006
+  frames_per_cell: 512
+  frames: 3584
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods: *id005
+  claim: empirical only
+  metrics:
+  - mean_linear_nmse
+  - ber
+  - ser
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - baseline_regret
+  - oracle_regret
+  output: outputs/e8/P0-INTSHIFT-01
+- id: P0-BURST-01
+  tier: P0
+  kind: fixed_cells
+  cells:
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_8_0.25
+      inr_db: 0
+      duration: 8
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_8_0.5
+      inr_db: 0
+      duration: 8
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_8_1.0
+      inr_db: 0
+      duration: 8
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_32_0.25
+      inr_db: 0
+      duration: 32
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_32_0.5
+      inr_db: 0
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_32_1.0
+      inr_db: 0
+      duration: 32
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_128_0.25
+      inr_db: 0
+      duration: 128
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_128_0.5
+      inr_db: 0
+      duration: 128
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_128_1.0
+      inr_db: 0
+      duration: 128
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_8_0.25
+      inr_db: 10
+      duration: 8
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_8_0.5
+      inr_db: 10
+      duration: 8
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_8_1.0
+      inr_db: 10
+      duration: 8
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_32_0.25
+      inr_db: 10
+      duration: 32
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_32_0.5
+      inr_db: 10
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_32_1.0
+      inr_db: 10
+      duration: 32
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_128_0.25
+      inr_db: 10
+      duration: 128
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_128_0.5
+      inr_db: 10
+      duration: 128
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_128_1.0
+      inr_db: 10
+      duration: 128
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_8_0.25
+      inr_db: 20
+      duration: 8
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_8_0.5
+      inr_db: 20
+      duration: 8
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_8_1.0
+      inr_db: 20
+      duration: 8
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_32_0.25
+      inr_db: 20
+      duration: 32
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_32_0.5
+      inr_db: 20
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_32_1.0
+      inr_db: 20
+      duration: 32
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_128_0.25
+      inr_db: 20
+      duration: 128
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_128_0.5
+      inr_db: 20
+      duration: 128
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_128_1.0
+      inr_db: 20
+      duration: 128
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_8_0.25
+      inr_db: 0
+      duration: 8
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_8_0.5
+      inr_db: 0
+      duration: 8
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_8_1.0
+      inr_db: 0
+      duration: 8
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_32_0.25
+      inr_db: 0
+      duration: 32
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_32_0.5
+      inr_db: 0
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_32_1.0
+      inr_db: 0
+      duration: 32
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_128_0.25
+      inr_db: 0
+      duration: 128
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_128_0.5
+      inr_db: 0
+      duration: 128
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_128_1.0
+      inr_db: 0
+      duration: 128
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_8_0.25
+      inr_db: 10
+      duration: 8
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_8_0.5
+      inr_db: 10
+      duration: 8
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_8_1.0
+      inr_db: 10
+      duration: 8
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_32_0.25
+      inr_db: 10
+      duration: 32
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_32_0.5
+      inr_db: 10
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_32_1.0
+      inr_db: 10
+      duration: 32
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_128_0.25
+      inr_db: 10
+      duration: 128
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_128_0.5
+      inr_db: 10
+      duration: 128
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_128_1.0
+      inr_db: 10
+      duration: 128
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_8_0.25
+      inr_db: 20
+      duration: 8
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_8_0.5
+      inr_db: 20
+      duration: 8
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_8_1.0
+      inr_db: 20
+      duration: 8
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_32_0.25
+      inr_db: 20
+      duration: 32
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_32_0.5
+      inr_db: 20
+      duration: 32
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_32_1.0
+      inr_db: 20
+      duration: 32
+      probability: 1.0
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_128_0.25
+      inr_db: 20
+      duration: 128
+      probability: 0.25
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_128_0.5
+      inr_db: 20
+      duration: 128
+      probability: 0.5
+  - family: A
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_128_1.0
+      inr_db: 20
+      duration: 128
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_8_0.25
+      inr_db: 0
+      duration: 8
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_8_0.5
+      inr_db: 0
+      duration: 8
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_8_1.0
+      inr_db: 0
+      duration: 8
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_32_0.25
+      inr_db: 0
+      duration: 32
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_32_0.5
+      inr_db: 0
+      duration: 32
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_32_1.0
+      inr_db: 0
+      duration: 32
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_128_0.25
+      inr_db: 0
+      duration: 128
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_128_0.5
+      inr_db: 0
+      duration: 128
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_0_128_1.0
+      inr_db: 0
+      duration: 128
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_8_0.25
+      inr_db: 10
+      duration: 8
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_8_0.5
+      inr_db: 10
+      duration: 8
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_8_1.0
+      inr_db: 10
+      duration: 8
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_32_0.25
+      inr_db: 10
+      duration: 32
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_32_0.5
+      inr_db: 10
+      duration: 32
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_32_1.0
+      inr_db: 10
+      duration: 32
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_128_0.25
+      inr_db: 10
+      duration: 128
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_128_0.5
+      inr_db: 10
+      duration: 128
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_10_128_1.0
+      inr_db: 10
+      duration: 128
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_8_0.25
+      inr_db: 20
+      duration: 8
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_8_0.5
+      inr_db: 20
+      duration: 8
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_8_1.0
+      inr_db: 20
+      duration: 8
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_32_0.25
+      inr_db: 20
+      duration: 32
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_32_0.5
+      inr_db: 20
+      duration: 32
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_32_1.0
+      inr_db: 20
+      duration: 32
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_128_0.25
+      inr_db: 20
+      duration: 128
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_128_0.5
+      inr_db: 20
+      duration: 128
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst:
+      id: sweep_20_128_1.0
+      inr_db: 20
+      duration: 128
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_8_0.25
+      inr_db: 0
+      duration: 8
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_8_0.5
+      inr_db: 0
+      duration: 8
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_8_1.0
+      inr_db: 0
+      duration: 8
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_32_0.25
+      inr_db: 0
+      duration: 32
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_32_0.5
+      inr_db: 0
+      duration: 32
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_32_1.0
+      inr_db: 0
+      duration: 32
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_128_0.25
+      inr_db: 0
+      duration: 128
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_128_0.5
+      inr_db: 0
+      duration: 128
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_0_128_1.0
+      inr_db: 0
+      duration: 128
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_8_0.25
+      inr_db: 10
+      duration: 8
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_8_0.5
+      inr_db: 10
+      duration: 8
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_8_1.0
+      inr_db: 10
+      duration: 8
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_32_0.25
+      inr_db: 10
+      duration: 32
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_32_0.5
+      inr_db: 10
+      duration: 32
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_32_1.0
+      inr_db: 10
+      duration: 32
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_128_0.25
+      inr_db: 10
+      duration: 128
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_128_0.5
+      inr_db: 10
+      duration: 128
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_10_128_1.0
+      inr_db: 10
+      duration: 128
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_8_0.25
+      inr_db: 20
+      duration: 8
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_8_0.5
+      inr_db: 20
+      duration: 8
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_8_1.0
+      inr_db: 20
+      duration: 8
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_32_0.25
+      inr_db: 20
+      duration: 32
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_32_0.5
+      inr_db: 20
+      duration: 32
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_32_1.0
+      inr_db: 20
+      duration: 32
+      probability: 1.0
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_128_0.25
+      inr_db: 20
+      duration: 128
+      probability: 0.25
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_128_0.5
+      inr_db: 20
+      duration: 128
+      probability: 0.5
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst:
+      id: sweep_20_128_1.0
+      inr_db: 20
+      duration: 128
+      probability: 1.0
+  frames_per_cell: 512
+  frames: 55296
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods: *id005
+  claim: empirical only
+  metrics:
+  - mean_linear_nmse
+  - ber
+  - ser
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - baseline_regret
+  - oracle_regret
+  output: outputs/e8/P0-BURST-01
+- id: P0-16QAM-01
+  tier: P0
+  kind: fixed_cells
+  cells:
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: -5
+    burst: *id001
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: -5
+    burst: *id002
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: -5
+    burst: *id003
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: -5
+    burst: *id004
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 0
+    burst: *id001
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 0
+    burst: *id002
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 0
+    burst: *id003
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 0
+    burst: *id004
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 5
+    burst: *id001
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 5
+    burst: *id002
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 5
+    burst: *id003
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 5
+    burst: *id004
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 10
+    burst: *id001
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 10
+    burst: *id002
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 10
+    burst: *id003
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 10
+    burst: *id004
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 15
+    burst: *id001
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 15
+    burst: *id002
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 15
+    burst: *id003
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 15
+    burst: *id004
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 20
+    burst: *id001
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 20
+    burst: *id002
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 20
+    burst: *id003
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 20
+    burst: *id004
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 25
+    burst: *id001
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 25
+    burst: *id002
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 25
+    burst: *id003
+  - family: A
+    modulation: 16QAM
+    stride: 8
+    snr_db: 25
+    burst: *id004
+  frames_per_cell: 512
+  frames: 14336
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods: *id005
+  claim: 'empirical limited scope: A, stride8; -5/20/25 stress/failure reporting;
+    no QAM guarantee'
+  metrics:
+  - mean_linear_nmse
+  - ber
+  - ser
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - baseline_regret
+  - oracle_regret
+  output: outputs/e8/P0-16QAM-01
+- id: P0-PHASE-01
+  tier: P0
+  kind: reuse_interventions
+  sources:
+  - P0-MATCHED-01
+  - P0-16QAM-01
+  first_frames_per_cell: 32
+  frames: 0
+  interventions:
+  - kind: phase
+    degrees: -90
+    mask: all_active
+  - kind: phase
+    degrees: 90
+    mask: all_active
+  - kind: phase
+    degrees: -90
+    mask: data_only
+  - kind: phase
+    degrees: 90
+    mask: data_only
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods:
+  - g3_hard
+  - g3_soft
+  - g3_anchor
+  - pilot
+  - weighted_evm_identity
+  thresholds: frozen calibration thresholds; plus zero-threshold descriptive ablation
+  metrics:
+  - score_change
+  - unchanged_fraction_at_1e-10
+  - harm
+  - accept
+  - harmful_candidate_acceptance
+  - BER
+  claim: mandatory limitation demonstration; all arms/results retained
+  output: outputs/e8/P0-PHASE-01
+- id: P0-COST-01
+  tier: P0
+  kind: iid
+  distribution: matched_iid
+  frames: 128
+  seeds:
+  - 5101
+  methods:
+  - base
+  - g0
+  - g1
+  - g2
+  - g3_hard
+  - g3_soft
+  - weighted_mean
+  - pilot
+  - helena
+  - ls
+  - delay
+  - block_huber
+  accuracy_source: P0-GATES-01
+  metrics:
+  - C_val
+  - C_inc
+  - C_rx
+  - memory
+  - pass_counts
+  - matched_harm
+  - matched_use
+  output: outputs/e8/P0-COST-01
+  claim: CPU matched25/50 conditional comparison only
+- id: P1-JOINTSHIFT-01
+  tier: P1
+  kind: fixed_cells
+  cells:
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: -5
+    burst: *id006
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 0
+    burst: *id006
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 5
+    burst: *id006
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 10
+    burst: *id006
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 15
+    burst: *id006
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 20
+    burst: *id006
+  - family: C
+    modulation: QPSK
+    stride: 8
+    snr_db: 25
+    burst: *id006
+  frames_per_cell: 512
+  frames: 3584
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods: *id005
+  claim: empirical only
+  metrics:
+  - mean_linear_nmse
+  - ber
+  - ser
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - baseline_regret
+  - oracle_regret
+  output: outputs/e8/P1-JOINTSHIFT-01
+- id: P1-PILOTS-01
+  tier: P1
+  kind: fixed_cells
+  cells:
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id004
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id001
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id002
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id003
+  - family: A
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: -5
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 0
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 5
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 10
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 15
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 20
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 4
+    snr_db: 25
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: -5
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 0
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 5
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 10
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 15
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 20
+    burst: *id004
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id001
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id002
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id003
+  - family: C
+    modulation: QPSK
+    stride: 16
+    snr_db: 25
+    burst: *id004
+  frames_per_cell: 512
+  frames: 57344
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods: *id005
+  claim: empirical only; stride8 reused from matched/channel-shift
+  metrics:
+  - mean_linear_nmse
+  - ber
+  - ser
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - baseline_regret
+  - oracle_regret
+  output: outputs/e8/P1-PILOTS-01
+- id: P1-ABLATION-01
+  tier: P1
+  kind: reuse
+  source: P0-GATES-01
+  frames: 0
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods:
+  - ls
+  - delay
+  - base
+  - block_huber
+  - g0
+  - helena
+  - g1
+  - g2
+  - g3_hard
+  - g3_soft
+  - g3_anchor
+  - evm
+  - evm_neural
+  - evm_robust
+  - evm_robust_neural
+  - weighted_mean
+  - weighted_mean_neural
+  - weighted_normalized
+  - weighted_normalized_neural
+  - weighted_robust_neural
+  - llr
+  - llr_neural
+  - pilot
+  - pilot_mean
+  - g3_soft_mean
+  - g3_mean_only
+  - perfect_csi
+  - matched_lmmse
+  - oracle_gate
+  - weighted_evm_identity
+  - g2_uncalibrated
+  - g3_hard_uncalibrated
+  - g3_soft_uncalibrated
+  metrics:
+  - RJ
+  - RC
+  - A
+  - U_joint
+  - regrets
+  - AUROC
+  - pAURC
+  output: outputs/e8/P1-ABLATION-01
+- id: P1-CALSIZE-01
+  tier: P1
+  kind: reuse
+  source: P0-GATES-01
+  frames: 0
+  seeds:
+  - 5101
+  - 5102
+  - 5103
+  - 5104
+  - 5105
+  methods:
+  - g2
+  - g3_hard
+  - g3_soft
+  - weighted_mean
+  - pilot
+  sizes:
+  - 2048
+  - 4096
+  - 8192
+  metrics:
+  - threshold
+  - calibration_acceptance
+  - test_RJ
+  - test_RC
+  - test_A
+  - test_U_joint
+  guarantee: none for additional prefix certificates; empirical sensitivity
+  output: outputs/e8/P1-CALSIZE-01
+sampling: fixed counts; no event-driven extension; no favorable-result stopping; checkpoint/resume
+  same IDs only
+failure_examples: for each experiment/cell/seed, smallest lexicographic frame ID for
+  G3-hard harmful acceptance and useful rejection; empty category explicitly NA; no
+  best-looking replacement
+p2:
+  status: OPTIONAL_NOT_SCHEDULED
+  items:
+  - independent Sionna component cross-check
+  - extended failure illustrations
+  excluded_methods:
+  - G4 not adopted
+  - MoE-CE not adopted
+  rule: cannot introduce a new estimator/claim using final data; any future method
+    is a separate study
+bits_per_frame:
+  QPSK:
+    '4': 1152
+    '8': 1344
+    '16': 1440
+  QAM16:
+    '8': 2688
+primary_metric: equal-seed mean matched-IID joint harmful-acceptance risk of the selected
+  G3-hard policy; per-seed values mandatory
+primary_success: formal calibration certificate AND independent useful-acceptance
+  criteria; reject-all is failure to establish useful reliability

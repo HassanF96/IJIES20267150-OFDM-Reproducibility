@@ -1,0 +1,78 @@
+core:
+- ls
+- delay
+- base
+- block_huber
+- g0
+- helena
+- g1
+- g2
+- g3_hard
+- g3_soft
+- weighted_mean
+- pilot
+- evm
+- llr
+- perfect_csi
+- matched_lmmse
+- oracle_gate
+wide:
+- ls
+- delay
+- base
+- block_huber
+- g0
+- helena
+- g1
+- g2
+- g3_hard
+- g3_soft
+- g3_anchor
+- evm
+- evm_neural
+- evm_robust
+- evm_robust_neural
+- weighted_mean
+- weighted_mean_neural
+- weighted_normalized
+- weighted_normalized_neural
+- weighted_robust_neural
+- llr
+- llr_neural
+- pilot
+- pilot_mean
+- g3_soft_mean
+- g3_mean_only
+- perfect_csi
+- matched_lmmse
+- oracle_gate
+- weighted_evm_identity
+traditional:
+- ls
+- delay
+- base
+- block_huber
+ideal:
+- perfect_csi
+- matched_lmmse
+- oracle_gate
+implementations:
+  ls: src.estimators.practical.ls_interpolate
+  delay: src.estimators.practical.regularized_delay
+  base: src.estimators.practical.lmmse_like
+  block_huber: src.e6.comparators.block_huber
+  residual: src.e5.model.CandidateOperator
+  helena: src.e6.comparators.Helena
+  gates: src.e6.scores.scores
+  g2: src.e6.cost.validate
+  perfect_csi: truth reference only
+  matched_lmmse: src.estimators.oracle.matched_lmmse
+  oracle_gate: choose full candidate iff L_neural < L_base; truth reference only
+oracle_information: true law and N0 for matched LMMSE; no realized burst covariance;
+  ideal reference excludes practical claims
+second_modern:
+  status: NOT_SCHEDULED_EXPECTED_EXTENSION
+  reason: RESEARCH_SPEC 12.3 P1 lists it, but explicit readiness minimum requires
+    P1 items1-3 only; CLASS A HELENA meets mandatory modern requirement; no second-modern
+    claim
+  affects_author_readiness: false

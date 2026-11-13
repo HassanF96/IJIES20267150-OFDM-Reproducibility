@@ -1,0 +1,5005 @@
+{
+  "scope": "POST-REVIEW EXTENSION; descriptive pointwise 95% paired whole-frame percentile intervals, 5000 draws; fixed-model mixture samples one of the five retained models uniformly. No new-model or superiority guarantee. SNR slices descriptive; severity percentiles descriptive.",
+  "rows": [
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5101,
+      "policy": "transfer_g3",
+      "coverage": 0.9998779296875,
+      "joint_harm": 0.0350341796875,
+      "joint_useful": 0.86962890625,
+      "ber": 0.09131277175176633,
+      "mean_nmse": 0.08139553811365563,
+      "paired_ber_difference": -0.00785428001767119,
+      "conditional_harm": 0.03503845684287633,
+      "mean_accepted_harm_db": 1.3202684749434952,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.9996337890625,
+          1.0
+        ],
+        "joint_harm": [
+          0.0311279296875,
+          0.038821411132812456
+        ],
+        "joint_useful": [
+          0.8624267578125,
+          0.8768310546875
+        ],
+        "ber": [
+          0.08877331869942798,
+          0.09383042653401691
+        ],
+        "mean_nmse": [
+          0.07714123809253305,
+          0.08594808566165126
+        ],
+        "paired_ber_difference": [
+          -0.008118132182529995,
+          -0.007597594034104121
+        ],
+        "conditional_harm": [
+          0.0311279296875,
+          0.038830653599330314
+        ],
+        "mean_accepted_harm_db": [
+          1.2227212404374226,
+          1.4231737011711716
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5102,
+      "policy": "transfer_g3",
+      "coverage": 0.9599609375,
+      "joint_harm": 0.0364990234375,
+      "joint_useful": 0.81201171875,
+      "ber": 0.09149914696102963,
+      "mean_nmse": 0.11316397141032286,
+      "paired_ber_difference": -0.0076679048084077805,
+      "conditional_harm": 0.038021363173957275,
+      "mean_accepted_harm_db": 1.0339325078801584,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.95556640625,
+          0.9641143798828125
+        ],
+        "joint_harm": [
+          0.032470703125,
+          0.0404052734375
+        ],
+        "joint_useful": [
+          0.8037109375,
+          0.8203125
+        ],
+        "ber": [
+          0.08893856321062356,
+          0.09402593885149275
+        ],
+        "mean_nmse": [
+          0.09838616485273201,
+          0.1305531222255555
+        ],
+        "paired_ber_difference": [
+          -0.007923687072027296,
+          -0.007410401389712381
+        ],
+        "conditional_harm": [
+          0.033921669015361915,
+          0.04213363308659708
+        ],
+        "mean_accepted_harm_db": [
+          0.9827009882488932,
+          1.0896000244320219
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5103,
+      "policy": "transfer_g3",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.8875732421875,
+      "ber": 0.09108652387346444,
+      "mean_nmse": 0.07865357749298059,
+      "paired_ber_difference": -0.008080527895972935,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.183295687369052,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "joint_useful": [
+          0.8807373046875,
+          0.894287109375
+        ],
+        "ber": [
+          0.08853500229971747,
+          0.09360552515302381
+        ],
+        "mean_nmse": [
+          0.07471994713382488,
+          0.08282444837984979
+        ],
+        "paired_ber_difference": [
+          -0.008354657036917547,
+          -0.007812134424845375
+        ],
+        "conditional_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "mean_accepted_harm_db": [
+          1.0937083805386485,
+          1.2751362513898465
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5104,
+      "policy": "transfer_g3",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.89306640625,
+      "ber": 0.09091213771275031,
+      "mean_nmse": 0.07695670806555441,
+      "paired_ber_difference": -0.008254914056687176,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.3022554651345593,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "joint_useful": [
+          0.8864715576171875,
+          0.899658203125
+        ],
+        "ber": [
+          0.08838116782052173,
+          0.09342452457972933
+        ],
+        "mean_nmse": [
+          0.07307385699921864,
+          0.08102878209806198
+        ],
+        "paired_ber_difference": [
+          -0.008530857449486142,
+          -0.0079793271564302
+        ],
+        "conditional_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "mean_accepted_harm_db": [
+          1.1976656713877019,
+          1.4181781711287473
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5105,
+      "policy": "transfer_g3",
+      "coverage": 0.88525390625,
+      "joint_harm": 0.0357666015625,
+      "joint_useful": 0.7080078125,
+      "ber": 0.09238061450776507,
+      "mean_nmse": 0.13613069293141414,
+      "paired_ber_difference": -0.0067864372616722925,
+      "conditional_harm": 0.04040264754550469,
+      "mean_accepted_harm_db": 0.9116901626601039,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.8782958984375,
+          0.8922119140625
+        ],
+        "joint_harm": [
+          0.03173828125,
+          0.039794921875
+        ],
+        "joint_useful": [
+          0.6982421875,
+          0.7176544189453125
+        ],
+        "ber": [
+          0.08982318469456264,
+          0.09496008328029085
+        ],
+        "mean_nmse": [
+          0.12029017661087961,
+          0.15474384500442934
+        ],
+        "paired_ber_difference": [
+          -0.007022410347348172,
+          -0.00655092057727632
+        ],
+        "conditional_harm": [
+          0.03591156434767859,
+          0.04501581110282127
+        ],
+        "mean_accepted_harm_db": [
+          0.872766755691469,
+          0.9518966552653985
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "transfer_g3",
+      "coverage": 0.9690185546875,
+      "joint_harm": 0.0303955078125,
+      "joint_useful": 0.8340576171875,
+      "ber": 0.09143823896135515,
+      "mean_nmse": 0.0972600976027855,
+      "paired_ber_difference": -0.0077288128080822745,
+      "conditional_harm": 0.03136731248897735,
+      "mean_accepted_harm_db": 1.1325654222751178,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.967041015625,
+          0.9709716796875
+        ],
+        "joint_harm": [
+          0.0280517578125,
+          0.03276428222656249
+        ],
+        "joint_useful": [
+          0.8275634765625,
+          0.840625
+        ],
+        "ber": [
+          0.08889631952558243,
+          0.09396939504714237
+        ],
+        "mean_nmse": [
+          0.08904088801016447,
+          0.1068117148078829
+        ],
+        "paired_ber_difference": [
+          -0.007982587360200426,
+          -0.007480220340547108
+        ],
+        "conditional_harm": [
+          0.02893485271119406,
+          0.03386284411059487
+        ],
+        "mean_accepted_harm_db": [
+          1.0858010317484117,
+          1.182788917633262
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5101,
+      "policy": "matched_g3",
+      "coverage": 0.9998779296875,
+      "joint_harm": 0.0350341796875,
+      "joint_useful": 0.86962890625,
+      "ber": 0.09131277175176633,
+      "mean_nmse": 0.08139553811365563,
+      "paired_ber_difference": -0.00785428001767119,
+      "conditional_harm": 0.03503845684287633,
+      "mean_accepted_harm_db": 1.3202684749434952,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.9996337890625,
+          1.0
+        ],
+        "joint_harm": [
+          0.0311279296875,
+          0.038821411132812456
+        ],
+        "joint_useful": [
+          0.8624267578125,
+          0.8768310546875
+        ],
+        "ber": [
+          0.08877331869942798,
+          0.09383042653401691
+        ],
+        "mean_nmse": [
+          0.07714123809253305,
+          0.08594808566165126
+        ],
+        "paired_ber_difference": [
+          -0.008118132182529995,
+          -0.007597594034104121
+        ],
+        "conditional_harm": [
+          0.0311279296875,
+          0.038830653599330314
+        ],
+        "mean_accepted_harm_db": [
+          1.2227212404374226,
+          1.4231737011711716
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5102,
+      "policy": "matched_g3",
+      "coverage": 0.9599609375,
+      "joint_harm": 0.0364990234375,
+      "joint_useful": 0.81201171875,
+      "ber": 0.09149914696102963,
+      "mean_nmse": 0.11316397141032286,
+      "paired_ber_difference": -0.0076679048084077805,
+      "conditional_harm": 0.038021363173957275,
+      "mean_accepted_harm_db": 1.0339325078801584,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.95556640625,
+          0.9641143798828125
+        ],
+        "joint_harm": [
+          0.032470703125,
+          0.0404052734375
+        ],
+        "joint_useful": [
+          0.8037109375,
+          0.8203125
+        ],
+        "ber": [
+          0.08893856321062356,
+          0.09402593885149275
+        ],
+        "mean_nmse": [
+          0.09838616485273201,
+          0.1305531222255555
+        ],
+        "paired_ber_difference": [
+          -0.007923687072027296,
+          -0.007410401389712381
+        ],
+        "conditional_harm": [
+          0.033921669015361915,
+          0.04213363308659708
+        ],
+        "mean_accepted_harm_db": [
+          0.9827009882488932,
+          1.0896000244320219
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5103,
+      "policy": "matched_g3",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.8875732421875,
+      "ber": 0.09108652387346444,
+      "mean_nmse": 0.07865357749298059,
+      "paired_ber_difference": -0.008080527895972935,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.183295687369052,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "joint_useful": [
+          0.8807373046875,
+          0.894287109375
+        ],
+        "ber": [
+          0.08853500229971747,
+          0.09360552515302381
+        ],
+        "mean_nmse": [
+          0.07471994713382488,
+          0.08282444837984979
+        ],
+        "paired_ber_difference": [
+          -0.008354657036917547,
+          -0.007812134424845375
+        ],
+        "conditional_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "mean_accepted_harm_db": [
+          1.0937083805386485,
+          1.2751362513898465
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5104,
+      "policy": "matched_g3",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.89306640625,
+      "ber": 0.09091213771275031,
+      "mean_nmse": 0.07695670806555441,
+      "paired_ber_difference": -0.008254914056687176,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.3022554651345593,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "joint_useful": [
+          0.8864715576171875,
+          0.899658203125
+        ],
+        "ber": [
+          0.08838116782052173,
+          0.09342452457972933
+        ],
+        "mean_nmse": [
+          0.07307385699921864,
+          0.08102878209806198
+        ],
+        "paired_ber_difference": [
+          -0.008530857449486142,
+          -0.0079793271564302
+        ],
+        "conditional_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "mean_accepted_harm_db": [
+          1.1976656713877019,
+          1.4181781711287473
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5105,
+      "policy": "matched_g3",
+      "coverage": 0.890869140625,
+      "joint_harm": 0.037841796875,
+      "joint_useful": 0.7108154296875,
+      "ber": 0.09232230413527621,
+      "mean_nmse": 0.133299438861627,
+      "paired_ber_difference": -0.006844747634161134,
+      "conditional_harm": 0.04247739106604549,
+      "mean_accepted_harm_db": 0.9153152712512512,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.8839111328125,
+          0.897705078125
+        ],
+        "joint_harm": [
+          0.0338104248046875,
+          0.0419921875
+        ],
+        "joint_useful": [
+          0.7010498046875,
+          0.7205810546875
+        ],
+        "ber": [
+          0.08976105281284881,
+          0.09488942963736395
+        ],
+        "mean_nmse": [
+          0.11754019245236848,
+          0.15184535317517456
+        ],
+        "paired_ber_difference": [
+          -0.007079176675705686,
+          -0.006607482546851748
+        ],
+        "conditional_harm": [
+          0.03791195773735947,
+          0.04714541301324681
+        ],
+        "mean_accepted_harm_db": [
+          0.8779052540196686,
+          0.9534510987460669
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "matched_g3",
+      "coverage": 0.9701416015625,
+      "joint_harm": 0.030810546875,
+      "joint_useful": 0.834619140625,
+      "ber": 0.09142657688685737,
+      "mean_nmse": 0.09669384678882809,
+      "paired_ber_difference": -0.007740474882580043,
+      "conditional_harm": 0.031758814203387276,
+      "mean_accepted_harm_db": 1.1304805603494448,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.9682366943359375,
+          0.9720703125
+        ],
+        "joint_harm": [
+          0.0284912109375,
+          0.033203125
+        ],
+        "joint_useful": [
+          0.828173828125,
+          0.8411865234375
+        ],
+        "ber": [
+          0.08888602574666339,
+          0.09395793006533666
+        ],
+        "mean_nmse": [
+          0.08848793180426417,
+          0.10616454485582792
+        ],
+        "paired_ber_difference": [
+          -0.007994240806216286,
+          -0.0074906998588925335
+        ],
+        "conditional_harm": [
+          0.029335466908581718,
+          0.03426416453898821
+        ],
+        "mean_accepted_harm_db": [
+          1.083800897461841,
+          1.1799774660904676
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5101,
+      "policy": "matched_g2",
+      "coverage": 1.0,
+      "joint_harm": 0.03515625,
+      "joint_useful": 0.86962890625,
+      "ber": 0.09131277175176633,
+      "mean_nmse": 0.08139579983116743,
+      "paired_ber_difference": -0.00785428001767119,
+      "conditional_harm": 0.03515625,
+      "mean_accepted_harm_db": 1.3317341900346231,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.03125,
+          0.0390625
+        ],
+        "joint_useful": [
+          0.8624267578125,
+          0.8768310546875
+        ],
+        "ber": [
+          0.08877331869942798,
+          0.09383042653401691
+        ],
+        "mean_nmse": [
+          0.07714149981004485,
+          0.08594808566165126
+        ],
+        "paired_ber_difference": [
+          -0.008118132182529995,
+          -0.007597594034104121
+        ],
+        "conditional_harm": [
+          0.03125,
+          0.0390625
+        ],
+        "mean_accepted_harm_db": [
+          1.2319347658685675,
+          1.4366604679503645
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5102,
+      "policy": "matched_g2",
+      "coverage": 0.92333984375,
+      "joint_harm": 0.0394287109375,
+      "joint_useful": 0.7906494140625,
+      "ber": 0.09138824826195042,
+      "mean_nmse": 0.08343425448146767,
+      "paired_ber_difference": -0.007778803507487024,
+      "conditional_harm": 0.04270227392913802,
+      "mean_accepted_harm_db": 1.3241931529274766,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.9173583984375,
+          0.928955078125
+        ],
+        "joint_harm": [
+          0.0352783203125,
+          0.043701171875
+        ],
+        "joint_useful": [
+          0.78173828125,
+          0.799560546875
+        ],
+        "ber": [
+          0.08882985342116584,
+          0.09389415695553732
+        ],
+        "mean_nmse": [
+          0.07899625960430232,
+          0.08819134475269502
+        ],
+        "paired_ber_difference": [
+          -0.008045384997413273,
+          -0.00751685414995466
+        ],
+        "conditional_harm": [
+          0.0382224367227944,
+          0.04730522158617436
+        ],
+        "mean_accepted_harm_db": [
+          1.2413981124607594,
+          1.4125357971245036
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5103,
+      "policy": "matched_g2",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.8875732421875,
+      "ber": 0.09108652387346444,
+      "mean_nmse": 0.07865357749298059,
+      "paired_ber_difference": -0.008080527895972935,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.183295687369052,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "joint_useful": [
+          0.8807373046875,
+          0.894287109375
+        ],
+        "ber": [
+          0.08853500229971747,
+          0.09360552515302381
+        ],
+        "mean_nmse": [
+          0.07471994713382488,
+          0.08282444837984979
+        ],
+        "paired_ber_difference": [
+          -0.008354657036917547,
+          -0.007812134424845375
+        ],
+        "conditional_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "mean_accepted_harm_db": [
+          1.0937083805386485,
+          1.2751362513898465
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5104,
+      "policy": "matched_g2",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.89306640625,
+      "ber": 0.09091213771275031,
+      "mean_nmse": 0.07695670806555441,
+      "paired_ber_difference": -0.008254914056687176,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.3022554651345593,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "joint_useful": [
+          0.8864715576171875,
+          0.899658203125
+        ],
+        "ber": [
+          0.08838116782052173,
+          0.09342452457972933
+        ],
+        "mean_nmse": [
+          0.07307385699921864,
+          0.08102878209806198
+        ],
+        "paired_ber_difference": [
+          -0.008530857449486142,
+          -0.0079793271564302
+        ],
+        "conditional_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "mean_accepted_harm_db": [
+          1.1976656713877019,
+          1.4181781711287473
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5105,
+      "policy": "matched_g2",
+      "coverage": 0.751708984375,
+      "joint_harm": 0.0321044921875,
+      "joint_useful": 0.6361083984375,
+      "ber": 0.09228097824823189,
+      "mean_nmse": 0.0950779473931217,
+      "paired_ber_difference": -0.0068860735212054,
+      "conditional_harm": 0.04270867164663852,
+      "mean_accepted_harm_db": 1.2870734784797069,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.7425537109375,
+          0.7608642578125
+        ],
+        "joint_harm": [
+          0.0283203125,
+          0.0360107421875
+        ],
+        "joint_useful": [
+          0.625732421875,
+          0.646484375
+        ],
+        "ber": [
+          0.0897278558640253,
+          0.09480095136733283
+        ],
+        "mean_nmse": [
+          0.08928680853482839,
+          0.10129972051248544
+        ],
+        "paired_ber_difference": [
+          -0.007123424893333799,
+          -0.006645291192190991
+        ],
+        "conditional_harm": [
+          0.037714165569234605,
+          0.04781345960384179
+        ],
+        "mean_accepted_harm_db": [
+          1.1959570085566953,
+          1.3821200922193544
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "matched_g2",
+      "coverage": 0.935009765625,
+      "joint_harm": 0.0302734375,
+      "joint_useful": 0.8154052734375,
+      "ber": 0.09139613196963267,
+      "mean_nmse": 0.08310365745285835,
+      "paired_ber_difference": -0.007770919799804744,
+      "conditional_harm": 0.032377669852211605,
+      "mean_accepted_harm_db": 1.2940403394144113,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.9323974609375,
+          0.9375
+        ],
+        "joint_harm": [
+          0.027880859375,
+          0.032763671875
+        ],
+        "joint_useful": [
+          0.8088861083984374,
+          0.8219482421875
+        ],
+        "ber": [
+          0.08885215986342657,
+          0.0939131146385556
+        ],
+        "mean_nmse": [
+          0.07874082277760265,
+          0.08783704309494098
+        ],
+        "paired_ber_difference": [
+          -0.008031212034679594,
+          -0.007514824186052594
+        ],
+        "conditional_harm": [
+          0.029786074144391557,
+          0.03509336549648102
+        ],
+        "mean_accepted_harm_db": [
+          1.2397157046690983,
+          1.349463636761689
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5101,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.0991670517694376,
+      "mean_nmse": 0.21805002344945798,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.09643761998131162,
+          0.10185615448724654
+        ],
+        "mean_nmse": [
+          0.20034041076979864,
+          0.23786475261457174
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5102,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.0991670517694376,
+      "mean_nmse": 0.21805002344945798,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.09643761998131162,
+          0.10185615448724654
+        ],
+        "mean_nmse": [
+          0.20034041076979864,
+          0.23786475261457174
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5103,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.0991670517694376,
+      "mean_nmse": 0.21805002344945798,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.09643761998131162,
+          0.10185615448724654
+        ],
+        "mean_nmse": [
+          0.20034041076979864,
+          0.23786475261457174
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5104,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.0991670517694376,
+      "mean_nmse": 0.21805002344945798,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.09643761998131162,
+          0.10185615448724654
+        ],
+        "mean_nmse": [
+          0.20034041076979864,
+          0.23786475261457174
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5105,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.0991670517694376,
+      "mean_nmse": 0.21805002344945798,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.09643761998131162,
+          0.10185615448724654
+        ],
+        "mean_nmse": [
+          0.20034041076979864,
+          0.23786475261457174
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.0991670517694376,
+      "mean_nmse": 0.21805002344945795,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.09643761998131162,
+          0.10185615448724654
+        ],
+        "mean_nmse": [
+          0.20034041076979864,
+          0.23786475261457177
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5101,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.03515625,
+      "joint_useful": 0.86962890625,
+      "ber": 0.09131277175176633,
+      "mean_nmse": 0.08139579983116743,
+      "paired_ber_difference": -0.00785428001767119,
+      "conditional_harm": 0.03515625,
+      "mean_accepted_harm_db": 1.3317341900346231,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.03125,
+          0.0390625
+        ],
+        "joint_useful": [
+          0.8624267578125,
+          0.8768310546875
+        ],
+        "ber": [
+          0.08877331869942798,
+          0.09383042653401691
+        ],
+        "mean_nmse": [
+          0.07714149981004485,
+          0.08594808566165126
+        ],
+        "paired_ber_difference": [
+          -0.008118132182529995,
+          -0.007597594034104121
+        ],
+        "conditional_harm": [
+          0.03125,
+          0.0390625
+        ],
+        "mean_accepted_harm_db": [
+          1.2319347658685675,
+          1.4366604679503645
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5102,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.066650390625,
+      "joint_useful": 0.8218994140625,
+      "ber": 0.09123475211007172,
+      "mean_nmse": 0.08258728143971318,
+      "paired_ber_difference": -0.00793229965936574,
+      "conditional_harm": 0.066650390625,
+      "mean_accepted_harm_db": 1.5849826908650055,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.061279296875,
+          0.072021484375
+        ],
+        "joint_useful": [
+          0.8135986328125,
+          0.8302001953125
+        ],
+        "ber": [
+          0.08867888450622556,
+          0.09373632612682524
+        ],
+        "mean_nmse": [
+          0.07814803311398642,
+          0.08738478093038594
+        ],
+        "paired_ber_difference": [
+          -0.008198072796776182,
+          -0.007665164130074636
+        ],
+        "conditional_harm": [
+          0.061279296875,
+          0.072021484375
+        ],
+        "mean_accepted_harm_db": [
+          1.5025039983816988,
+          1.6692442528835725
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5103,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.8875732421875,
+      "ber": 0.09108652387346444,
+      "mean_nmse": 0.07865357749298059,
+      "paired_ber_difference": -0.008080527895972935,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.183295687369052,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "joint_useful": [
+          0.8807373046875,
+          0.894287109375
+        ],
+        "ber": [
+          0.08853500229971747,
+          0.09360552515302381
+        ],
+        "mean_nmse": [
+          0.07471994713382488,
+          0.08282444837984979
+        ],
+        "paired_ber_difference": [
+          -0.008354657036917547,
+          -0.007812134424845375
+        ],
+        "conditional_harm": [
+          0.019287109375,
+          0.0255126953125
+        ],
+        "mean_accepted_harm_db": [
+          1.0937083805386485,
+          1.2751362513898465
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5104,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0223388671875,
+      "joint_useful": 0.89306640625,
+      "ber": 0.09091213771275031,
+      "mean_nmse": 0.07695670806555441,
+      "paired_ber_difference": -0.008254914056687176,
+      "conditional_harm": 0.0223388671875,
+      "mean_accepted_harm_db": 1.3022554651345593,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "joint_useful": [
+          0.8864715576171875,
+          0.899658203125
+        ],
+        "ber": [
+          0.08838116782052173,
+          0.09342452457972933
+        ],
+        "mean_nmse": [
+          0.07307385699921864,
+          0.08102878209806198
+        ],
+        "paired_ber_difference": [
+          -0.008530857449486142,
+          -0.0079793271564302
+        ],
+        "conditional_harm": [
+          0.0191650390625,
+          0.025634765625
+        ],
+        "mean_accepted_harm_db": [
+          1.1976656713877019,
+          1.4181781711287473
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": 5105,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.1220703125,
+      "joint_useful": 0.734375,
+      "ber": 0.09173320588611328,
+      "mean_nmse": 0.08939648826601898,
+      "paired_ber_difference": -0.00743384588332409,
+      "conditional_harm": 0.1220703125,
+      "mean_accepted_harm_db": 1.7888677210820927,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.1151123046875,
+          0.129150390625
+        ],
+        "joint_useful": [
+          0.7248504638671875,
+          0.743896484375
+        ],
+        "ber": [
+          0.08918658665248325,
+          0.09426755678086052
+        ],
+        "mean_nmse": [
+          0.08434672508655888,
+          0.09496686034273986
+        ],
+        "paired_ber_difference": [
+          -0.007681263060796824,
+          -0.007188149860927036
+        ],
+        "conditional_harm": [
+          0.1151123046875,
+          0.129150390625
+        ],
+        "mean_accepted_harm_db": [
+          1.7155854482877995,
+          1.8632890388824885
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0537109375,
+      "joint_useful": 0.84130859375,
+      "ber": 0.0912558782668332,
+      "mean_nmse": 0.08179797101908692,
+      "paired_ber_difference": -0.007911173502604226,
+      "conditional_harm": 0.0537109375,
+      "mean_accepted_harm_db": 1.58757435360569,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0501708984375,
+          0.0573486328125
+        ],
+        "joint_useful": [
+          0.8348138427734375,
+          0.8478271484375
+        ],
+        "ber": [
+          0.08871217636835006,
+          0.09378201166788737
+        ],
+        "mean_nmse": [
+          0.07747556487544344,
+          0.08637882163825505
+        ],
+        "paired_ber_difference": [
+          -0.008171888078962054,
+          -0.00765117191133045
+        ],
+        "conditional_harm": [
+          0.0501708984375,
+          0.0573486328125
+        ],
+        "mean_accepted_harm_db": [
+          1.5319430472780693,
+          1.6439169811249932
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5101,
+      "policy": "transfer_g3",
+      "coverage": 0.94873046875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.912841796875,
+      "ber": 0.2147061484200616,
+      "mean_nmse": 0.4757696796386458,
+      "paired_ber_difference": -0.05057471139090404,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.9439666748046875,
+          0.9534912109375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9066162109375,
+          0.918701171875
+        ],
+        "ber": [
+          0.2120760985783168,
+          0.2173697448912121
+        ],
+        "mean_nmse": [
+          0.4696502630560443,
+          0.48206713947887997
+        ],
+        "paired_ber_difference": [
+          -0.0515139488946824,
+          -0.04963328951881046
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5102,
+      "policy": "transfer_g3",
+      "coverage": 0.8065185546875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.771240234375,
+      "ber": 0.22794986906505757,
+      "mean_nmse": 0.5508167821419995,
+      "paired_ber_difference": -0.037330990745907656,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.7979705810546875,
+          0.8148193359375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.761962890625,
+          0.7802734375
+        ],
+        "ber": [
+          0.22500662122453963,
+          0.2309875011444092
+        ],
+        "mean_nmse": [
+          0.5420146767888676,
+          0.5597193599687996
+        ],
+        "paired_ber_difference": [
+          -0.0381908689226423,
+          -0.03649112156459263
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5103,
+      "policy": "transfer_g3",
+      "coverage": 0.9404296875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.909423828125,
+      "ber": 0.21336619059244932,
+      "mean_nmse": 0.4728352463177272,
+      "paired_ber_difference": -0.051914669218517374,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.935302734375,
+          0.9454345703125
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9031982421875,
+          0.91552734375
+        ],
+        "ber": [
+          0.21072061629522415,
+          0.21605355398995532
+        ],
+        "mean_nmse": [
+          0.46661036874931777,
+          0.47925782467210915
+        ],
+        "paired_ber_difference": [
+          -0.05290734200250535,
+          -0.05092617443629672
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5104,
+      "policy": "transfer_g3",
+      "coverage": 0.9366455078125,
+      "joint_harm": 0.0,
+      "joint_useful": 0.906005859375,
+      "ber": 0.21420805794852107,
+      "mean_nmse": 0.4755904697504055,
+      "paired_ber_difference": -0.05107280186244435,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.931396484375,
+          0.9417724609375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.8994140625,
+          0.9119873046875
+        ],
+        "ber": [
+          0.21156989279247468,
+          0.2168773060753232
+        ],
+        "mean_nmse": [
+          0.4693317934923487,
+          0.48199517623249793
+        ],
+        "paired_ber_difference": [
+          -0.05205781800406317,
+          -0.05010271299453009
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5105,
+      "policy": "transfer_g3",
+      "coverage": 0.7769775390625,
+      "joint_harm": 0.0,
+      "joint_useful": 0.7413330078125,
+      "ber": 0.2296137128557482,
+      "mean_nmse": 0.5625417402483556,
+      "paired_ber_difference": -0.03566714695521769,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.76806640625,
+          0.7857666015625
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.7320556640625,
+          0.750732421875
+        ],
+        "ber": [
+          0.22660863058907643,
+          0.2326683952694848
+        ],
+        "mean_nmse": [
+          0.5531731659593647,
+          0.5719924202445065
+        ],
+        "paired_ber_difference": [
+          -0.03649786086309525,
+          -0.03482310204278855
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "transfer_g3",
+      "coverage": 0.8818603515625,
+      "joint_harm": 0.0,
+      "joint_useful": 0.8481689453125,
+      "ber": 0.21996879577636755,
+      "mean_nmse": 0.5075107836194267,
+      "paired_ber_difference": -0.045312064034598226,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.8763916015625,
+          0.887158203125
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.8416497802734375,
+          0.8544189453125
+        ],
+        "ber": [
+          0.21724609511239187,
+          0.22272131783621654
+        ],
+        "mean_nmse": [
+          0.5005343350639849,
+          0.5147575378216306
+        ],
+        "paired_ber_difference": [
+          -0.04613288289024716,
+          -0.044503498985653825
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5101,
+      "policy": "matched_g3",
+      "coverage": 0.94873046875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.912841796875,
+      "ber": 0.2147061484200616,
+      "mean_nmse": 0.4757696796386458,
+      "paired_ber_difference": -0.05057471139090404,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.9439666748046875,
+          0.9534912109375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9066162109375,
+          0.918701171875
+        ],
+        "ber": [
+          0.2120760985783168,
+          0.2173697448912121
+        ],
+        "mean_nmse": [
+          0.4696502630560443,
+          0.48206713947887997
+        ],
+        "paired_ber_difference": [
+          -0.0515139488946824,
+          -0.04963328951881046
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5102,
+      "policy": "matched_g3",
+      "coverage": 0.93798828125,
+      "joint_harm": 0.0,
+      "joint_useful": 0.9024658203125,
+      "ber": 0.21606036594935799,
+      "mean_nmse": 0.4837385109130888,
+      "paired_ber_difference": -0.04922049386160698,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.932861328125,
+          0.943115234375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.8961181640625,
+          0.9088134765625
+        ],
+        "ber": [
+          0.21342102459498813,
+          0.2187512102581207
+        ],
+        "mean_nmse": [
+          0.4775026188035743,
+          0.49018752459649945
+        ],
+        "paired_ber_difference": [
+          -0.05016798064822242,
+          -0.04830084982372466
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5103,
+      "policy": "matched_g3",
+      "coverage": 0.9404296875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.909423828125,
+      "ber": 0.21336619059244932,
+      "mean_nmse": 0.4728352463177272,
+      "paired_ber_difference": -0.051914669218517374,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.935302734375,
+          0.9454345703125
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9031982421875,
+          0.91552734375
+        ],
+        "ber": [
+          0.21072061629522415,
+          0.21605355398995532
+        ],
+        "mean_nmse": [
+          0.46661036874931777,
+          0.47925782467210915
+        ],
+        "paired_ber_difference": [
+          -0.05290734200250535,
+          -0.05092617443629672
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5104,
+      "policy": "matched_g3",
+      "coverage": 0.9366455078125,
+      "joint_harm": 0.0,
+      "joint_useful": 0.906005859375,
+      "ber": 0.21420805794852107,
+      "mean_nmse": 0.4755904697504055,
+      "paired_ber_difference": -0.05107280186244435,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.931396484375,
+          0.9417724609375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.8994140625,
+          0.9119873046875
+        ],
+        "ber": [
+          0.21156989279247468,
+          0.2168773060753232
+        ],
+        "mean_nmse": [
+          0.4693317934923487,
+          0.48199517623249793
+        ],
+        "paired_ber_difference": [
+          -0.05205781800406317,
+          -0.05010271299453009
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5105,
+      "policy": "matched_g3",
+      "coverage": 0.975830078125,
+      "joint_harm": 0.0,
+      "joint_useful": 0.9398193359375,
+      "ber": 0.20953405471075182,
+      "mean_nmse": 0.46006572834013754,
+      "paired_ber_difference": -0.0557468051002142,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.972412109375,
+          0.9791259765625
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9345703125,
+          0.9447021484375
+        ],
+        "ber": [
+          0.20703704016549243,
+          0.2120417912801106
+        ],
+        "mean_nmse": [
+          0.4545594774480251,
+          0.46576607877404413
+        ],
+        "paired_ber_difference": [
+          -0.05680636678423201,
+          -0.05468930516924177
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "matched_g3",
+      "coverage": 0.9479248046875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.914111328125,
+      "ber": 0.21357496352422833,
+      "mean_nmse": 0.47359992699200093,
+      "paired_ber_difference": -0.051705896286737385,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.9436279296875,
+          0.9521484375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9085205078125,
+          0.919580078125
+        ],
+        "ber": [
+          0.21099228041512624,
+          0.21618934131803969
+        ],
+        "mean_nmse": [
+          0.46760220111922923,
+          0.4797440411358802
+        ],
+        "paired_ber_difference": [
+          -0.05261765162150065,
+          -0.05079841341291155
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5101,
+      "policy": "matched_g2",
+      "coverage": 0.7998046875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.763916015625,
+      "ber": 0.22796276637486035,
+      "mean_nmse": 0.5212981748863394,
+      "paired_ber_difference": -0.037318093436105045,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.791259765625,
+          0.808349609375
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.7547607421875,
+          0.7730712890625
+        ],
+        "ber": [
+          0.2252227919442313,
+          0.23068620363871248
+        ],
+        "mean_nmse": [
+          0.5146507160248716,
+          0.5280197521107374
+        ],
+        "paired_ber_difference": [
+          -0.03819007192339217,
+          -0.03646595364525204
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5102,
+      "policy": "matched_g2",
+      "coverage": 0.7625732421875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.72705078125,
+      "ber": 0.23079209100632442,
+      "mean_nmse": 0.5346071181615674,
+      "paired_ber_difference": -0.03448876880464102,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.7530517578125,
+          0.7717315673828125
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.7174072265625,
+          0.73681640625
+        ],
+        "ber": [
+          0.22805284772600443,
+          0.2335691497439429
+        ],
+        "mean_nmse": [
+          0.5279120399750242,
+          0.5415455653671667
+        ],
+        "paired_ber_difference": [
+          -0.035321029027303066,
+          -0.03367770058768137
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5103,
+      "policy": "matched_g2",
+      "coverage": 0.794921875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.763916015625,
+      "ber": 0.22623634338379053,
+      "mean_nmse": 0.5166490342462154,
+      "paired_ber_difference": -0.03904451642717625,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.7861328125,
+          0.8035888671875
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.7547576904296875,
+          0.7730712890625
+        ],
+        "ber": [
+          0.22354424567449668,
+          0.22894355001903713
+        ],
+        "mean_nmse": [
+          0.5101230172368578,
+          0.523253815955475
+        ],
+        "paired_ber_difference": [
+          -0.03995742797851562,
+          -0.03812409355526878
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5104,
+      "policy": "matched_g2",
+      "coverage": 0.7900390625,
+      "joint_harm": 0.0,
+      "joint_useful": 0.75927734375,
+      "ber": 0.22645051138741595,
+      "mean_nmse": 0.5182111643516104,
+      "paired_ber_difference": -0.038830348423549155,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.78125,
+          0.798828125
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.75,
+          0.7686767578125
+        ],
+        "ber": [
+          0.2237614563533238,
+          0.22915015674772712
+        ],
+        "mean_nmse": [
+          0.5117045358284962,
+          0.5248305047798882
+        ],
+        "paired_ber_difference": [
+          -0.03974698838733491,
+          -0.03791590872265043
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5105,
+      "policy": "matched_g2",
+      "coverage": 0.90478515625,
+      "joint_harm": 0.0,
+      "joint_useful": 0.8687744140625,
+      "ber": 0.2173005058651877,
+      "mean_nmse": 0.4867029711161674,
+      "paired_ber_difference": -0.047980353945777675,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.8985565185546875,
+          0.910888671875
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.861328125,
+          0.8758544921875
+        ],
+        "ber": [
+          0.21471516064235147,
+          0.2198827039627802
+        ],
+        "mean_nmse": [
+          0.48069380666129385,
+          0.49295182840994467
+        ],
+        "paired_ber_difference": [
+          -0.04898517926534017,
+          -0.04695772670564198
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "matched_g2",
+      "coverage": 0.8104248046875,
+      "joint_harm": 0.0,
+      "joint_useful": 0.7765869140625,
+      "ber": 0.2257484436035158,
+      "mean_nmse": 0.51549369255238,
+      "paired_ber_difference": -0.03953241620744983,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.8027825927734374,
+          0.817919921875
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.768212890625,
+          0.7846685791015625
+        ],
+        "ber": [
+          0.22308730988275433,
+          0.22840048562912718
+        ],
+        "mean_nmse": [
+          0.5091345280551954,
+          0.521976821764651
+        ],
+        "paired_ber_difference": [
+          -0.040357484817504875,
+          -0.03872012456258138
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5101,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.26528085981096483,
+      "mean_nmse": 0.7256484287148893,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.2623173100607736,
+          0.2682980492001489
+        ],
+        "mean_nmse": [
+          0.7159016106822601,
+          0.7352599401793177
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5102,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.26528085981096483,
+      "mean_nmse": 0.7256484287148893,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.2623173100607736,
+          0.2682980492001489
+        ],
+        "mean_nmse": [
+          0.7159016106822601,
+          0.7352599401793177
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5103,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.26528085981096483,
+      "mean_nmse": 0.7256484287148893,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.2623173100607736,
+          0.2682980492001489
+        ],
+        "mean_nmse": [
+          0.7159016106822601,
+          0.7352599401793177
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5104,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.26528085981096483,
+      "mean_nmse": 0.7256484287148893,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.2623173100607736,
+          0.2682980492001489
+        ],
+        "mean_nmse": [
+          0.7159016106822601,
+          0.7352599401793177
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5105,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.26528085981096483,
+      "mean_nmse": 0.7256484287148893,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.2623173100607736,
+          0.2682980492001489
+        ],
+        "mean_nmse": [
+          0.7159016106822601,
+          0.7352599401793177
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.26528085981096483,
+      "mean_nmse": 0.7256484287148893,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.2623173100607736,
+          0.2682980492001489
+        ],
+        "mean_nmse": [
+          0.7159016106822601,
+          0.7352599401793177
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5101,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.964111328125,
+      "ber": 0.206140790666853,
+      "mean_nmse": 0.4504626073030483,
+      "paired_ber_difference": -0.05914006914411256,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9598388671875,
+          0.9681396484375
+        ],
+        "ber": [
+          0.2037630489894322,
+          0.20845004263378322
+        ],
+        "mean_nmse": [
+          0.4455579386974659,
+          0.4554239796634118
+        ],
+        "paired_ber_difference": [
+          -0.060253987993512836,
+          -0.05806386584327334
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5102,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.9644775390625,
+      "ber": 0.20601172674269866,
+      "mean_nmse": 0.4533771147618071,
+      "paired_ber_difference": -0.05926913306826621,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9603271484375,
+          0.9683837890625
+        ],
+        "ber": [
+          0.20365298362005327,
+          0.2083407084147135
+        ],
+        "mean_nmse": [
+          0.4484410781821767,
+          0.45837742781711194
+        ],
+        "paired_ber_difference": [
+          -0.060390962873186384,
+          -0.058200404757545114
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5103,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.968994140625,
+      "ber": 0.2028053828648173,
+      "mean_nmse": 0.4428562495613427,
+      "paired_ber_difference": -0.06247547694614949,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.965087890625,
+          0.9727783203125
+        ],
+        "ber": [
+          0.2004310471670968,
+          0.20513809521992996
+        ],
+        "mean_nmse": [
+          0.4380489926324097,
+          0.4477249338208661
+        ],
+        "paired_ber_difference": [
+          -0.06366542634509856,
+          -0.061321419761294405
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5104,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.96923828125,
+      "ber": 0.20351073855445492,
+      "mean_nmse": 0.44357914401131304,
+      "paired_ber_difference": -0.061770121256510616,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9654541015625,
+          0.9730224609375
+        ],
+        "ber": [
+          0.20120078041439965,
+          0.20581264268784302
+        ],
+        "mean_nmse": [
+          0.4387538383327126,
+          0.44843418868420004
+        ],
+        "paired_ber_difference": [
+          -0.06292476881118048,
+          -0.060657371793474454
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": 5105,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.9639892578125,
+      "ber": 0.20529638017926913,
+      "mean_nmse": 0.44726733169134836,
+      "paired_ber_difference": -0.059984479631696695,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.959716796875,
+          0.9678955078125
+        ],
+        "ber": [
+          0.20293277331760953,
+          0.20760035968962176
+        ],
+        "mean_nmse": [
+          0.44241778147704847,
+          0.4522135615651461
+        ],
+        "paired_ber_difference": [
+          -0.061117176782517206,
+          -0.05891490890866234
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.966162109375,
+      "ber": 0.20475300380161862,
+      "mean_nmse": 0.44750848946577193,
+      "paired_ber_difference": -0.06052785600934711,
+      "conditional_harm": 0.0,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0003656231183700731,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.9623779296875,
+          0.9697998046875
+        ],
+        "ber": [
+          0.20239176841009232,
+          0.20707065128144764
+        ],
+        "mean_nmse": [
+          0.44262894860496677,
+          0.45244708484930757
+        ],
+        "paired_ber_difference": [
+          -0.061660149892171216,
+          -0.05943772134326753
+        ],
+        "conditional_harm": [
+          0.0,
+          0.0
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5101,
+      "policy": "frozen_g3",
+      "coverage": 0.6033935546875,
+      "joint_harm": 0.036865234375,
+      "joint_useful": 0.4478759765625,
+      "ber": 0.0908842540922616,
+      "mean_nmse": 0.07739763039393689,
+      "paired_ber_difference": -0.0023588453020368114,
+      "conditional_harm": 0.061096500101153146,
+      "mean_accepted_harm_db": 0.8419793381592308,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.5927734375,
+          0.6138916015625
+        ],
+        "joint_harm": [
+          0.03271484375,
+          0.0411376953125
+        ],
+        "joint_useful": [
+          0.43701171875,
+          0.45849609375
+        ],
+        "ber": [
+          0.08866319429306757,
+          0.093000382468814
+        ],
+        "mean_nmse": [
+          0.0730692651514146,
+          0.0819928257859911
+        ],
+        "paired_ber_difference": [
+          -0.002503803798130579,
+          -0.0022140661875406894
+        ],
+        "conditional_harm": [
+          0.05433663528309805,
+          0.06797689359727925
+        ],
+        "mean_accepted_harm_db": [
+          0.8067601202617297,
+          0.8791599929688798
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5102,
+      "policy": "frozen_g3",
+      "coverage": 0.622314453125,
+      "joint_harm": 0.0360107421875,
+      "joint_useful": 0.4586181640625,
+      "ber": 0.09062022254580507,
+      "mean_nmse": 0.07553291956314855,
+      "paired_ber_difference": -0.0026228768484932697,
+      "conditional_harm": 0.057865829737151826,
+      "mean_accepted_harm_db": 0.8772481724346319,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.612060546875,
+          0.6326904296875
+        ],
+        "joint_harm": [
+          0.031982421875,
+          0.040042114257812456
+        ],
+        "joint_useful": [
+          0.4478759765625,
+          0.46948547363281246
+        ],
+        "ber": [
+          0.08843032973153253,
+          0.09272762934366861
+        ],
+        "mean_nmse": [
+          0.07127944659783729,
+          0.07993397541288412
+        ],
+        "paired_ber_difference": [
+          -0.0027701059977213545,
+          -0.002472191765194848
+        ],
+        "conditional_harm": [
+          0.051507819158852074,
+          0.06432760042936378
+        ],
+        "mean_accepted_harm_db": [
+          0.8435761216736564,
+          0.9141440232582767
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5103,
+      "policy": "frozen_g3",
+      "coverage": 0.6378173828125,
+      "joint_harm": 0.036376953125,
+      "joint_useful": 0.480712890625,
+      "ber": 0.09068243844168472,
+      "mean_nmse": 0.07688128538334674,
+      "paired_ber_difference": -0.002560660952613445,
+      "conditional_harm": 0.057033492822966506,
+      "mean_accepted_harm_db": 0.889864244088932,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.6275634765625,
+          0.6483154296875
+        ],
+        "joint_harm": [
+          0.0323486328125,
+          0.04052734375
+        ],
+        "joint_useful": [
+          0.4700927734375,
+          0.49145812988281246
+        ],
+        "ber": [
+          0.08847515242440357,
+          0.09279110999334424
+        ],
+        "mean_nmse": [
+          0.07243811317369507,
+          0.08154506538512855
+        ],
+        "paired_ber_difference": [
+          -0.0027051744006928945,
+          -0.0024127937498546782
+        ],
+        "conditional_harm": [
+          0.05073274618653608,
+          0.06329608356858951
+        ],
+        "mean_accepted_harm_db": [
+          0.8498123521028093,
+          0.9299156917142644
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5104,
+      "policy": "frozen_g3",
+      "coverage": 0.6085205078125,
+      "joint_harm": 0.039794921875,
+      "joint_useful": 0.45166015625,
+      "ber": 0.09109733218238414,
+      "mean_nmse": 0.07909764891691402,
+      "paired_ber_difference": -0.0021457672119140504,
+      "conditional_harm": 0.0653961885656971,
+      "mean_accepted_harm_db": 0.9038311459366435,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.59814453125,
+          0.6192626953125
+        ],
+        "joint_harm": [
+          0.0355224609375,
+          0.0440673828125
+        ],
+        "joint_useful": [
+          0.4407928466796875,
+          0.46264953613281246
+        ],
+        "ber": [
+          0.08887530054364884,
+          0.09322557449340822
+        ],
+        "mean_nmse": [
+          0.07466127495001613,
+          0.08374473260724154
+        ],
+        "paired_ber_difference": [
+          -0.0022822879609607515,
+          -0.002008983067103795
+        ],
+        "conditional_harm": [
+          0.05844787319203836,
+          0.07221235819967382
+        ],
+        "mean_accepted_harm_db": [
+          0.8697467829735467,
+          0.939640344262005
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5105,
+      "policy": "frozen_g3",
+      "coverage": 0.57568359375,
+      "joint_harm": 0.033203125,
+      "joint_useful": 0.4246826171875,
+      "ber": 0.09039143153599317,
+      "mean_nmse": 0.07314678728420952,
+      "paired_ber_difference": -0.0028516678583054085,
+      "conditional_harm": 0.05767599660729432,
+      "mean_accepted_harm_db": 0.8650327685853457,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.5649383544921875,
+          0.5863037109375
+        ],
+        "joint_harm": [
+          0.0294189453125,
+          0.037109375
+        ],
+        "joint_useful": [
+          0.4136962890625,
+          0.4351806640625
+        ],
+        "ber": [
+          0.08819979713076637,
+          0.0924970853896368
+        ],
+        "mean_nmse": [
+          0.0689970209677685,
+          0.07752739764787232
+        ],
+        "paired_ber_difference": [
+          -0.002999264853341239,
+          -0.0026989891415550604
+        ],
+        "conditional_harm": [
+          0.05127668370126108,
+          0.06438686160557901
+        ],
+        "mean_accepted_harm_db": [
+          0.8272187547972819,
+          0.9047686636415736
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "frozen_g3",
+      "coverage": 0.6095458984375,
+      "joint_harm": 0.0364501953125,
+      "joint_useful": 0.4527099609375,
+      "ber": 0.09073513575962575,
+      "mean_nmse": 0.07641125430831115,
+      "paired_ber_difference": -0.002507963634672597,
+      "conditional_harm": 0.059798934593663644,
+      "mean_accepted_harm_db": 0.8762112406974987,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.6003900146484374,
+          0.6187506103515625
+        ],
+        "joint_harm": [
+          0.0340087890625,
+          0.038892211914062495
+        ],
+        "joint_useful": [
+          0.443115234375,
+          0.46225646972656254
+        ],
+        "ber": [
+          0.0885174120040167,
+          0.09284805252438501
+        ],
+        "mean_nmse": [
+          0.07214882144291974,
+          0.08086622809761948
+        ],
+        "paired_ber_difference": [
+          -0.002637575694492885,
+          -0.002371541886102586
+        ],
+        "conditional_harm": [
+          0.05575651844675031,
+          0.06378353941252955
+        ],
+        "mean_accepted_harm_db": [
+          0.8556445019217385,
+          0.8971266823804509
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5101,
+      "policy": "pilot_anchor",
+      "coverage": 0.5677490234375,
+      "joint_harm": 0.0379638671875,
+      "joint_useful": 0.423095703125,
+      "ber": 0.0909912472679499,
+      "mean_nmse": 0.07731542843097274,
+      "paired_ber_difference": -0.002251852126348569,
+      "conditional_harm": 0.0668673403569125,
+      "mean_accepted_harm_db": 0.9605407637706611,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.5570068359375,
+          0.578369140625
+        ],
+        "joint_harm": [
+          0.0338134765625,
+          0.042236328125
+        ],
+        "joint_useful": [
+          0.412353515625,
+          0.43371887207031246
+        ],
+        "ber": [
+          0.08876944269452776,
+          0.09309130623227074
+        ],
+        "mean_nmse": [
+          0.07312214595886345,
+          0.08170855487297536
+        ],
+        "paired_ber_difference": [
+          -0.0023964495885939827,
+          -0.002107695170811244
+        ],
+        "conditional_harm": [
+          0.0594547366304064,
+          0.07423122259729262
+        ],
+        "mean_accepted_harm_db": [
+          0.9122868523938082,
+          1.008989241347557
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5102,
+      "policy": "pilot_anchor",
+      "coverage": 0.568603515625,
+      "joint_harm": 0.03662109375,
+      "joint_useful": 0.4166259765625,
+      "ber": 0.09098561604817684,
+      "mean_nmse": 0.07806981590796062,
+      "paired_ber_difference": -0.0022574833461216303,
+      "conditional_harm": 0.064405324173465,
+      "mean_accepted_harm_db": 0.9694597508307035,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.55810546875,
+          0.5794677734375
+        ],
+        "joint_harm": [
+          0.0325927734375,
+          0.040771484375
+        ],
+        "joint_useful": [
+          0.406005859375,
+          0.427490234375
+        ],
+        "ber": [
+          0.08876387959434873,
+          0.093081419808524
+        ],
+        "mean_nmse": [
+          0.07389009369470845,
+          0.08248367895310602
+        ],
+        "paired_ber_difference": [
+          -0.0023992651984805153,
+          -0.002116064798264277
+        ],
+        "conditional_harm": [
+          0.0573204000685673,
+          0.07146026636859407
+        ],
+        "mean_accepted_harm_db": [
+          0.925991136387122,
+          1.0143628304212216
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5103,
+      "policy": "pilot_anchor",
+      "coverage": 0.6041259765625,
+      "joint_harm": 0.0380859375,
+      "joint_useful": 0.45849609375,
+      "ber": 0.09077017647879408,
+      "mean_nmse": 0.07695804336839927,
+      "paired_ber_difference": -0.002472922915504074,
+      "conditional_harm": 0.06304303899777733,
+      "mean_accepted_harm_db": 0.967111396166248,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.593505859375,
+          0.61474609375
+        ],
+        "joint_harm": [
+          0.033935546875,
+          0.042236328125
+        ],
+        "joint_useful": [
+          0.44775390625,
+          0.469482421875
+        ],
+        "ber": [
+          0.08856413250877744,
+          0.09286812146504722
+        ],
+        "mean_nmse": [
+          0.07264269159628464,
+          0.08144758652437167
+        ],
+        "paired_ber_difference": [
+          -0.0026206107366652715,
+          -0.0023276011149088545
+        ],
+        "conditional_harm": [
+          0.0563179544636069,
+          0.06989923551625679
+        ],
+        "mean_accepted_harm_db": [
+          0.9228800581151708,
+          1.0128125232327014
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5104,
+      "policy": "pilot_anchor",
+      "coverage": 0.54931640625,
+      "joint_harm": 0.0357666015625,
+      "joint_useful": 0.4105224609375,
+      "ber": 0.09137898399716285,
+      "mean_nmse": 0.08130797634309675,
+      "paired_ber_difference": -0.0018641153971354096,
+      "conditional_harm": 0.0651111111111111,
+      "mean_accepted_harm_db": 0.9702061776349564,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.53857421875,
+          0.5601806640625
+        ],
+        "joint_harm": [
+          0.03173828125,
+          0.039794921875
+        ],
+        "joint_useful": [
+          0.3997802734375,
+          0.4212646484375
+        ],
+        "ber": [
+          0.08914820126124788,
+          0.09349292119344078
+        ],
+        "mean_nmse": [
+          0.07692207420700282,
+          0.08587205307324422
+        ],
+        "paired_ber_difference": [
+          -0.0019949118296305334,
+          -0.0017318725585937504
+        ],
+        "conditional_harm": [
+          0.05784546521984862,
+          0.07243986328804114
+        ],
+        "mean_accepted_harm_db": [
+          0.9259205216532815,
+          1.014820129713547
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5105,
+      "policy": "pilot_anchor",
+      "coverage": 0.532958984375,
+      "joint_harm": 0.03173828125,
+      "joint_useful": 0.3929443359375,
+      "ber": 0.0906653631301152,
+      "mean_nmse": 0.07460280149471873,
+      "paired_ber_difference": -0.0025777362641833876,
+      "conditional_harm": 0.05955107650022904,
+      "mean_accepted_harm_db": 0.9219840985877766,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.52197265625,
+          0.543212890625
+        ],
+        "joint_harm": [
+          0.0279541015625,
+          0.0355224609375
+        ],
+        "joint_useful": [
+          0.38232421875,
+          0.4033203125
+        ],
+        "ber": [
+          0.08845344952174598,
+          0.09276944115048362
+        ],
+        "mean_nmse": [
+          0.070684501193492,
+          0.07868628440118186
+        ],
+        "paired_ber_difference": [
+          -0.002722976321265811,
+          -0.0024256887890043706
+        ],
+        "conditional_harm": [
+          0.05255788933076984,
+          0.06662232833105956
+        ],
+        "mean_accepted_harm_db": [
+          0.8795047992849951,
+          0.9656216521652599
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "pilot_anchor",
+      "coverage": 0.56455078125,
+      "joint_harm": 0.03603515625,
+      "joint_useful": 0.4203369140625,
+      "ber": 0.09095827738443978,
+      "mean_nmse": 0.07765081310902963,
+      "paired_ber_difference": -0.002284822009858614,
+      "conditional_harm": 0.06382978723404255,
+      "mean_accepted_harm_db": 0.9588693320227778,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.5551513671875,
+          0.5740478515625
+        ],
+        "joint_harm": [
+          0.033447265625,
+          0.03857421875
+        ],
+        "joint_useful": [
+          0.4110101318359375,
+          0.4298345947265625
+        ],
+        "ber": [
+          0.08873962493169876,
+          0.09304744675045919
+        ],
+        "mean_nmse": [
+          0.07353325194228086,
+          0.08200639028820994
+        ],
+        "paired_ber_difference": [
+          -0.002412170682634626,
+          -0.002154063270205543
+        ],
+        "conditional_harm": [
+          0.0592367210683071,
+          0.06834237722852536
+        ],
+        "mean_accepted_harm_db": [
+          0.9343772299309369,
+          0.9825279311810022
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5101,
+      "policy": "frozen_g2",
+      "coverage": 0.3963623046875,
+      "joint_harm": 0.0357666015625,
+      "joint_useful": 0.309814453125,
+      "ber": 0.09026899791899147,
+      "mean_nmse": 0.060599746748834935,
+      "paired_ber_difference": -0.002974101475306909,
+      "conditional_harm": 0.09023714197720974,
+      "mean_accepted_harm_db": 1.5033416913747981,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.3857421875,
+          0.406982421875
+        ],
+        "joint_harm": [
+          0.03173828125,
+          0.0399169921875
+        ],
+        "joint_useful": [
+          0.299560546875,
+          0.320068359375
+        ],
+        "ber": [
+          0.08810487474714007,
+          0.09232714516775946
+        ],
+        "mean_nmse": [
+          0.05836516616656213,
+          0.0628941871177524
+        ],
+        "paired_ber_difference": [
+          -0.003167113803681873,
+          -0.0027850877671014695
+        ],
+        "conditional_harm": [
+          0.08037576044137901,
+          0.10030959752321982
+        ],
+        "mean_accepted_harm_db": [
+          1.3933452416743919,
+          1.62424573830239
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5102,
+      "policy": "frozen_g2",
+      "coverage": 0.4088134765625,
+      "joint_harm": 0.0394287109375,
+      "joint_useful": 0.32080078125,
+      "ber": 0.09019842601957766,
+      "mean_nmse": 0.06000389048288296,
+      "paired_ber_difference": -0.003044673374720965,
+      "conditional_harm": 0.09644670050761421,
+      "mean_accepted_harm_db": 1.7102429835038686,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.3980712890625,
+          0.41943359375
+        ],
+        "joint_harm": [
+          0.0352783203125,
+          0.0438232421875
+        ],
+        "joint_useful": [
+          0.310791015625,
+          0.330810546875
+        ],
+        "ber": [
+          0.0880277361188616,
+          0.09225861231485998
+        ],
+        "mean_nmse": [
+          0.057843342487047374,
+          0.06226600988275186
+        ],
+        "paired_ber_difference": [
+          -0.003235692069644019,
+          -0.0028550261542910622
+        ],
+        "conditional_harm": [
+          0.086359800633209,
+          0.10662044138634452
+        ],
+        "mean_accepted_harm_db": [
+          1.5914185104568304,
+          1.837764124439726
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5103,
+      "policy": "frozen_g2",
+      "coverage": 0.463134765625,
+      "joint_harm": 0.0372314453125,
+      "joint_useful": 0.3704833984375,
+      "ber": 0.0897812616257437,
+      "mean_nmse": 0.05687144367054611,
+      "paired_ber_difference": -0.003461837768554671,
+      "conditional_harm": 0.08039008961518186,
+      "mean_accepted_harm_db": 1.4073105095296627,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.4521484375,
+          0.473876953125
+        ],
+        "joint_harm": [
+          0.0333251953125,
+          0.0413818359375
+        ],
+        "joint_useful": [
+          0.35986328125,
+          0.3809814453125
+        ],
+        "ber": [
+          0.08762776511056083,
+          0.09184258324759347
+        ],
+        "mean_nmse": [
+          0.05484105273670098,
+          0.05898992573004119
+        ],
+        "paired_ber_difference": [
+          -0.0036629290807814823,
+          -0.0032637437184651692
+        ],
+        "conditional_harm": [
+          0.07224218633205451,
+          0.0891517081162979
+        ],
+        "mean_accepted_harm_db": [
+          1.3144174075722765,
+          1.5035925451926497
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5104,
+      "policy": "frozen_g2",
+      "coverage": 0.3935546875,
+      "joint_harm": 0.033935546875,
+      "joint_useful": 0.308837890625,
+      "ber": 0.09039097740536607,
+      "mean_nmse": 0.0612687315785649,
+      "paired_ber_difference": -0.0028521219889322802,
+      "conditional_harm": 0.08622828784119106,
+      "mean_accepted_harm_db": 1.5057669442020483,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.3829345703125,
+          0.404296875
+        ],
+        "joint_harm": [
+          0.0301513671875,
+          0.0380859375
+        ],
+        "joint_useful": [
+          0.298583984375,
+          0.3189697265625
+        ],
+        "ber": [
+          0.08822118441263835,
+          0.09245799609592979
+        ],
+        "mean_nmse": [
+          0.059035871384747814,
+          0.06358441890274091
+        ],
+        "paired_ber_difference": [
+          -0.0030408745720272978,
+          -0.002663017454601469
+        ],
+        "conditional_harm": [
+          0.0768498277863966,
+          0.09619089586017625
+        ],
+        "mean_accepted_harm_db": [
+          1.396929701600954,
+          1.618223700873656
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5105,
+      "policy": "frozen_g2",
+      "coverage": 0.349609375,
+      "joint_harm": 0.0321044921875,
+      "joint_useful": 0.27685546875,
+      "ber": 0.09035328456333672,
+      "mean_nmse": 0.061896153531401744,
+      "paired_ber_difference": -0.0028898148309616724,
+      "conditional_harm": 0.09182960893854748,
+      "mean_accepted_harm_db": 1.8194506773798238,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.3392333984375,
+          0.36011047363281246
+        ],
+        "joint_harm": [
+          0.0284423828125,
+          0.0360107421875
+        ],
+        "joint_useful": [
+          0.267333984375,
+          0.28662109375
+        ],
+        "ber": [
+          0.08817504019964312,
+          0.0924141270773751
+        ],
+        "mean_nmse": [
+          0.059484692482022844,
+          0.06439990341534323
+        ],
+        "paired_ber_difference": [
+          -0.003066017514183408,
+          -0.002711886451357887
+        ],
+        "conditional_harm": [
+          0.08143487592831317,
+          0.10256544502617798
+        ],
+        "mean_accepted_harm_db": [
+          1.676603201554619,
+          1.9743551078264794
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "frozen_g2",
+      "coverage": 0.402294921875,
+      "joint_harm": 0.035693359375,
+      "joint_useful": 0.3173583984375,
+      "ber": 0.09019858950660312,
+      "mean_nmse": 0.06012799320244613,
+      "paired_ber_difference": -0.0030445098876952996,
+      "conditional_harm": 0.08872435975239713,
+      "mean_accepted_harm_db": 1.5863447628523775,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          0.3927001953125,
+          0.411767578125
+        ],
+        "joint_harm": [
+          0.03291015625,
+          0.038526000976562495
+        ],
+        "joint_useful": [
+          0.3081536865234375,
+          0.3265875244140625
+        ],
+        "ber": [
+          0.08802933375040689,
+          0.0922619574410575
+        ],
+        "mean_nmse": [
+          0.057955109995782635,
+          0.06238970108001927
+        ],
+        "paired_ber_difference": [
+          -0.0032255635942731583,
+          -0.002862165087745303
+        ],
+        "conditional_harm": [
+          0.08194640825804782,
+          0.09580777906511274
+        ],
+        "mean_accepted_harm_db": [
+          1.5160056099396726,
+          1.6576791578847863
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5101,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.09324309939429856,
+      "mean_nmse": 0.09584349936985195,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.0909892173040481,
+          0.0953990618387858
+        ],
+        "mean_nmse": [
+          0.09098609785717646,
+          0.1008307781261668
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5102,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.09324309939429856,
+      "mean_nmse": 0.09584349936985195,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.0909892173040481,
+          0.0953990618387858
+        ],
+        "mean_nmse": [
+          0.09098609785717646,
+          0.1008307781261668
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5103,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.09324309939429856,
+      "mean_nmse": 0.09584349936985195,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.0909892173040481,
+          0.0953990618387858
+        ],
+        "mean_nmse": [
+          0.09098609785717646,
+          0.1008307781261668
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5104,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.09324309939429856,
+      "mean_nmse": 0.09584349936985195,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.0909892173040481,
+          0.0953990618387858
+        ],
+        "mean_nmse": [
+          0.09098609785717646,
+          0.1008307781261668
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5105,
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.09324309939429856,
+      "mean_nmse": 0.09584349936985195,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.0909892173040481,
+          0.0953990618387858
+        ],
+        "mean_nmse": [
+          0.09098609785717646,
+          0.1008307781261668
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "fallback",
+      "coverage": 0.0,
+      "joint_harm": 0.0,
+      "joint_useful": 0.0,
+      "ber": 0.09324309939429856,
+      "mean_nmse": 0.09584349936985195,
+      "paired_ber_difference": 0.0,
+      "conditional_harm": null,
+      "mean_accepted_harm_db": null,
+      "zero_joint_harm_upper95": 0.0,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 5000,
+      "undefined_severity_bootstrap_draws": 5000,
+      "intervals": {
+        "coverage": [
+          0.0,
+          0.0
+        ],
+        "joint_harm": [
+          0.0,
+          0.0
+        ],
+        "joint_useful": [
+          0.0,
+          0.0
+        ],
+        "ber": [
+          0.0909892173040481,
+          0.0953990618387858
+        ],
+        "mean_nmse": [
+          0.09098609785717646,
+          0.1008307781261668
+        ],
+        "paired_ber_difference": [
+          0.0,
+          0.0
+        ],
+        "conditional_harm": [
+          null,
+          null
+        ],
+        "mean_accepted_harm_db": [
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5101,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.2587890625,
+      "joint_useful": 0.5882568359375,
+      "ber": 0.08897717793782511,
+      "mean_nmse": 0.04991782079532343,
+      "paired_ber_difference": -0.004265921456473202,
+      "conditional_harm": 0.2587890625,
+      "mean_accepted_harm_db": 2.260853919937464,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.2491455078125,
+          0.2681884765625
+        ],
+        "joint_useful": [
+          0.5773895263671875,
+          0.5989990234375
+        ],
+        "ber": [
+          0.08683937844775971,
+          0.09099919455392017
+        ],
+        "mean_nmse": [
+          0.04815858179410692,
+          0.051643939329639184
+        ],
+        "paired_ber_difference": [
+          -0.004486722037905738,
+          -0.004051751182192848
+        ],
+        "conditional_harm": [
+          0.2491455078125,
+          0.2681884765625
+        ],
+        "mean_accepted_harm_db": [
+          2.1959876741258633,
+          2.3259810377465038
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5102,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.256591796875,
+      "joint_useful": 0.58642578125,
+      "ber": 0.08883367265973752,
+      "mean_nmse": 0.04940995108267379,
+      "paired_ber_difference": -0.004409426734560995,
+      "conditional_harm": 0.256591796875,
+      "mean_accepted_harm_db": 2.390982311143972,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.2470703125,
+          0.26599426269531246
+        ],
+        "joint_useful": [
+          0.5755615234375,
+          0.5971710205078125
+        ],
+        "ber": [
+          0.08670656340462822,
+          0.09085508301144551
+        ],
+        "mean_nmse": [
+          0.047675941137861555,
+          0.05115325710471245
+        ],
+        "paired_ber_difference": [
+          -0.0046280452183314735,
+          -0.004190892264956519
+        ],
+        "conditional_harm": [
+          0.2470703125,
+          0.26599426269531246
+        ],
+        "mean_accepted_harm_db": [
+          2.327485885097118,
+          2.458835501277133
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5103,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.2271728515625,
+      "joint_useful": 0.6219482421875,
+      "ber": 0.08863757905505887,
+      "mean_nmse": 0.04784907517310712,
+      "paired_ber_difference": -0.004605520339239206,
+      "conditional_harm": 0.2271728515625,
+      "mean_accepted_harm_db": 2.065691702825546,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.2181396484375,
+          0.236328125
+        ],
+        "joint_useful": [
+          0.611328125,
+          0.6324462890625
+        ],
+        "ber": [
+          0.08651916413080124,
+          0.0906632968357631
+        ],
+        "mean_nmse": [
+          0.04623076345648283,
+          0.049450088701372866
+        ],
+        "paired_ber_difference": [
+          -0.004826965786161875,
+          -0.004385414577665783
+        ],
+        "conditional_harm": [
+          0.2181396484375,
+          0.236328125
+        ],
+        "mean_accepted_harm_db": [
+          2.0041286025466123,
+          2.127345945557444
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5104,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.2418212890625,
+      "joint_useful": 0.600341796875,
+      "ber": 0.08909180050804456,
+      "mean_nmse": 0.05057413748959206,
+      "paired_ber_difference": -0.004151298886253706,
+      "conditional_harm": 0.2418212890625,
+      "mean_accepted_harm_db": 2.089725562098767,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.232666015625,
+          0.2510986328125
+        ],
+        "joint_useful": [
+          0.5894775390625,
+          0.6108428955078125
+        ],
+        "ber": [
+          0.08695527712504067,
+          0.09113277253650486
+        ],
+        "mean_nmse": [
+          0.04884762134176582,
+          0.05225974619618053
+        ],
+        "paired_ber_difference": [
+          -0.004376643044607981,
+          -0.003936492829095749
+        ],
+        "conditional_harm": [
+          0.232666015625,
+          0.2510986328125
+        ],
+        "mean_accepted_harm_db": [
+          2.02976905061232,
+          2.1496261670719936
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": 5105,
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.322998046875,
+      "joint_useful": 0.53662109375,
+      "ber": 0.08884311857677629,
+      "mean_nmse": 0.04984973440776238,
+      "paired_ber_difference": -0.004399980817522309,
+      "conditional_harm": 0.322998046875,
+      "mean_accepted_harm_db": 3.0210722176231393,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.31298828125,
+          0.33349609375
+        ],
+        "joint_useful": [
+          0.5252655029296875,
+          0.547119140625
+        ],
+        "ber": [
+          0.08671315056937082,
+          0.09086647033691406
+        ],
+        "mean_nmse": [
+          0.048036408340700214,
+          0.051654193451991376
+        ],
+        "paired_ber_difference": [
+          -0.004604251044137137,
+          -0.004195783251807804
+        ],
+        "conditional_harm": [
+          0.31298828125,
+          0.33349609375
+        ],
+        "mean_accepted_harm_db": [
+          2.948860605923446,
+          3.097000957481199
+        ]
+      }
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "always_neural",
+      "coverage": 1.0,
+      "joint_harm": 0.261474609375,
+      "joint_useful": 0.58671875,
+      "ber": 0.08887666974748847,
+      "mean_nmse": 0.04952014378969176,
+      "paired_ber_difference": -0.004366429646809883,
+      "conditional_harm": 0.261474609375,
+      "mean_accepted_harm_db": 2.408647134789811,
+      "zero_joint_harm_upper95": null,
+      "zero_event_scope": "A zero empirical bootstrap interval is not a population guarantee. Zero-event bound uses n independent frames; frame-union bound is conservative for an all-model zero-event mixture. Reject-all has structural zero intervention harm.",
+      "undefined_conditional_bootstrap_draws": 0,
+      "undefined_severity_bootstrap_draws": 0,
+      "intervals": {
+        "coverage": [
+          1.0,
+          1.0
+        ],
+        "joint_harm": [
+          0.2529779052734375,
+          0.27001953125
+        ],
+        "joint_useful": [
+          0.5769281005859375,
+          0.5962158203125
+        ],
+        "ber": [
+          0.08674746331714447,
+          0.09089969635009766
+        ],
+        "mean_nmse": [
+          0.04778699819612246,
+          0.0512327378618191
+        ],
+        "paired_ber_difference": [
+          -0.0045778065636044455,
+          -0.0041581576211111885
+        ],
+        "conditional_harm": [
+          0.2529779052734375,
+          0.27001953125
+        ],
+        "mean_accepted_harm_db": [
+          2.354777069677224,
+          2.4645376429829122
+        ]
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "comparison": "matched_g3 minus matched_g2",
+      "point": [
+        0.03513183593749991,
+        0.0005371093750000007,
+        0.019213867187499956,
+        3.044491722470344e-05,
+        0.01359018933596974,
+        3.0444917224701704e-05,
+        -0.004344325041818135
+      ],
+      "ci": [
+        [
+          0.032666015625000044,
+          0.037768554687499956
+        ],
+        [
+          -0.0005126953125000021,
+          0.0016601562499999993
+        ],
+        [
+          0.017309570312500022,
+          0.021191406250000044
+        ],
+        [
+          -8.323306129109224e-06,
+          6.786618913922798e-05
+        ],
+        [
+          0.0091341909321365,
+          0.018809524404750366
+        ],
+        [
+          -8.323306129094306e-06,
+          6.786618913923024e-05
+        ],
+        [
+          -0.006131023273296023,
+          -0.0025686091662253455
+        ]
+      ],
+      "columns": [
+        "coverage",
+        "joint_harm",
+        "joint_useful",
+        "ber",
+        "mean_nmse",
+        "paired_ber_difference_vs_fallback",
+        "harm_db_sum_per_frame"
+      ]
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA30",
+      "comparison": "matched_g3 minus transfer_g3",
+      "point": [
+        0.0011230468749999778,
+        0.0004150390625000007,
+        0.0005615234374999334,
+        -1.1662074497778563e-05,
+        -0.0005662508139574196,
+        -1.1662074497768155e-05,
+        0.00040582315499212984
+      ],
+      "ci": [
+        [
+          0.0008056640625000444,
+          0.0014404296875000222
+        ],
+        [
+          0.0002197265625000014,
+          0.0006103515625000001
+        ],
+        [
+          0.0003417968750000222,
+          0.0008056640624999334
+        ],
+        [
+          -1.783870515369608e-05,
+          -6.030854724711418e-06
+        ],
+        [
+          -0.0009122153838415456,
+          -0.0002785325714196579
+        ],
+        [
+          -1.7838705153692915e-05,
+          -6.030854724702224e-06
+        ],
+        [
+          0.00021286172783671864,
+          0.0006232680265554238
+        ]
+      ],
+      "columns": [
+        "coverage",
+        "joint_harm",
+        "joint_useful",
+        "ber",
+        "mean_nmse",
+        "paired_ber_difference_vs_fallback",
+        "harm_db_sum_per_frame"
+      ]
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "comparison": "matched_g3 minus matched_g2",
+      "point": [
+        0.13749999999999996,
+        0.0,
+        0.13752441406249993,
+        -0.01217348007928748,
+        -0.04189376556037905,
+        -0.012173480079287556,
+        0.0
+      ],
+      "ci": [
+        [
+          0.1301507568359375,
+          0.14484924316406253
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.13017578124999996,
+          0.1448736572265625
+        ],
+        [
+          -0.013068391254969992,
+          -0.011318588256835987
+        ],
+        [
+          -0.04469902277475309,
+          -0.03919513699578086
+        ],
+        [
+          -0.01306839125496999,
+          -0.011318588256835932
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "columns": [
+        "coverage",
+        "joint_harm",
+        "joint_useful",
+        "ber",
+        "mean_nmse",
+        "paired_ber_difference_vs_fallback",
+        "harm_db_sum_per_frame"
+      ]
+    },
+    {
+      "cohort": "TEST",
+      "condition": "TDLA300",
+      "comparison": "matched_g3 minus transfer_g3",
+      "point": [
+        0.06606445312499998,
+        0.0,
+        0.06594238281249998,
+        -0.006393832252139214,
+        -0.03391085662742577,
+        -0.006393832252139159,
+        0.0
+      ],
+      "ci": [
+        [
+          0.06313476562499998,
+          0.06899414062499998
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.06301269531250009,
+          0.06887207031249998
+        ],
+        [
+          -0.006712754113333609,
+          -0.006075918106805695
+        ],
+        [
+          -0.03579489095627529,
+          -0.032096550840011485
+        ],
+        [
+          -0.006712754113333555,
+          -0.00607591810680571
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "columns": [
+        "coverage",
+        "joint_harm",
+        "joint_useful",
+        "ber",
+        "mean_nmse",
+        "paired_ber_difference_vs_fallback",
+        "harm_db_sum_per_frame"
+      ]
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "comparison": "frozen_g3 minus pilot_anchor",
+      "point": [
+        0.04499511718749993,
+        0.00041503906250000416,
+        0.03237304687499998,
+        -0.00022314162481403,
+        -0.0012395588007184793,
+        -0.00022314162481398272,
+        -0.002614935344342151
+      ],
+      "ci": [
+        [
+          0.04060058593749993,
+          0.04946350097656247
+        ],
+        [
+          -0.0014892578125000056,
+          0.002392578124999996
+        ],
+        [
+          0.02885742187500001,
+          0.03583984374999999
+        ],
+        [
+          -0.00029469490051266744,
+          -0.00014710153852189948
+        ],
+        [
+          -0.0021009831968226934,
+          -0.0003339028260373598
+        ],
+        [
+          -0.00029469490051269433,
+          -0.00014710153852190295
+        ],
+        [
+          -0.0048310957363745,
+          -0.00033111429582647944
+        ]
+      ],
+      "columns": [
+        "coverage",
+        "joint_harm",
+        "joint_useful",
+        "ber",
+        "mean_nmse",
+        "paired_ber_difference_vs_fallback",
+        "harm_db_sum_per_frame"
+      ]
+    },
+    {
+      "cohort": "PHASE",
+      "condition": "SYN_A",
+      "comparison": "frozen_g3 minus frozen_g2",
+      "point": [
+        0.20725097656249997,
+        0.0007568359375000056,
+        0.13535156249999997,
+        0.0005365462530226295,
+        0.016283261105865025,
+        0.0005365462530227028,
+        -0.024683902854707278
+      ],
+      "ci": [
+        [
+          0.194749755859375,
+          0.21992248535156242
+        ],
+        [
+          -0.0025878906249999986,
+          0.003979492187499996
+        ],
+        [
+          0.12502441406250003,
+          0.14587463378906249
+        ],
+        [
+          0.00038462684268042723,
+          0.0006944974263509217
+        ],
+        [
+          0.013520699178630033,
+          0.01923975369606856
+        ],
+        [
+          0.0003846268426804307,
+          0.0006944974263509121
+        ],
+        [
+          -0.030190301858831817,
+          -0.019455380376558636
+        ]
+      ],
+      "columns": [
+        "coverage",
+        "joint_harm",
+        "joint_useful",
+        "ber",
+        "mean_nmse",
+        "paired_ber_difference_vs_fallback",
+        "harm_db_sum_per_frame"
+      ]
+    }
+  ]
+}

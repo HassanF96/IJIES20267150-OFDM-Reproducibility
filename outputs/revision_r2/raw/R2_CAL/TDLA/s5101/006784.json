@@ -1,0 +1,55 @@
+{
+  "protocol_hash": "c7a056a8ceeb0d5ad1256ef29b972013d4fe1ea28a9807b6b7dce1f504d74888",
+  "git_metadata": "outputs/revision_r2/runtime/git.json",
+  "run_id": "R2-c7a056a8ceeb0d5a",
+  "created_utc": "2026-10-05T12:22:35.724119+00:00",
+  "python": "3.13.15",
+  "torch": "2.14.0+cu126",
+  "cpu": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "device": "cpu",
+  "native_threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\Research\\Paper-02\\.venv\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "pid": 17292,
+  "namespace": "R2_CAL",
+  "environment": "TDLA",
+  "seed": 5101,
+  "offset": 6784,
+  "sha256": "cd65034d9398fa065af1dd42f3ae92b49c717e07da7963d60bf7c13111f22c26",
+  "frames": 128
+}

@@ -1,0 +1,61 @@
+confidence: 0.95
+primary_metric: RJ
+exact_intervals: two-sided Clopper-Pearson95 per seed for frame events; one-sided95
+  upper bound also report zero events
+conditional_risk_min_accepted: 200
+insufficient_wording: 'INSUFFICIENT_ACCEPTED_FRAMES: conditional risk estimate/interval
+  descriptive; no reliability conclusion'
+zero_accepted: RC and accepted gain UNDEFINED_NO_ACCEPTANCE; A=0 RJ=0 U_joint=0 with
+  bounds; no useful reliability
+zero_ber: one-sided CP upper bound for probability of an error-containing frame bounds
+  BER; no independent-bit binomial CI
+log_plot: downward triangle at positive95% upper bound annotated 0 events/n frames;
+  never fake epsilon
+bootstrap:
+  type: crossed training-seed and complete-frame percentile bootstrap
+  descriptive_draws: 2000
+  decision_draws: 50000
+  seed: 71991
+  paired: same frame multiplicities for methods and all seeds; same seed weights for
+    residual gate comparisons
+  cross_architecture: independent seed weights for residual and HELENA, shared frame
+    multiplicities
+  fixed_cells: resample whole frames within each fixed cell; never treat tones/bits
+    as iid
+  timing: resample frame clusters with all three repetitions/methods kept paired;
+    mean repetitions per frame
+  failure: undefined denominator replicas omitted with count; if >5% undefined label
+    insufficient evidence; never extend samples
+aggregate: equal arithmetic weight per training seed; all5101-5105, including HELENA5104;
+  seed SD/min/max and all per-seed values
+primary_family:
+  one_sided_error: 0.05
+  bonferroni_inequalities: 28
+  error_each: 0.0017857142857142859
+  tests:
+  - '10: G3-hard A>.05 and U_joint>.05 separately for each of five seeds (exact CP
+    lower)'
+  - '1: mean G3-hard baseline regret <=0 (crossed-bootstrap upper)'
+  - '6: at50% G3-hard RC vs G1(<0),G2(<=.01),weighted_mean(<0); paired U_joint differences>=-.01'
+  - '3: frozen ordinary/pilot/expanded logistic Brier increment with hard score <0'
+  - '8: CPU25/50 C_val ratio<.90, C_rx difference<=frozen jitter, RC difference<=.005/a,
+    U_joint difference>=-.01'
+calibration_family: separate105 certificate family epsilon=.05; do not conflate with
+  empirical test-family95%; conjunction not advertised as overall95%
+secondary: all other tests/intervals descriptive95; no extra confirmatory superiority
+  claim
+risk_curve:
+  coverage_interval:
+  - 0.05
+  - 0.95
+  integration: normalized right-endpoint rectangles, rank ties by independent shared
+    key
+  matched_points:
+  - 0.25
+  - 0.5
+  - 0.75
+  unattainable: NA, no extrapolation
+accepted_gain: mean of (L_base-L_neural) among accepted, linear NMSE units; whole-frame
+  interval, NA if accepted=0
+null_policies: no favorable seed deletion, score reversal, new subgroup, new test
+  or test-dependent threshold choice

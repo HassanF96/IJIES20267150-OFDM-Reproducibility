@@ -1,0 +1,112 @@
+policy: reuse the five existing selected E6 checkpoints; no E8 fitting
+seeds:
+- 5101
+- 5102
+- 5103
+- 5104
+- 5105
+p0_minimum_seeds: 3
+adopted_p0_seeds: 5
+p1_seeds: 5
+architecture:
+  class_path: src.e5.model.ResidualCNN
+  width: 48
+  parameters: 44738
+  layers:
+  - Conv2d(7,48,3,padding=1)
+  - ReLU
+  - Conv2d(48,48,3,padding=1)
+  - ReLU
+  - Conv2d(48,48,3,padding=1)
+  - ReLU
+  - Conv2d(48,2,1)
+  active_mask_output: true
+optimizer:
+  name: Adam
+  learning_rate: 0.001
+  betas:
+  - 0.9
+  - 0.999
+  epsilon: 1.0e-08
+  weight_decay: 1.0e-05
+  gradient_clip_norm: 1.0
+scheduler: null
+batch_size: 16
+max_epochs: 20
+early_stopping:
+  patience: 4
+  absolute_min_delta: 1.0e-06
+  metric: mean full-view normalized residual MSE on V-design (partial views are train-only)
+  improvement: validation_loss < previous_best - 1e-6
+initialization: torch Conv2d defaults, final Conv2d weights/bias zero; torch.manual_seed(seed)
+train_frames: 4096
+selection_frames: 1536
+training_distribution:
+  family: A
+  snr_db_uniform:
+  - -5
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20
+  - 25
+  modulation_uniform:
+  - QPSK
+  - 16QAM
+  stride_uniform:
+  - 4
+  - 8
+  - 16
+  burst_uniform:
+  - none
+  - short10
+  - long10
+  - long20
+views: one full plus one partial per frame; index % 8 cycles fraction .25,.5 and random,interleaved,block,geometry;
+  unchanged across epochs
+data_policy: fixed E6 train/V-design realizations; no calibration/test or new training
+order: NumPy PCG64(training seed) epoch permutations; saved optimizer/RNG resumable
+  state
+deterministic_torch: true
+cudnn_benchmark: false
+checkpoints:
+  '5101':
+    residual:
+      path: outputs/e6/checkpoints/w48_s5101_best.pt
+      sha256: 683ef4f89a0b85a90d0b1fc1cfef05e6249c60390a1624af884aac29f550d686
+    helena:
+      path: outputs/e6/modern_recovery/checkpoints/helena_s5101_best.pt
+      sha256: 984e0ef458482afa7e4141c6b4c65cf59405d8438770463c239a8c66b513bc93
+  '5102':
+    residual:
+      path: outputs/e6/checkpoints/w48_s5102_best.pt
+      sha256: 84013e8865a1eabca1a5f3902f9472678fff09ed458599f589593c3ac393da5e
+    helena:
+      path: outputs/e6/modern_recovery/checkpoints/helena_s5102_best.pt
+      sha256: 6241ab5241c2afc6389a3ebdd2c2552d30ae49d275992bbca50a9a9922387522
+  '5103':
+    residual:
+      path: outputs/e6/checkpoints/w48_s5103_best.pt
+      sha256: 5db67d57a0dc3e112c2c9839daa57e620ae55961dad694a0c857fd64d2e6827a
+    helena:
+      path: outputs/e6/modern_recovery/checkpoints/helena_s5103_best.pt
+      sha256: ed08e08fb18f1ae0e5e4ed0d6179a7eaca80939ed9ef2b43630e2f8c3078b6f4
+  '5104':
+    residual:
+      path: outputs/e6/checkpoints/w48_s5104_best.pt
+      sha256: 05c8b6138891e5b50331cde14a618862438182fe187b32e8c0e3d3a98201822e
+    helena:
+      path: outputs/e6/modern_recovery/checkpoints/helena_s5104_best.pt
+      sha256: 5ef7d5571f5fb5b6ea8ab1f3f7ac081293afaefc67111b516b42c6e13c5ffd3c
+  '5105':
+    residual:
+      path: outputs/e6/checkpoints/w48_s5105_best.pt
+      sha256: d29f1bb78fc2bba8c695d33671122c7be779767f80fadd041c57641aca044512
+    helena:
+      path: outputs/e6/modern_recovery/checkpoints/helena_s5105_best.pt
+      sha256: 0a0241a2d73b56676999754b04db9b28e9cf0d37abc05fa5e143fa33e299844e
+statistics:
+  path: outputs/e6/checkpoints/pilot_statistics.npz
+  sha256: 3c20525989428507bade6aec667e115d0aea09649501fc965b9cd6799967a5e5
+  source: 4096 E6 train frames only

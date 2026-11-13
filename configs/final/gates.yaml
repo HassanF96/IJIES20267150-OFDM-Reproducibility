@@ -1,0 +1,47 @@
+primary: g3_hard
+secondary: g3_soft
+anchor_primary: false
+methods:
+- g1
+- g2
+- g3_hard
+- g3_soft
+- g3_anchor
+- evm
+- evm_neural
+- evm_robust
+- evm_robust_neural
+- weighted_mean
+- weighted_mean_neural
+- weighted_normalized
+- weighted_normalized_neural
+- weighted_robust_neural
+- llr
+- llr_neural
+- pilot
+- pilot_mean
+- g3_soft_mean
+- g3_mean_only
+exact_aliases:
+  weighted_evm_identity: g3_hard
+  g3_hard_mean: weighted_mean
+orientation: accept iff finite score <= finite frozen/calibrated threshold; None rejects
+  all
+uncalibrated_threshold: 0.0
+kappa: 1.7308183826022854
+variance_floor: 1.0e-10
+solve_floor: 1.0e-08
+feature_scale_floor: 1.0e-12
+evm_power_floor: 1.0e-12
+pilot_anchor_coefficient: 1.0
+soft_temperature: 1.0
+g2:
+  fraction: 0.5
+  policy: geometry
+  aggregation: huber
+  mask_path: configs/final/g2_geometry.json
+  after_decision: all-pilot base refit; all-pilot neural only when accepted
+  classical_passes: 2
+  neural_passes: 1 + accepted
+  sparse_limitation: 1/16 retains ill conditioning; no change allowed
+definition_document: E7_METHOD_SPEC.md

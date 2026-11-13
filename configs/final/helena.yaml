@@ -1,0 +1,62 @@
+status: CLASS A - ADMISSIBLE_PRIMARY
+interpretation: modern comparator under disclosed local adaptation; not exact reproduction
+class_path: src.e6.comparators.Helena
+parameters: 97714
+seeds:
+- 5101
+- 5102
+- 5103
+- 5104
+- 5105
+architecture_spec: E7_METHOD_SPEC.md#helena
+source_implementation: src/e6/comparators.py
+source_sha256: 6c6b46f34fb413b14e9f941971a47d0dd45ba74d41c8527ed756ad32734382c1
+recipe: recovery_0.001
+training:
+  max_epochs: 120
+  patience: 50
+  batch_size: 64
+  learning_rate: 0.001
+  adam_epsilon: 1.0e-07
+  lr_patience: 40
+  lr_factor: 0.8
+  lr_min: 1.0e-05
+  loss: unnormalized MSE
+checkpoint_policy: strict lowest V-design unnormalized MSE; earliest on ties
+optimizer:
+  name: Adam
+  betas:
+  - 0.9
+  - 0.999
+  weight_decay: 0
+  gradient_clip: null
+preprocessing: unnormalized sparse LS; [real,imag,96 signed-order active carriers,8
+  symbols]; no noise feature
+training_frames: 4096
+validation_frames: 1536
+batch_size: 64
+adaptation_differences:
+- 96x8 generic frame instead of 612x14 source frame
+- project A channel/SNR/burst/modulation/pilot mixture instead of source 5G channel
+  setup
+- PyTorch optimizer/callback semantics; no TensorFlow numerical parity claim
+- source-like MSE/initialization; disclosed recovery lr 0.001 instead of source 0.01
+- 97714 rather than source 116290 parameters due to local input/token geometry
+instability: 5104 retained unmodified; arithmetic equal-seed means plus all per-seed
+  values; no successful-seed subset
+checkpoints:
+  '5101':
+    path: outputs/e6/modern_recovery/checkpoints/helena_s5101_best.pt
+    sha256: 984e0ef458482afa7e4141c6b4c65cf59405d8438770463c239a8c66b513bc93
+  '5102':
+    path: outputs/e6/modern_recovery/checkpoints/helena_s5102_best.pt
+    sha256: 6241ab5241c2afc6389a3ebdd2c2552d30ae49d275992bbca50a9a9922387522
+  '5103':
+    path: outputs/e6/modern_recovery/checkpoints/helena_s5103_best.pt
+    sha256: ed08e08fb18f1ae0e5e4ed0d6179a7eaca80939ed9ef2b43630e2f8c3078b6f4
+  '5104':
+    path: outputs/e6/modern_recovery/checkpoints/helena_s5104_best.pt
+    sha256: 5ef7d5571f5fb5b6ea8ab1f3f7ac081293afaefc67111b516b42c6e13c5ffd3c
+  '5105':
+    path: outputs/e6/modern_recovery/checkpoints/helena_s5105_best.pt
+    sha256: 0a0241a2d73b56676999754b04db9b28e9cf0d37abc05fa5e143fa33e299844e

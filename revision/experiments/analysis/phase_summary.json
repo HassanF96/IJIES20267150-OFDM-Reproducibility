@@ -1,0 +1,2541 @@
+{
+  "scope": "Evaluation-only coherent pilot/data relative phase inconsistency; not all natural phase errors. Global rotations do not trigger this definition. Exact per-model frame intervals; descriptive whole-frame paired bootstrap fixed-model mixture. Fewer than 20 observed events flagged as sparse, not a validation or decision threshold.",
+  "rows": [
+    {
+      "seed": 5101,
+      "policy": "frozen_g3",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007460051226959642
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4943,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5101,
+      "policy": "pilot_anchor",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007928223925380001
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4651,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5101,
+      "policy": "frozen_g2",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0011354434248874975
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 3247,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5101,
+      "policy": "fallback",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": null,
+      "event_given_accepted_ci": [
+        null,
+        null
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 0,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5101,
+      "policy": "always_neural",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 8192,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5102,
+      "policy": "frozen_g3",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007233317284115673
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 5098,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5102,
+      "policy": "pilot_anchor",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007916314179809919
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4658,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5102,
+      "policy": "frozen_g2",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0011008804340829133
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 3349,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5102,
+      "policy": "fallback",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": null,
+      "event_given_accepted_ci": [
+        null,
+        null
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 0,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5102,
+      "policy": "always_neural",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 8192,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5103,
+      "policy": "frozen_g3",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007057564738115051
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 5225,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5103,
+      "policy": "pilot_anchor",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007451010283791216
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4949,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5103,
+      "policy": "frozen_g2",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0009718204268435387
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 3794,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5103,
+      "policy": "fallback",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": null,
+      "event_given_accepted_ci": [
+        null,
+        null
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 0,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5103,
+      "policy": "always_neural",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 8192,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5104,
+      "policy": "frozen_g3",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007397221490318067
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4985,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5104,
+      "policy": "pilot_anchor",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0008194150857526176
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4500,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5104,
+      "policy": "frozen_g2",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0011435390394107417
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 3224,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5104,
+      "policy": "fallback",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": null,
+      "event_given_accepted_ci": [
+        null,
+        null
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 0,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5104,
+      "policy": "always_neural",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 8192,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5105,
+      "policy": "frozen_g3",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0007818993002481709
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4716,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5105,
+      "policy": "pilot_anchor",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0008445537119420835
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 4366,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5105,
+      "policy": "frozen_g2",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.0012871874318517024
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 2864,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5105,
+      "policy": "fallback",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": null,
+      "event_given_accepted_ci": [
+        null,
+        null
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 0,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    },
+    {
+      "seed": 5105,
+      "policy": "always_neural",
+      "n": 8192,
+      "valid_frames": 8192,
+      "invalid_frames": 0,
+      "event_frames": 0,
+      "valid_event_frames": 0,
+      "valid_event_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "event_given_accepted": 0.0,
+      "event_given_accepted_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "sparse_event_count_under20": true,
+      "severe_frames": 0,
+      "incidence": 0.0,
+      "incidence_ci": [
+        0.0,
+        0.000450201296708684
+      ],
+      "valid_frame_incidence": 0.0,
+      "zero_event_upper95": 0.0003656231183700731,
+      "event_accepted": 0,
+      "event_harmful_accepted": 0,
+      "event_useful_accepted": 0,
+      "event_extra_bit_errors": 0,
+      "accepted_frames": 8192,
+      "event_conditional_acceptance": null,
+      "event_acceptance_ci": [
+        null,
+        null
+      ],
+      "event_ber": null
+    }
+  ],
+  "paired_frame_bootstrap": [
+    {
+      "seed": 5101,
+      "policy": "frozen_g3",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5102,
+      "policy": "frozen_g3",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5103,
+      "policy": "frozen_g3",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5104,
+      "policy": "frozen_g3",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5105,
+      "policy": "frozen_g3",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "frozen_g3",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5101,
+      "policy": "pilot_anchor",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5102,
+      "policy": "pilot_anchor",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5103,
+      "policy": "pilot_anchor",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5104,
+      "policy": "pilot_anchor",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5105,
+      "policy": "pilot_anchor",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "pilot_anchor",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5101,
+      "policy": "frozen_g2",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5102,
+      "policy": "frozen_g2",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5103,
+      "policy": "frozen_g2",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5104,
+      "policy": "frozen_g2",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5105,
+      "policy": "frozen_g2",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "frozen_g2",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5101,
+      "policy": "fallback",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": null,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          null,
+          null
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5102,
+      "policy": "fallback",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": null,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          null,
+          null
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5103,
+      "policy": "fallback",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": null,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          null,
+          null
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5104,
+      "policy": "fallback",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": null,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          null,
+          null
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5105,
+      "policy": "fallback",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": null,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          null,
+          null
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "fallback",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": null,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          null,
+          null
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5101,
+      "policy": "always_neural",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5102,
+      "policy": "always_neural",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5103,
+      "policy": "always_neural",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5104,
+      "policy": "always_neural",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": 5105,
+      "policy": "always_neural",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    },
+    {
+      "seed": "FIXED_MODEL_MIXTURE",
+      "policy": "always_neural",
+      "point": {
+        "incidence": 0.0,
+        "valid_frame_incidence": 0.0,
+        "event_given_accepted": 0.0,
+        "acceptance_given_event": null,
+        "harmful_acceptance_given_event": null,
+        "useful_acceptance_given_event": null,
+        "severe_incidence": 0.0
+      },
+      "intervals": {
+        "incidence": [
+          0.0,
+          0.0
+        ],
+        "valid_frame_incidence": [
+          0.0,
+          0.0
+        ],
+        "event_given_accepted": [
+          0.0,
+          0.0
+        ],
+        "acceptance_given_event": [
+          null,
+          null
+        ],
+        "harmful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "useful_acceptance_given_event": [
+          null,
+          null
+        ],
+        "severe_incidence": [
+          0.0,
+          0.0
+        ]
+      },
+      "independent_frames": 8192,
+      "degenerate_empirical_bootstrap_fields": [
+        "incidence",
+        "valid_frame_incidence",
+        "event_given_accepted",
+        "severe_incidence"
+      ],
+      "zero_incidence_upper95": 0.0003656231183700731,
+      "zero_severe_incidence_upper95": 0.0003656231183700731,
+      "zero_event_scope": "Degenerate empirical bootstrap does not imply zero population uncertainty. For an all-model zero-event mixture the frame-union one-sided bound is conservative; models are not independent replicates."
+    }
+  ]
+}

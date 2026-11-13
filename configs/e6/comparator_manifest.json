@@ -1,0 +1,30 @@
+{
+  "label": "DEVELOPMENT — NOT FINAL RESEARCH RESULT",
+  "binding": "c6dec8614096065869cd07f69ef5d60b90a6b9ab8d5a1bfbcaa86439cfc43bd3",
+  "files": {
+    "E6_COMPARATOR_ADDENDUM.md": "27c71ec11270b5d52d7dc5c3e3d3cc19eebb5e36a4bf4caceb898e48ed6a6d65",
+    "src/e6/comparators.py": "6c6b46f34fb413b14e9f941971a47d0dd45ba74d41c8527ed756ad32734382c1",
+    "scripts/run_e6_comparators.py": "1e03962c76c08666d96c97da3879eb42b63ea23f6baddc608c68a2b26782499a",
+    "outputs/e6/sources/HELENA_official_config.json": "ba2e95b15b451684697ff836f57bc5ab907c677bd05231e519d59f983e483f17",
+    "configs/e6/execution_manifest.json": "75f149648fbe36257a774f6e2f3864693cfd413ec63bb75fad2dcdd8f029f508"
+  },
+  "training": {
+    "max_epochs": 120,
+    "patience": 50,
+    "batch_size": 64,
+    "learning_rate": 0.01,
+    "adam_epsilon": 1e-07,
+    "lr_patience": 40,
+    "lr_factor": 0.8,
+    "lr_min": 1e-05,
+    "loss": "unnormalized MSE"
+  },
+  "seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105
+  ],
+  "addendum_commit": "90a0b754decd4c5f3c7dcda5433c413d4b242cb7"
+}

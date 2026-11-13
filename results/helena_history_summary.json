@@ -1,0 +1,42 @@
+[
+  {
+    "seed": 5101,
+    "epochs": 120,
+    "minimum_validation_mse": 0.03947205803607782,
+    "minimum_validation_mse_epoch": 106,
+    "final_validation_mse": 0.0405191971124926,
+    "source": "outputs/e6/modern_recovery/training/s5101_epochs.json"
+  },
+  {
+    "seed": 5102,
+    "epochs": 120,
+    "minimum_validation_mse": 0.041792980275279966,
+    "minimum_validation_mse_epoch": 113,
+    "final_validation_mse": 0.04200464746782018,
+    "source": "outputs/e6/modern_recovery/training/s5102_epochs.json"
+  },
+  {
+    "seed": 5103,
+    "epochs": 120,
+    "minimum_validation_mse": 0.03940118884058089,
+    "minimum_validation_mse_epoch": 118,
+    "final_validation_mse": 0.03987403515952792,
+    "source": "outputs/e6/modern_recovery/training/s5103_epochs.json"
+  },
+  {
+    "seed": 5104,
+    "epochs": 120,
+    "minimum_validation_mse": 0.4919932461780263,
+    "minimum_validation_mse_epoch": 88,
+    "final_validation_mse": 0.49200780758352874,
+    "source": "outputs/e6/modern_recovery/training/s5104_epochs.json"
+  },
+  {
+    "seed": 5105,
+    "epochs": 120,
+    "minimum_validation_mse": 0.0405899280704034,
+    "minimum_validation_mse_epoch": 118,
+    "final_validation_mse": 0.04132555638686123,
+    "source": "outputs/e6/modern_recovery/training/s5105_epochs.json"
+  }
+]

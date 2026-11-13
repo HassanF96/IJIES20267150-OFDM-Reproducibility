@@ -1,0 +1,646 @@
+{
+  "protocol_sha256": "12f00e254473a067024eba32dcde6368b97fe59b12f38eeb5639cdcd93522e6a",
+  "certificate_sha256": "f9289c36606c9560fb8f7c38c075d9284ef621ff5e08bdea69495bc324c10121",
+  "selected": {
+    "5101": {
+      "g1": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "g2": {
+        "threshold": -0.11492028520608354,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 45
+      },
+      "g3_hard": {
+        "threshold": 0.040270861339668645,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 63
+      },
+      "g3_soft": {
+        "threshold": 0.041474654911914294,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 60
+      },
+      "g3_anchor": {
+        "threshold": 0.12818461457581665,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 59
+      },
+      "evm": {
+        "threshold": -0.006685998894422637,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 34
+      },
+      "evm_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "evm_robust": {
+        "threshold": -0.004459156964489406,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 29
+      },
+      "evm_robust_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_mean": {
+        "threshold": 0.04413314276606638,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 62
+      },
+      "weighted_mean_neural": {
+        "threshold": 1.0781847127053843,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 49
+      },
+      "weighted_normalized": {
+        "threshold": 0.0008999005093931739,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 25
+      },
+      "weighted_normalized_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_robust_neural": {
+        "threshold": 1.0644213864232093,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 49
+      },
+      "llr": {
+        "threshold": -0.0006858153076889428,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 17
+      },
+      "llr_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "pilot": {
+        "threshold": 0.07884481096721983,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 46
+      },
+      "pilot_mean": {
+        "threshold": 0.08031016706196302,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 38
+      },
+      "g3_soft_mean": {
+        "threshold": 0.04523464735155923,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 59
+      },
+      "g3_mean_only": {
+        "threshold": 0.042835834121818066,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 49
+      },
+      "g0": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      }
+    },
+    "5102": {
+      "g1": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "g2": {
+        "threshold": -0.12859390519713398,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 43
+      },
+      "g3_hard": {
+        "threshold": 0.041196314532906536,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 64
+      },
+      "g3_soft": {
+        "threshold": 0.0432946177748772,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 62
+      },
+      "g3_anchor": {
+        "threshold": 0.1160889262581763,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 58
+      },
+      "evm": {
+        "threshold": -0.006465558699248278,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 38
+      },
+      "evm_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "evm_robust": {
+        "threshold": -0.005118587506313727,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 33
+      },
+      "evm_robust_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_mean": {
+        "threshold": 0.047153735306044636,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 64
+      },
+      "weighted_mean_neural": {
+        "threshold": 1.0960561638613386,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 51
+      },
+      "weighted_normalized": {
+        "threshold": 0.0006974984507348332,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 29
+      },
+      "weighted_normalized_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_robust_neural": {
+        "threshold": 1.0835076035635183,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 51
+      },
+      "llr": {
+        "threshold": -0.0006638914280708108,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 21
+      },
+      "llr_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "pilot": {
+        "threshold": 0.06405879077591084,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 40
+      },
+      "pilot_mean": {
+        "threshold": 0.065092757575421,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 32
+      },
+      "g3_soft_mean": {
+        "threshold": 0.04651784060222086,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 61
+      },
+      "g3_mean_only": {
+        "threshold": 0.04324590712697131,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 50
+      },
+      "g0": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      }
+    },
+    "5103": {
+      "g1": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "g2": {
+        "threshold": -0.10072556277735281,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 49
+      },
+      "g3_hard": {
+        "threshold": 0.038356289486243686,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 65
+      },
+      "g3_soft": {
+        "threshold": 0.03871947062946735,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 61
+      },
+      "g3_anchor": {
+        "threshold": 0.12460229440509774,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 62
+      },
+      "evm": {
+        "threshold": -0.0015097978995387185,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 39
+      },
+      "evm_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "evm_robust": {
+        "threshold": -0.0008082689426294143,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 34
+      },
+      "evm_robust_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_mean": {
+        "threshold": 0.04180945784622688,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 64
+      },
+      "weighted_mean_neural": {
+        "threshold": 1.092933761016153,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 52
+      },
+      "weighted_normalized": {
+        "threshold": 0.0008427812201573643,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 30
+      },
+      "weighted_normalized_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_robust_neural": {
+        "threshold": 1.0802723908590308,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 52
+      },
+      "llr": {
+        "threshold": -0.00034111769856003284,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 21
+      },
+      "llr_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "pilot": {
+        "threshold": 0.07671999408305148,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 48
+      },
+      "pilot_mean": {
+        "threshold": 0.07985754710213526,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 41
+      },
+      "g3_soft_mean": {
+        "threshold": 0.04230777032075776,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 60
+      },
+      "g3_mean_only": {
+        "threshold": 0.04178851521409643,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 49
+      },
+      "g0": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      }
+    },
+    "5104": {
+      "g1": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "g2": {
+        "threshold": -0.12413923531721904,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 44
+      },
+      "g3_hard": {
+        "threshold": 0.041447451485049885,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 63
+      },
+      "g3_soft": {
+        "threshold": 0.04051967673292532,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 58
+      },
+      "g3_anchor": {
+        "threshold": 0.13010402214351796,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 58
+      },
+      "evm": {
+        "threshold": -0.006144884156472214,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 36
+      },
+      "evm_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "evm_robust": {
+        "threshold": -0.003941753469843466,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 32
+      },
+      "evm_robust_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_mean": {
+        "threshold": 0.04493615891039223,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 62
+      },
+      "weighted_mean_neural": {
+        "threshold": 1.0576616738465998,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 46
+      },
+      "weighted_normalized": {
+        "threshold": 0.0006939239645458626,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 31
+      },
+      "weighted_normalized_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_robust_neural": {
+        "threshold": 1.045408455161751,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 46
+      },
+      "llr": {
+        "threshold": -0.0005963215620076923,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 21
+      },
+      "llr_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "pilot": {
+        "threshold": 0.08136200833579361,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 47
+      },
+      "pilot_mean": {
+        "threshold": 0.0820076400534334,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 39
+      },
+      "g3_soft_mean": {
+        "threshold": 0.045784962530366215,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 58
+      },
+      "g3_mean_only": {
+        "threshold": 0.04074076303325598,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 49
+      },
+      "g0": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      }
+    },
+    "5105": {
+      "g1": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "g2": {
+        "threshold": -0.13159624249996826,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 39
+      },
+      "g3_hard": {
+        "threshold": 0.041561960106384244,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 61
+      },
+      "g3_soft": {
+        "threshold": 0.040683074867242354,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 58
+      },
+      "g3_anchor": {
+        "threshold": 0.1064015309958829,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 57
+      },
+      "evm": {
+        "threshold": -0.018282249301649692,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 32
+      },
+      "evm_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "evm_robust": {
+        "threshold": -0.01453718257563044,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 28
+      },
+      "evm_robust_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_mean": {
+        "threshold": 0.04289074283050787,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 59
+      },
+      "weighted_mean_neural": {
+        "threshold": 1.1043177190731528,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 50
+      },
+      "weighted_normalized": {
+        "threshold": 0.0007339190851441323,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 23
+      },
+      "weighted_normalized_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "weighted_robust_neural": {
+        "threshold": 1.089863779827711,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 50
+      },
+      "llr": {
+        "threshold": -0.001605986859550157,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 15
+      },
+      "llr_neural": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      },
+      "pilot": {
+        "threshold": 0.05517754736291606,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 40
+      },
+      "pilot_mean": {
+        "threshold": 0.057301154230307655,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 33
+      },
+      "g3_soft_mean": {
+        "threshold": 0.044416576426170716,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 57
+      },
+      "g3_mean_only": {
+        "threshold": 0.042136321918723345,
+        "status": "CERTIFIED_USEFUL_POLICY",
+        "certified": true,
+        "selected_index": 45
+      },
+      "g0": {
+        "threshold": null,
+        "status": "REJECT_ALL_NO_USEFUL_CERTIFICATE",
+        "certified": false,
+        "selected_index": null
+      }
+    }
+  }
+}

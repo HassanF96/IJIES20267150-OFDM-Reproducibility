@@ -1,0 +1,21 @@
+label: TECHNICAL VERIFICATION — NOT RESEARCH RESULT
+scope: E4_ONLY
+awgn:
+  frames_per_point: 320
+  points_esn0_db:
+    QPSK: [0, 6, 10]
+    16QAM: [4, 10, 16]
+  se_multiplier: 5.0
+interference:
+  independent_frames_per_case: 8192
+  uncertainty_blocks: 16
+  conditional_start_in_useful_symbol: 20
+  interior_symbol: 3
+  se_multiplier: 5.0
+benchmark:
+  warmups: 10
+  repetitions: 100
+  generator_realizations: 128
+  transform_batches: [1, 16]
+  cpu_threads: 1
+  memory_sampling_seconds: 0.005

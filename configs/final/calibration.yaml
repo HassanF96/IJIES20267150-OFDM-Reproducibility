@@ -1,0 +1,74 @@
+unit: one independent complete frame
+n_cal: 8192
+alpha: 0.05
+epsilon_family: 0.05
+certificates: 105
+epsilon_per_certificate: 0.0004761904761904762
+certificate_methods:
+- g1
+- g2
+- g3_hard
+- g3_soft
+- g3_anchor
+- evm
+- evm_neural
+- evm_robust
+- evm_robust_neural
+- weighted_mean
+- weighted_mean_neural
+- weighted_normalized
+- weighted_normalized_neural
+- weighted_robust_neural
+- llr
+- llr_neural
+- pilot
+- pilot_mean
+- g3_soft_mean
+- g3_mean_only
+- g0
+seeds:
+- 5101
+- 5102
+- 5103
+- 5104
+- 5105
+delta_db: 0.5
+delta_u_db: 0.5
+A_min: 0.05
+U_joint_min: 0.05
+n_min: 200
+primary_risk: P(harm AND accept)
+'null': R_J(tau) >= alpha
+p_value: binom.cdf(sum(harm & (score <= tau)), n_cal, alpha)
+fixed_sequence: ascending numeric thresholds; reject if p <= epsilon_per_certificate;
+  stop on first p > epsilon_per_certificate
+selection: largest threshold in certified prefix with accepted>=200, coverage>=.05,
+  joint_useful>=.05; else null/reject-all
+g0: singleton accept-all; same binomial test and useful screen; raw G0 remains reported
+  even without certificate
+no_pass: REJECT_ALL_NO_USEFUL_CERTIFICATE; never scientific reliability success
+guarantee: With probability at least .95 over IID matched calibration, every certified
+  nonfallback policy across all 105 certificates has matched joint harmful-acceptance
+  risk < .05.
+not_guaranteed:
+- conditional harm
+- BER
+- distribution shift
+- test strata
+- 16QAM
+- different pilot budgets
+- new training seeds
+grids: configs/final/threshold_grids.json
+primary_size_reason:
+  zero_event_min_n: 150
+  largest_passing_harm_count_at_8192: 345
+  joint_event_resolution: 0.0001220703125
+  expected_accepted_at_Amin: 409.6
+  note: analytical planning; sufficient resolution and >200 expected accepts at .05;
+    not an acceptance/power promise
+p1_sizes:
+- 2048
+- 4096
+- 8192
+p1_size_policy: nested prefixes; reuse same nominal algorithm for empirical sensitivity
+  only; no extra simultaneous certificates

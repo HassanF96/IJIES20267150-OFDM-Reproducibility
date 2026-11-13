@@ -1,0 +1,7 @@
+{
+  "release": "v1.0.0",
+  "manuscript": "IJIES 20267150",
+  "source_scope": "bounded implementation and reproducibility artifacts derived from package_v2",
+  "historical_archive_sha256": "cf5a39305213d4a7b7196916f286c4104cf1d00588b5ff0a41bf9e6786f0a211",
+  "training_or_simulation_rerun": false
+}

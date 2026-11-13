@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "split": "calibration",
+  "master_seed": 2026100801,
+  "blocks": [
+    {
+      "block_id": "CAL-MATCHED-01",
+      "frames": 8192,
+      "distribution": "matched_iid"
+    }
+  ]
+}

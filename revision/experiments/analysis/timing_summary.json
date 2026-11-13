@@ -1,0 +1,1710 @@
+{
+  "scope": "Actual fixed calibrated thresholds; 128 independent fresh frames, 30 repeats, all five fixed models; descriptive paired frame-cluster 5000-draw intervals for latency and paired BER difference; exact pointwise Clopper-Pearson event-rate intervals. No real-time claim.",
+  "rows": [
+    {
+      "seed": 5101,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "n": 128,
+      "accepted": 73,
+      "harmful": 4,
+      "useful": 53,
+      "coverage": 0.5703125,
+      "joint_harm": 0.03125,
+      "conditional_harm": 0.0547945205479452,
+      "joint_useful": 0.4140625,
+      "coverage_ci": [
+        0.47986844852208815,
+        0.6574282097785258
+      ],
+      "joint_harm_ci": [
+        0.008578935537261197,
+        0.07807952543847038
+      ],
+      "conditional_harm_ci": [
+        0.01512952383803662,
+        0.13439383435475946
+      ],
+      "joint_useful_ci": [
+        0.3277370662818021,
+        0.5044569930018377
+      ],
+      "bit_errors": 18561,
+      "bits": 172032,
+      "ber": 0.10789271763392858,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.09461850556175061,
+      "p95_nmse": 0.45770351899164763,
+      "paired_ber_difference": -0.0012904575892857143,
+      "paired_ber_difference_ci": [
+        -0.002406674339657739,
+        -0.0003836495535714286
+      ],
+      "accepted_harm_median_db": 0.6551275590496036,
+      "accepted_harm_p95_db": 0.8645581728339841,
+      "accepted_harm_max_db": 0.8862825971865805,
+      "validation_mean_seconds": 0.005433258333333333,
+      "validation_median_seconds": 0.0053247500000000005,
+      "validation_p95_seconds": 0.00593583,
+      "validation_sd_seconds": 0.0007207203780399482,
+      "validation_between_frame_mean_sd": 0.0002287538881150089,
+      "validation_mean_within_frame_repeat_sd": 0.00035882655484280443,
+      "receiver_mean_seconds": 0.005106737005208334,
+      "receiver_median_seconds": 0.00497485,
+      "receiver_p95_seconds": 0.005711615000000001,
+      "receiver_sd_seconds": 0.0007609410879537068,
+      "receiver_between_frame_mean_sd": 0.00027449313744729346,
+      "receiver_mean_within_frame_repeat_sd": 0.00037720385357987106,
+      "receiver_frame_period_ratio": 8.51122834201389,
+      "sequential_frames_per_second": 195.81975711302644,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5101,
+      "study": "Study1",
+      "policy": "g2",
+      "n": 128,
+      "accepted": 60,
+      "harmful": 4,
+      "useful": 50,
+      "coverage": 0.46875,
+      "joint_harm": 0.03125,
+      "conditional_harm": 0.06666666666666667,
+      "joint_useful": 0.390625,
+      "coverage_ci": [
+        0.38003146193943604,
+        0.5589471713346945
+      ],
+      "joint_harm_ci": [
+        0.008578935537261197,
+        0.07807952543847038
+      ],
+      "conditional_harm_ci": [
+        0.018461777575881508,
+        0.1619867551977289
+      ],
+      "joint_useful_ci": [
+        0.3056487814525763,
+        0.480782668516544
+      ],
+      "bit_errors": 18093,
+      "bits": 172032,
+      "ber": 0.10517229352678571,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.06780625868376944,
+      "p95_nmse": 0.22080813965522336,
+      "paired_ber_difference": -0.004010881696428572,
+      "paired_ber_difference_ci": [
+        -0.006045386904761905,
+        -0.002214704241071429
+      ],
+      "accepted_harm_median_db": 1.2812613209984813,
+      "accepted_harm_p95_db": 1.7881745043541537,
+      "accepted_harm_max_db": 1.8367675358829065,
+      "validation_mean_seconds": 0.007642862291666667,
+      "validation_median_seconds": 0.006378900000000001,
+      "validation_p95_seconds": 0.00995879,
+      "validation_sd_seconds": 0.002458545399418164,
+      "validation_between_frame_mean_sd": 0.0019325478152644104,
+      "validation_mean_within_frame_repeat_sd": 0.0005609945409147446,
+      "receiver_mean_seconds": 0.007608757994791667,
+      "receiver_median_seconds": 0.006436300000000001,
+      "receiver_p95_seconds": 0.01003104,
+      "receiver_sd_seconds": 0.0024814359514051354,
+      "receiver_between_frame_mean_sd": 0.0019577366894958413,
+      "receiver_mean_within_frame_repeat_sd": 0.0005960047483788281,
+      "receiver_frame_period_ratio": 12.68126332465278,
+      "sequential_frames_per_second": 131.4274945640955,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5101,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "n": 128,
+      "accepted": 72,
+      "harmful": 3,
+      "useful": 53,
+      "coverage": 0.5625,
+      "joint_harm": 0.0234375,
+      "conditional_harm": 0.041666666666666664,
+      "joint_useful": 0.4140625,
+      "coverage_ci": [
+        0.47206318484653204,
+        0.6499786214372496
+      ],
+      "joint_harm_ci": [
+        0.004859703535723926,
+        0.06696630204545569
+      ],
+      "conditional_harm_ci": [
+        0.008676497316343764,
+        0.11697481982594136
+      ],
+      "joint_useful_ci": [
+        0.3277370662818021,
+        0.5044569930018377
+      ],
+      "bit_errors": 18562,
+      "bits": 172032,
+      "ber": 0.10789853050595238,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.09461309885170095,
+      "p95_nmse": 0.45770351899164763,
+      "paired_ber_difference": -0.0012846447172619048,
+      "paired_ber_difference_ci": [
+        -0.002406529017857143,
+        -0.00038364955357142856
+      ],
+      "accepted_harm_median_db": 0.7414531015026047,
+      "accepted_harm_p95_db": 0.871799647618183,
+      "accepted_harm_max_db": 0.8862825971865805,
+      "validation_mean_seconds": 0.005445717135416667,
+      "validation_median_seconds": 0.0053266,
+      "validation_p95_seconds": 0.0059085050000000005,
+      "validation_sd_seconds": 0.0008965378323691109,
+      "validation_between_frame_mean_sd": 0.00025740491225969555,
+      "validation_mean_within_frame_repeat_sd": 0.0003969847163975867,
+      "receiver_mean_seconds": 0.00510564,
+      "receiver_median_seconds": 0.00498,
+      "receiver_p95_seconds": 0.005671334999999999,
+      "receiver_sd_seconds": 0.0007307139804416061,
+      "receiver_between_frame_mean_sd": 0.00026118113850967663,
+      "receiver_mean_within_frame_repeat_sd": 0.0003795278746813479,
+      "receiver_frame_period_ratio": 8.509400000000001,
+      "sequential_frames_per_second": 195.86183122977727,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5101,
+      "study": "Study2",
+      "policy": "g2_50",
+      "n": 128,
+      "accepted": 52,
+      "harmful": 3,
+      "useful": 45,
+      "coverage": 0.40625,
+      "joint_harm": 0.0234375,
+      "conditional_harm": 0.057692307692307696,
+      "joint_useful": 0.3515625,
+      "coverage_ci": [
+        0.3203522677290259,
+        0.4965873952091142
+      ],
+      "joint_harm_ci": [
+        0.004859703535723926,
+        0.06696630204545569
+      ],
+      "conditional_harm_ci": [
+        0.012059318026738423,
+        0.15947335863859097
+      ],
+      "joint_useful_ci": [
+        0.2692873191767815,
+        0.440877918748175
+      ],
+      "bit_errors": 18149,
+      "bits": 172032,
+      "ber": 0.10549781436011904,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.06981258044558669,
+      "p95_nmse": 0.2965299352890579,
+      "paired_ber_difference": -0.0036853608630952384,
+      "paired_ber_difference_ci": [
+        -0.0056854248046875,
+        -0.001970563616071429
+      ],
+      "accepted_harm_median_db": 1.5128139923578878,
+      "accepted_harm_p95_db": 1.8043721815304046,
+      "accepted_harm_max_db": 1.8367675358829065,
+      "validation_mean_seconds": 0.007391567760416667,
+      "validation_median_seconds": 0.0060962,
+      "validation_p95_seconds": 0.009899899999999998,
+      "validation_sd_seconds": 0.002024042803272377,
+      "validation_between_frame_mean_sd": 0.0018139046178449931,
+      "validation_mean_within_frame_repeat_sd": 0.000455002665994135,
+      "receiver_mean_seconds": 0.0073912514583333346,
+      "receiver_median_seconds": 0.0061079,
+      "receiver_p95_seconds": 0.009982389999999999,
+      "receiver_sd_seconds": 0.0023324293929048844,
+      "receiver_between_frame_mean_sd": 0.0018771111046895607,
+      "receiver_mean_within_frame_repeat_sd": 0.0005919656650827854,
+      "receiver_frame_period_ratio": 12.31875243055556,
+      "sequential_frames_per_second": 135.29508576961493,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5102,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "n": 128,
+      "accepted": 78,
+      "harmful": 6,
+      "useful": 53,
+      "coverage": 0.609375,
+      "joint_harm": 0.046875,
+      "conditional_harm": 0.07692307692307693,
+      "joint_useful": 0.4140625,
+      "coverage_ci": [
+        0.5192173314834561,
+        0.6943512185474237
+      ],
+      "joint_harm_ci": [
+        0.017394056140272493,
+        0.0992351236938912
+      ],
+      "conditional_harm_ci": [
+        0.02875252500153541,
+        0.15994636450061164
+      ],
+      "joint_useful_ci": [
+        0.3277370662818021,
+        0.5044569930018377
+      ],
+      "bit_errors": 18459,
+      "bits": 172032,
+      "ber": 0.1072998046875,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.0874577610406862,
+      "p95_nmse": 0.3992423700290311,
+      "paired_ber_difference": -0.0018833705357142855,
+      "paired_ber_difference_ci": [
+        -0.003144763764880952,
+        -0.0008136567615327399
+      ],
+      "accepted_harm_median_db": 0.815746516119285,
+      "accepted_harm_p95_db": 1.2435171185937817,
+      "accepted_harm_max_db": 1.3130428691115177,
+      "validation_mean_seconds": 0.006000426640625001,
+      "validation_median_seconds": 0.0058919,
+      "validation_p95_seconds": 0.006503795,
+      "validation_sd_seconds": 0.0008018366215179763,
+      "validation_between_frame_mean_sd": 0.0002795560219152204,
+      "validation_mean_within_frame_repeat_sd": 0.0003876266497963656,
+      "receiver_mean_seconds": 0.0056596201302083335,
+      "receiver_median_seconds": 0.0055397,
+      "receiver_p95_seconds": 0.006299864999999999,
+      "receiver_sd_seconds": 0.0007768710716104485,
+      "receiver_between_frame_mean_sd": 0.00029615086018859816,
+      "receiver_mean_within_frame_repeat_sd": 0.000400991082330291,
+      "receiver_frame_period_ratio": 9.43270021701389,
+      "sequential_frames_per_second": 176.6903037648199,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5102,
+      "study": "Study1",
+      "policy": "g2",
+      "n": 128,
+      "accepted": 61,
+      "harmful": 7,
+      "useful": 47,
+      "coverage": 0.4765625,
+      "joint_harm": 0.0546875,
+      "conditional_harm": 0.11475409836065574,
+      "joint_useful": 0.3671875,
+      "coverage_ci": [
+        0.3875864149549102,
+        0.5666475097941699
+      ],
+      "joint_harm_ci": [
+        0.022267145809923405,
+        0.10943205156825679
+      ],
+      "conditional_harm_ci": [
+        0.04740225714641761,
+        0.2222492085364974
+      ],
+      "joint_useful_ci": [
+        0.2837623917553467,
+        0.456908482207943
+      ],
+      "bit_errors": 18151,
+      "bits": 172032,
+      "ber": 0.10550944010416667,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.06886588946782615,
+      "p95_nmse": 0.30168201788838966,
+      "paired_ber_difference": -0.003673735119047619,
+      "paired_ber_difference_ci": [
+        -0.005487496512276786,
+        -0.00208100818452381
+      ],
+      "accepted_harm_median_db": 0.8104891568658212,
+      "accepted_harm_p95_db": 3.112747573656873,
+      "accepted_harm_max_db": 3.407456194240887,
+      "validation_mean_seconds": 0.008502696093750001,
+      "validation_median_seconds": 0.0071363500000000005,
+      "validation_p95_seconds": 0.011084705,
+      "validation_sd_seconds": 0.0027122888942979827,
+      "validation_between_frame_mean_sd": 0.0021540192821984227,
+      "validation_mean_within_frame_repeat_sd": 0.0006712927846062517,
+      "receiver_mean_seconds": 0.008460137760416668,
+      "receiver_median_seconds": 0.00720155,
+      "receiver_p95_seconds": 0.011121205,
+      "receiver_sd_seconds": 0.0025569567346805195,
+      "receiver_between_frame_mean_sd": 0.002149672828996096,
+      "receiver_mean_within_frame_repeat_sd": 0.0006345856263734654,
+      "receiver_frame_period_ratio": 14.10022960069445,
+      "sequential_frames_per_second": 118.20138493238309,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5102,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "n": 128,
+      "accepted": 75,
+      "harmful": 4,
+      "useful": 52,
+      "coverage": 0.5859375,
+      "joint_harm": 0.03125,
+      "conditional_harm": 0.05333333333333334,
+      "joint_useful": 0.40625,
+      "coverage_ci": [
+        0.4955430069981622,
+        0.6722629337181978
+      ],
+      "joint_harm_ci": [
+        0.008578935537261197,
+        0.07807952543847038
+      ],
+      "conditional_harm_ci": [
+        0.014720764659178168,
+        0.13096080727847476
+      ],
+      "joint_useful_ci": [
+        0.3203522677290259,
+        0.4965873952091142
+      ],
+      "bit_errors": 18443,
+      "bits": 172032,
+      "ber": 0.10720679873511904,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.08754593676437605,
+      "p95_nmse": 0.3992423700290311,
+      "paired_ber_difference": -0.001976376488095238,
+      "paired_ber_difference_ci": [
+        -0.003220476422991072,
+        -0.0009299142020089304
+      ],
+      "accepted_harm_median_db": 0.9397522312661313,
+      "accepted_harm_p95_db": 1.2713274188008759,
+      "accepted_harm_max_db": 1.3130428691115177,
+      "validation_mean_seconds": 0.005992406354166668,
+      "validation_median_seconds": 0.005901600000000001,
+      "validation_p95_seconds": 0.006512120000000001,
+      "validation_sd_seconds": 0.000609790799766873,
+      "validation_between_frame_mean_sd": 0.00022581258945297353,
+      "validation_mean_within_frame_repeat_sd": 0.0003376914959496924,
+      "receiver_mean_seconds": 0.005647030989583333,
+      "receiver_median_seconds": 0.00553295,
+      "receiver_p95_seconds": 0.006293714999999998,
+      "receiver_sd_seconds": 0.0006443447515514089,
+      "receiver_between_frame_mean_sd": 0.00025104800843951187,
+      "receiver_mean_within_frame_repeat_sd": 0.0003650884105027547,
+      "receiver_frame_period_ratio": 9.411718315972221,
+      "sequential_frames_per_second": 177.08420616862688,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5102,
+      "study": "Study2",
+      "policy": "g2_50",
+      "n": 128,
+      "accepted": 60,
+      "harmful": 7,
+      "useful": 46,
+      "coverage": 0.46875,
+      "joint_harm": 0.0546875,
+      "conditional_harm": 0.11666666666666667,
+      "joint_useful": 0.359375,
+      "coverage_ci": [
+        0.38003146193943604,
+        0.5589471713346945
+      ],
+      "joint_harm_ci": [
+        0.022267145809923405,
+        0.10943205156825679
+      ],
+      "conditional_harm_ci": [
+        0.048214841871341924,
+        0.22571615314564827
+      ],
+      "joint_useful_ci": [
+        0.27651305772277135,
+        0.4489048411649795
+      ],
+      "bit_errors": 18167,
+      "bits": 172032,
+      "ber": 0.10560244605654762,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.06904931001976464,
+      "p95_nmse": 0.30168201788838966,
+      "paired_ber_difference": -0.003580729166666667,
+      "paired_ber_difference_ci": [
+        -0.005371093749999999,
+        -0.0019763764880952384
+      ],
+      "accepted_harm_median_db": 0.8104891568658212,
+      "accepted_harm_p95_db": 3.112747573656873,
+      "accepted_harm_max_db": 3.407456194240887,
+      "validation_mean_seconds": 0.00841165234375,
+      "validation_median_seconds": 0.007053150000000001,
+      "validation_p95_seconds": 0.011048230000000001,
+      "validation_sd_seconds": 0.002163666390890774,
+      "validation_between_frame_mean_sd": 0.002066217635337265,
+      "validation_mean_within_frame_repeat_sd": 0.00044743026113551205,
+      "receiver_mean_seconds": 0.008384625755208335,
+      "receiver_median_seconds": 0.007053,
+      "receiver_p95_seconds": 0.011147755,
+      "receiver_sd_seconds": 0.002207296746852232,
+      "receiver_between_frame_mean_sd": 0.002096410841682979,
+      "receiver_mean_within_frame_repeat_sd": 0.00047909862862410206,
+      "receiver_frame_period_ratio": 13.974376258680559,
+      "sequential_frames_per_second": 119.2659075306758,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5103,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "n": 128,
+      "accepted": 72,
+      "harmful": 3,
+      "useful": 59,
+      "coverage": 0.5625,
+      "joint_harm": 0.0234375,
+      "conditional_harm": 0.041666666666666664,
+      "joint_useful": 0.4609375,
+      "coverage_ci": [
+        0.47206318484653204,
+        0.6499786214372496
+      ],
+      "joint_harm_ci": [
+        0.004859703535723926,
+        0.06696630204545569
+      ],
+      "conditional_harm_ci": [
+        0.008676497316343764,
+        0.11697481982594136
+      ],
+      "joint_useful_ci": [
+        0.3724973978851511,
+        0.5512260016009147
+      ],
+      "bit_errors": 18539,
+      "bits": 172032,
+      "ber": 0.10776483444940477,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.0974251974773776,
+      "p95_nmse": 0.3992423700290311,
+      "paired_ber_difference": -0.0014183407738095238,
+      "paired_ber_difference_ci": [
+        -0.0023309616815476186,
+        -0.000633603050595238
+      ],
+      "accepted_harm_median_db": 0.5973061360239869,
+      "accepted_harm_p95_db": 0.8454228085143054,
+      "accepted_harm_max_db": 0.8729913276798964,
+      "validation_mean_seconds": 0.004220027161458334,
+      "validation_median_seconds": 0.00412215,
+      "validation_p95_seconds": 0.00463647,
+      "validation_sd_seconds": 0.000618280976045007,
+      "validation_between_frame_mean_sd": 0.00015855335451130437,
+      "validation_mean_within_frame_repeat_sd": 0.00029464143312210356,
+      "receiver_mean_seconds": 0.0038652822916666668,
+      "receiver_median_seconds": 0.0037553,
+      "receiver_p95_seconds": 0.00440621,
+      "receiver_sd_seconds": 0.00046796742572917155,
+      "receiver_between_frame_mean_sd": 0.00016503419919116285,
+      "receiver_mean_within_frame_repeat_sd": 0.00028557430511864565,
+      "receiver_frame_period_ratio": 6.442137152777779,
+      "sequential_frames_per_second": 258.7133162708308,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5103,
+      "study": "Study1",
+      "policy": "g2",
+      "n": 128,
+      "accepted": 71,
+      "harmful": 5,
+      "useful": 58,
+      "coverage": 0.5546875,
+      "joint_harm": 0.0390625,
+      "conditional_harm": 0.07042253521126761,
+      "joint_useful": 0.453125,
+      "coverage_ci": [
+        0.464279091807085,
+        0.642507743719644
+      ],
+      "joint_harm_ci": [
+        0.012803176945744028,
+        0.08880442645593108
+      ],
+      "conditional_harm_ci": [
+        0.023260280930717383,
+        0.15674171725669583
+      ],
+      "joint_useful_ci": [
+        0.36498429872905613,
+        0.5434839394656263
+      ],
+      "bit_errors": 17963,
+      "bits": 172032,
+      "ber": 0.10441662016369048,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.06165247609639512,
+      "p95_nmse": 0.21345731362263273,
+      "paired_ber_difference": -0.00476655505952381,
+      "paired_ber_difference_ci": [
+        -0.006963966006324405,
+        -0.002830868675595238
+      ],
+      "accepted_harm_median_db": 1.1684601571762678,
+      "accepted_harm_p95_db": 1.5516614752489633,
+      "accepted_harm_max_db": 1.5746032331969602,
+      "validation_mean_seconds": 0.005954503802083333,
+      "validation_median_seconds": 0.0066519000000000005,
+      "validation_p95_seconds": 0.007385985,
+      "validation_sd_seconds": 0.001573297166225955,
+      "validation_between_frame_mean_sd": 0.001233568798378555,
+      "validation_mean_within_frame_repeat_sd": 0.0004765368316145752,
+      "receiver_mean_seconds": 0.005924047942708333,
+      "receiver_median_seconds": 0.006563,
+      "receiver_p95_seconds": 0.007501924999999999,
+      "receiver_sd_seconds": 0.0016397232486506993,
+      "receiver_between_frame_mean_sd": 0.0012513097780540755,
+      "receiver_mean_within_frame_repeat_sd": 0.0005379707105446668,
+      "receiver_frame_period_ratio": 9.873413237847222,
+      "sequential_frames_per_second": 168.8034954596981,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5103,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "n": 128,
+      "accepted": 69,
+      "harmful": 3,
+      "useful": 57,
+      "coverage": 0.5390625,
+      "joint_harm": 0.0234375,
+      "conditional_harm": 0.043478260869565216,
+      "joint_useful": 0.4453125,
+      "coverage_ci": [
+        0.4487739983990852,
+        0.6275026021148488
+      ],
+      "joint_harm_ci": [
+        0.004859703535723926,
+        0.06696630204545569
+      ],
+      "conditional_harm_ci": [
+        0.009057607358815035,
+        0.12184714936562367
+      ],
+      "joint_useful_ci": [
+        0.3574922562803559,
+        0.5357209081929151
+      ],
+      "bit_errors": 18592,
+      "bits": 172032,
+      "ber": 0.10807291666666667,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.0985299375983839,
+      "p95_nmse": 0.3992423700290311,
+      "paired_ber_difference": -0.001110258556547619,
+      "paired_ber_difference_ci": [
+        -0.0018775576636904767,
+        -0.00043596540178571436
+      ],
+      "accepted_harm_median_db": 0.5973061360239869,
+      "accepted_harm_p95_db": 0.8454228085143054,
+      "accepted_harm_max_db": 0.8729913276798964,
+      "validation_mean_seconds": 0.004231704583333333,
+      "validation_median_seconds": 0.004116450000000001,
+      "validation_p95_seconds": 0.0046614349999999985,
+      "validation_sd_seconds": 0.0007409242952869958,
+      "validation_between_frame_mean_sd": 0.0001960294857090805,
+      "validation_mean_within_frame_repeat_sd": 0.000337165154775148,
+      "receiver_mean_seconds": 0.0038870070833333333,
+      "receiver_median_seconds": 0.0037535500000000005,
+      "receiver_p95_seconds": 0.004392229999999999,
+      "receiver_sd_seconds": 0.0007273820548329301,
+      "receiver_between_frame_mean_sd": 0.00022847460983888864,
+      "receiver_mean_within_frame_repeat_sd": 0.00036794442323753116,
+      "receiver_frame_period_ratio": 6.47834513888889,
+      "sequential_frames_per_second": 257.2673469744342,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5103,
+      "study": "Study2",
+      "policy": "g2_50",
+      "n": 128,
+      "accepted": 69,
+      "harmful": 4,
+      "useful": 57,
+      "coverage": 0.5390625,
+      "joint_harm": 0.03125,
+      "conditional_harm": 0.057971014492753624,
+      "joint_useful": 0.4453125,
+      "coverage_ci": [
+        0.4487739983990852,
+        0.6275026021148488
+      ],
+      "joint_harm_ci": [
+        0.008578935537261197,
+        0.07807952543847038
+      ],
+      "conditional_harm_ci": [
+        0.01601915853309327,
+        0.14182890779228532
+      ],
+      "joint_useful_ci": [
+        0.3574922562803559,
+        0.5357209081929151
+      ],
+      "bit_errors": 18003,
+      "bits": 172032,
+      "ber": 0.10464913504464286,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.06486769574039476,
+      "p95_nmse": 0.21345731362263273,
+      "paired_ber_difference": -0.004534040178571428,
+      "paired_ber_difference_ci": [
+        -0.00666169666108631,
+        -0.0026736304873511947
+      ],
+      "accepted_harm_median_db": 0.9695737088480032,
+      "accepted_harm_p95_db": 1.5136817717938562,
+      "accepted_harm_max_db": 1.5746032331969602,
+      "validation_mean_seconds": 0.005914483932291668,
+      "validation_median_seconds": 0.00664525,
+      "validation_p95_seconds": 0.007394629999999999,
+      "validation_sd_seconds": 0.0015395741549222176,
+      "validation_between_frame_mean_sd": 0.0012099769535582727,
+      "validation_mean_within_frame_repeat_sd": 0.00048356341234822393,
+      "receiver_mean_seconds": 0.0058773556510416675,
+      "receiver_median_seconds": 0.00655495,
+      "receiver_p95_seconds": 0.00750401,
+      "receiver_sd_seconds": 0.001589587027939959,
+      "receiver_between_frame_mean_sd": 0.001230319195656689,
+      "receiver_mean_within_frame_repeat_sd": 0.0005102694972159798,
+      "receiver_frame_period_ratio": 9.795592751736113,
+      "sequential_frames_per_second": 170.14454448111644,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5104,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "n": 128,
+      "accepted": 72,
+      "harmful": 5,
+      "useful": 58,
+      "coverage": 0.5625,
+      "joint_harm": 0.0390625,
+      "conditional_harm": 0.06944444444444445,
+      "joint_useful": 0.453125,
+      "coverage_ci": [
+        0.47206318484653204,
+        0.6499786214372496
+      ],
+      "joint_harm_ci": [
+        0.012803176945744028,
+        0.08880442645593108
+      ],
+      "conditional_harm_ci": [
+        0.022931659153745478,
+        0.15466731481612303
+      ],
+      "joint_useful_ci": [
+        0.36498429872905613,
+        0.5434839394656263
+      ],
+      "bit_errors": 18542,
+      "bits": 172032,
+      "ber": 0.10778227306547619,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.09390952195846597,
+      "p95_nmse": 0.42174987406695114,
+      "paired_ber_difference": -0.001400902157738095,
+      "paired_ber_difference_ci": [
+        -0.002453031994047619,
+        -0.0005638485863095238
+      ],
+      "accepted_harm_median_db": 1.0210450857919737,
+      "accepted_harm_p95_db": 1.8086935065161953,
+      "accepted_harm_max_db": 1.9795407582064748,
+      "validation_mean_seconds": 0.00562709671875,
+      "validation_median_seconds": 0.00549245,
+      "validation_p95_seconds": 0.006166654999999999,
+      "validation_sd_seconds": 0.0009547146535757109,
+      "validation_between_frame_mean_sd": 0.00034225597333470604,
+      "validation_mean_within_frame_repeat_sd": 0.0004113670021820018,
+      "receiver_mean_seconds": 0.005287257604166667,
+      "receiver_median_seconds": 0.005146950000000001,
+      "receiver_p95_seconds": 0.005916144999999999,
+      "receiver_sd_seconds": 0.0009583876627394359,
+      "receiver_between_frame_mean_sd": 0.0003565547492326236,
+      "receiver_mean_within_frame_repeat_sd": 0.00042608891501872683,
+      "receiver_frame_period_ratio": 8.812096006944445,
+      "sequential_frames_per_second": 189.1339660114048,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5104,
+      "study": "Study1",
+      "policy": "g2",
+      "n": 128,
+      "accepted": 56,
+      "harmful": 3,
+      "useful": 46,
+      "coverage": 0.4375,
+      "joint_harm": 0.0234375,
+      "conditional_harm": 0.05357142857142857,
+      "joint_useful": 0.359375,
+      "coverage_ci": [
+        0.35002137856275034,
+        0.5279368151534679
+      ],
+      "joint_harm_ci": [
+        0.004859703535723926,
+        0.06696630204545569
+      ],
+      "conditional_harm_ci": [
+        0.011186970834174503,
+        0.14867445094719112
+      ],
+      "joint_useful_ci": [
+        0.27651305772277135,
+        0.4489048411649795
+      ],
+      "bit_errors": 18135,
+      "bits": 172032,
+      "ber": 0.10541643415178571,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.07132404473359694,
+      "p95_nmse": 0.2786059312873923,
+      "paired_ber_difference": -0.003766741071428572,
+      "paired_ber_difference_ci": [
+        -0.005766369047619047,
+        -0.0020228794642857145
+      ],
+      "accepted_harm_median_db": 1.7233262774448057,
+      "accepted_harm_p95_db": 3.3280730236803926,
+      "accepted_harm_max_db": 3.506378217706569,
+      "validation_mean_seconds": 0.007781678255208333,
+      "validation_median_seconds": 0.00643175,
+      "validation_p95_seconds": 0.01040213,
+      "validation_sd_seconds": 0.002485401522611531,
+      "validation_between_frame_mean_sd": 0.0019871404641695505,
+      "validation_mean_within_frame_repeat_sd": 0.0005548855230281515,
+      "receiver_mean_seconds": 0.007749613020833335,
+      "receiver_median_seconds": 0.0064692000000000005,
+      "receiver_p95_seconds": 0.010463855000000001,
+      "receiver_sd_seconds": 0.0024557711367002855,
+      "receiver_between_frame_mean_sd": 0.00200077639491369,
+      "receiver_mean_within_frame_repeat_sd": 0.0005771001965129915,
+      "receiver_frame_period_ratio": 12.916021701388892,
+      "sequential_frames_per_second": 129.03870132762674,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5104,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "n": 128,
+      "accepted": 71,
+      "harmful": 4,
+      "useful": 58,
+      "coverage": 0.5546875,
+      "joint_harm": 0.03125,
+      "conditional_harm": 0.056338028169014086,
+      "joint_useful": 0.453125,
+      "coverage_ci": [
+        0.464279091807085,
+        0.642507743719644
+      ],
+      "joint_harm_ci": [
+        0.008578935537261197,
+        0.07807952543847038
+      ],
+      "conditional_harm_ci": [
+        0.015561635041241436,
+        0.13801144322082923
+      ],
+      "joint_useful_ci": [
+        0.36498429872905613,
+        0.5434839394656263
+      ],
+      "bit_errors": 18542,
+      "bits": 172032,
+      "ber": 0.10778227306547619,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.09390319885837776,
+      "p95_nmse": 0.42174987406695114,
+      "paired_ber_difference": -0.001400902157738095,
+      "paired_ber_difference_ci": [
+        -0.002453031994047619,
+        -0.0005638485863095238
+      ],
+      "accepted_harm_median_db": 0.9456582271250862,
+      "accepted_harm_p95_db": 1.1096655876606123,
+      "accepted_harm_max_db": 1.125304499755078,
+      "validation_mean_seconds": 0.005593289973958334,
+      "validation_median_seconds": 0.00549185,
+      "validation_p95_seconds": 0.006157615,
+      "validation_sd_seconds": 0.0004647304855505516,
+      "validation_between_frame_mean_sd": 0.00022357667465967975,
+      "validation_mean_within_frame_repeat_sd": 0.000295766865048565,
+      "receiver_mean_seconds": 0.005267346770833334,
+      "receiver_median_seconds": 0.005155150000000001,
+      "receiver_p95_seconds": 0.005912855,
+      "receiver_sd_seconds": 0.0005233514585276277,
+      "receiver_between_frame_mean_sd": 0.00025255493571596407,
+      "receiver_mean_within_frame_repeat_sd": 0.00032559607879173794,
+      "receiver_frame_period_ratio": 8.778911284722223,
+      "sequential_frames_per_second": 189.84890182990412,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5104,
+      "study": "Study2",
+      "policy": "g2_50",
+      "n": 128,
+      "accepted": 53,
+      "harmful": 3,
+      "useful": 44,
+      "coverage": 0.4140625,
+      "joint_harm": 0.0234375,
+      "conditional_harm": 0.05660377358490566,
+      "joint_useful": 0.34375,
+      "coverage_ci": [
+        0.3277370662818021,
+        0.5044569930018377
+      ],
+      "joint_harm_ci": [
+        0.004859703535723926,
+        0.06696630204545569
+      ],
+      "conditional_harm_ci": [
+        0.011828718859133636,
+        0.15662946217237497
+      ],
+      "joint_useful_ci": [
+        0.26208553426469455,
+        0.4328273822887302
+      ],
+      "bit_errors": 18149,
+      "bits": 172032,
+      "ber": 0.10549781436011904,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.07206294511515524,
+      "p95_nmse": 0.2798875388673489,
+      "paired_ber_difference": -0.003685360863095238,
+      "paired_ber_difference_ci": [
+        -0.005685134161086309,
+        -0.0019763764880952384
+      ],
+      "accepted_harm_median_db": 1.7233262774448057,
+      "accepted_harm_p95_db": 3.3280730236803926,
+      "accepted_harm_max_db": 3.506378217706569,
+      "validation_mean_seconds": 0.007682664088541667,
+      "validation_median_seconds": 0.0063238,
+      "validation_p95_seconds": 0.0104448,
+      "validation_sd_seconds": 0.002170250444004072,
+      "validation_between_frame_mean_sd": 0.0019152832871816034,
+      "validation_mean_within_frame_repeat_sd": 0.0005387353526641495,
+      "receiver_mean_seconds": 0.007649335833333334,
+      "receiver_median_seconds": 0.006342550000000001,
+      "receiver_p95_seconds": 0.010456499999999999,
+      "receiver_sd_seconds": 0.0022018156628655938,
+      "receiver_between_frame_mean_sd": 0.0019348797389634957,
+      "receiver_mean_within_frame_repeat_sd": 0.0005327531553506575,
+      "receiver_frame_period_ratio": 12.748893055555557,
+      "sequential_frames_per_second": 130.73030414514201,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5105,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "n": 128,
+      "accepted": 71,
+      "harmful": 5,
+      "useful": 51,
+      "coverage": 0.5546875,
+      "joint_harm": 0.0390625,
+      "conditional_harm": 0.07042253521126761,
+      "joint_useful": 0.3984375,
+      "coverage_ci": [
+        0.464279091807085,
+        0.642507743719644
+      ],
+      "joint_harm_ci": [
+        0.012803176945744028,
+        0.08880442645593108
+      ],
+      "conditional_harm_ci": [
+        0.023260280930717383,
+        0.15674171725669583
+      ],
+      "joint_useful_ci": [
+        0.31298943397935797,
+        0.4886960196106001
+      ],
+      "bit_errors": 18328,
+      "bits": 172032,
+      "ber": 0.10653831845238096,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.0855635260742764,
+      "p95_nmse": 0.39010468454452674,
+      "paired_ber_difference": -0.002644856770833333,
+      "paired_ber_difference_ci": [
+        -0.004289899553571429,
+        -0.0012497674851190475
+      ],
+      "accepted_harm_median_db": 1.0848967985553613,
+      "accepted_harm_p95_db": 1.5112990229147134,
+      "accepted_harm_max_db": 1.6034146791147545,
+      "validation_mean_seconds": 0.004215988411458334,
+      "validation_median_seconds": 0.0041162,
+      "validation_p95_seconds": 0.004626364999999999,
+      "validation_sd_seconds": 0.0004318070537439307,
+      "validation_between_frame_mean_sd": 0.00013871123257261337,
+      "validation_mean_within_frame_repeat_sd": 0.0002774772205208594,
+      "receiver_mean_seconds": 0.0038776351302083336,
+      "receiver_median_seconds": 0.0037549000000000003,
+      "receiver_p95_seconds": 0.004431919999999999,
+      "receiver_sd_seconds": 0.0004965523358444664,
+      "receiver_between_frame_mean_sd": 0.00018459674726723976,
+      "receiver_mean_within_frame_repeat_sd": 0.0003164734531719898,
+      "receiver_frame_period_ratio": 6.46272521701389,
+      "sequential_frames_per_second": 257.88914284626696,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5105,
+      "study": "Study1",
+      "policy": "g2",
+      "n": 128,
+      "accepted": 57,
+      "harmful": 6,
+      "useful": 47,
+      "coverage": 0.4453125,
+      "joint_harm": 0.046875,
+      "conditional_harm": 0.10526315789473684,
+      "joint_useful": 0.3671875,
+      "coverage_ci": [
+        0.3574922562803559,
+        0.5357209081929151
+      ],
+      "joint_harm_ci": [
+        0.017394056140272493,
+        0.0992351236938912
+      ],
+      "conditional_harm_ci": [
+        0.03962153585008079,
+        0.21516360480210336
+      ],
+      "joint_useful_ci": [
+        0.2837623917553467,
+        0.456908482207943
+      ],
+      "bit_errors": 18080,
+      "bits": 172032,
+      "ber": 0.10509672619047619,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.06808120537232153,
+      "p95_nmse": 0.29787470116592313,
+      "paired_ber_difference": -0.004086449032738095,
+      "paired_ber_difference_ci": [
+        -0.005958193824404761,
+        -0.0024704706101190475
+      ],
+      "accepted_harm_median_db": 1.072560961766722,
+      "accepted_harm_p95_db": 3.4238578045753005,
+      "accepted_harm_max_db": 3.9390793382545963,
+      "validation_mean_seconds": 0.005706763359375001,
+      "validation_median_seconds": 0.0048942000000000005,
+      "validation_p95_seconds": 0.007354205000000001,
+      "validation_sd_seconds": 0.0016073715631830037,
+      "validation_between_frame_mean_sd": 0.001222386590071923,
+      "validation_mean_within_frame_repeat_sd": 0.00047227043710569073,
+      "receiver_mean_seconds": 0.005678945364583334,
+      "receiver_median_seconds": 0.004888450000000001,
+      "receiver_p95_seconds": 0.00744502,
+      "receiver_sd_seconds": 0.0017741825824923272,
+      "receiver_between_frame_mean_sd": 0.0012690832455648623,
+      "receiver_mean_within_frame_repeat_sd": 0.0005369930380607391,
+      "receiver_frame_period_ratio": 9.464908940972224,
+      "sequential_frames_per_second": 176.08903340336508,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5105,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "n": 128,
+      "accepted": 71,
+      "harmful": 5,
+      "useful": 51,
+      "coverage": 0.5546875,
+      "joint_harm": 0.0390625,
+      "conditional_harm": 0.07042253521126761,
+      "joint_useful": 0.3984375,
+      "coverage_ci": [
+        0.464279091807085,
+        0.642507743719644
+      ],
+      "joint_harm_ci": [
+        0.012803176945744028,
+        0.08880442645593108
+      ],
+      "conditional_harm_ci": [
+        0.023260280930717383,
+        0.15674171725669583
+      ],
+      "joint_useful_ci": [
+        0.31298943397935797,
+        0.4886960196106001
+      ],
+      "bit_errors": 18328,
+      "bits": 172032,
+      "ber": 0.10653831845238096,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.0855635260742764,
+      "p95_nmse": 0.39010468454452674,
+      "paired_ber_difference": -0.002644856770833333,
+      "paired_ber_difference_ci": [
+        -0.004289899553571429,
+        -0.0012497674851190475
+      ],
+      "accepted_harm_median_db": 1.0848967985553613,
+      "accepted_harm_p95_db": 1.5112990229147134,
+      "accepted_harm_max_db": 1.6034146791147545,
+      "validation_mean_seconds": 0.004234155416666667,
+      "validation_median_seconds": 0.004119950000000001,
+      "validation_p95_seconds": 0.004646634999999999,
+      "validation_sd_seconds": 0.000573685252114524,
+      "validation_between_frame_mean_sd": 0.00016276022672423562,
+      "validation_mean_within_frame_repeat_sd": 0.0003413044818581794,
+      "receiver_mean_seconds": 0.0038869849218750004,
+      "receiver_median_seconds": 0.0037616000000000004,
+      "receiver_p95_seconds": 0.004438105,
+      "receiver_sd_seconds": 0.0006169468459824086,
+      "receiver_between_frame_mean_sd": 0.00019820394902496957,
+      "receiver_mean_within_frame_repeat_sd": 0.000357381909640264,
+      "receiver_frame_period_ratio": 6.478308203125001,
+      "sequential_frames_per_second": 257.26881377188903,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    },
+    {
+      "seed": 5105,
+      "study": "Study2",
+      "policy": "g2_50",
+      "n": 128,
+      "accepted": 50,
+      "harmful": 3,
+      "useful": 43,
+      "coverage": 0.390625,
+      "joint_harm": 0.0234375,
+      "conditional_harm": 0.06,
+      "joint_useful": 0.3359375,
+      "coverage_ci": [
+        0.3056487814525763,
+        0.480782668516544
+      ],
+      "joint_harm_ci": [
+        0.004859703535723926,
+        0.06696630204545569
+      ],
+      "conditional_harm_ci": [
+        0.01254858783533406,
+        0.16548194660377288
+      ],
+      "joint_useful_ci": [
+        0.25490808989541663,
+        0.42475287197245004
+      ],
+      "bit_errors": 18130,
+      "bits": 172032,
+      "ber": 0.10538736979166667,
+      "fallback_ber": 0.10918317522321429,
+      "mean_nmse": 0.07034164616994408,
+      "p95_nmse": 0.3163197609275998,
+      "paired_ber_difference": -0.003795805431547619,
+      "paired_ber_difference_ci": [
+        -0.005603753952752978,
+        -0.0021971203031994064
+      ],
+      "accepted_harm_median_db": 1.002285525418894,
+      "accepted_harm_p95_db": 1.1287813108449842,
+      "accepted_harm_max_db": 1.1428363981145497,
+      "validation_mean_seconds": 0.005579605260416667,
+      "validation_median_seconds": 0.004718700000000001,
+      "validation_p95_seconds": 0.007302624999999996,
+      "validation_sd_seconds": 0.0014972152403581991,
+      "validation_between_frame_mean_sd": 0.001218983743222844,
+      "validation_mean_within_frame_repeat_sd": 0.0004456611607778964,
+      "receiver_mean_seconds": 0.0055374422656249995,
+      "receiver_median_seconds": 0.004677250000000001,
+      "receiver_p95_seconds": 0.0073807299999999985,
+      "receiver_sd_seconds": 0.0015831457632223345,
+      "receiver_between_frame_mean_sd": 0.0012451244130949437,
+      "receiver_mean_within_frame_repeat_sd": 0.00047178700904174076,
+      "receiver_frame_period_ratio": 9.229070442708334,
+      "sequential_frames_per_second": 180.5887902809822,
+      "paired_ber_interval_method": "5000-draw paired whole-frame percentile bootstrap"
+    }
+  ],
+  "intervals": [
+    {
+      "seed": 5101,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "validation",
+      "mean_seconds": 0.005433258333333333,
+      "ci_seconds": [
+        0.005395466332682291,
+        0.005473973341145835
+      ]
+    },
+    {
+      "seed": 5101,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "receiver",
+      "mean_seconds": 0.005106737005208334,
+      "ci_seconds": [
+        0.005061151447265625,
+        0.0051559824915364625
+      ]
+    },
+    {
+      "seed": 5101,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "validation",
+      "mean_seconds": 0.007642862291666667,
+      "ci_seconds": [
+        0.007308135291015623,
+        0.007980381767578124
+      ]
+    },
+    {
+      "seed": 5101,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "receiver",
+      "mean_seconds": 0.007608757994791667,
+      "ci_seconds": [
+        0.007268742343750002,
+        0.007950422609374997
+      ]
+    },
+    {
+      "seed": 5101,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "validation",
+      "mean_seconds": 0.005445717135416667,
+      "ci_seconds": [
+        0.0054042070279947925,
+        0.005493261504557294
+      ]
+    },
+    {
+      "seed": 5101,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "receiver",
+      "mean_seconds": 0.00510564,
+      "ci_seconds": [
+        0.005062645682291667,
+        0.00515233302278646
+      ]
+    },
+    {
+      "seed": 5101,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "validation",
+      "mean_seconds": 0.007391567760416667,
+      "ci_seconds": [
+        0.007078962046875,
+        0.007707198265625
+      ]
+    },
+    {
+      "seed": 5101,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "receiver",
+      "mean_seconds": 0.0073912514583333346,
+      "ci_seconds": [
+        0.007072112585286458,
+        0.007715860656249999
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "validation",
+      "mean_seconds": 0.006000426640625001,
+      "ci_seconds": [
+        0.005955762891276041,
+        0.00605192893359375
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "receiver",
+      "mean_seconds": 0.005659620130208334,
+      "ci_seconds": [
+        0.0056114535631510394,
+        0.005713675309895835
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "validation",
+      "mean_seconds": 0.008502696093750001,
+      "ci_seconds": [
+        0.008136832122395833,
+        0.008878770341796875
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "receiver",
+      "mean_seconds": 0.008460137760416667,
+      "ci_seconds": [
+        0.008093674041015627,
+        0.008836582766927082
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "validation",
+      "mean_seconds": 0.005992406354166667,
+      "ci_seconds": [
+        0.0059540161653645835,
+        0.006031769439453126
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "receiver",
+      "mean_seconds": 0.0056470309895833345,
+      "ci_seconds": [
+        0.0056033985930989605,
+        0.0056910413671875
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "validation",
+      "mean_seconds": 0.00841165234375,
+      "ci_seconds": [
+        0.008064384772786457,
+        0.008767381173828125
+      ]
+    },
+    {
+      "seed": 5102,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "receiver",
+      "mean_seconds": 0.008384625755208333,
+      "ci_seconds": [
+        0.008033833004557291,
+        0.008744456076822914
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "validation",
+      "mean_seconds": 0.004220027161458334,
+      "ci_seconds": [
+        0.004194787384114583,
+        0.00424906059765625
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "receiver",
+      "mean_seconds": 0.0038652822916666668,
+      "ci_seconds": [
+        0.0038372126569010422,
+        0.003895064483723959
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "validation",
+      "mean_seconds": 0.005954503802083334,
+      "ci_seconds": [
+        0.005743377266276043,
+        0.006167775070963542
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "receiver",
+      "mean_seconds": 0.005924047942708334,
+      "ci_seconds": [
+        0.005707837341796875,
+        0.006141132541015622
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "validation",
+      "mean_seconds": 0.004231704583333334,
+      "ci_seconds": [
+        0.004200859444661458,
+        0.004267576598307292
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "receiver",
+      "mean_seconds": 0.0038870070833333333,
+      "ci_seconds": [
+        0.0038497749179687507,
+        0.003928885766927082
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "validation",
+      "mean_seconds": 0.005914483932291667,
+      "ci_seconds": [
+        0.005708902388671876,
+        0.006119992739583333
+      ]
+    },
+    {
+      "seed": 5103,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "receiver",
+      "mean_seconds": 0.0058773556510416675,
+      "ci_seconds": [
+        0.005666736393229164,
+        0.0060878559375
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "validation",
+      "mean_seconds": 0.00562709671875,
+      "ci_seconds": [
+        0.005573759453125001,
+        0.005691329253906253
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "receiver",
+      "mean_seconds": 0.005287257604166667,
+      "ci_seconds": [
+        0.005230659184895833,
+        0.005353833757161459
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "validation",
+      "mean_seconds": 0.007781678255208334,
+      "ci_seconds": [
+        0.0074392762324218785,
+        0.00812698566341146
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "receiver",
+      "mean_seconds": 0.007749613020833334,
+      "ci_seconds": [
+        0.007404294964192709,
+        0.008096036782552083
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "validation",
+      "mean_seconds": 0.005593289973958334,
+      "ci_seconds": [
+        0.005555484619140626,
+        0.005633298346354165
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "receiver",
+      "mean_seconds": 0.005267346770833334,
+      "ci_seconds": [
+        0.005223899723958334,
+        0.005311353060546878
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "validation",
+      "mean_seconds": 0.0076826640885416676,
+      "ci_seconds": [
+        0.007349251048177085,
+        0.008021169251302081
+      ]
+    },
+    {
+      "seed": 5104,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "receiver",
+      "mean_seconds": 0.007649335833333335,
+      "ci_seconds": [
+        0.007311305961588543,
+        0.007991420298177085
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "validation",
+      "mean_seconds": 0.004215988411458333,
+      "ci_seconds": [
+        0.004193209802734376,
+        0.004240628771484377
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study1",
+      "policy": "g3_hard",
+      "boundary": "receiver",
+      "mean_seconds": 0.0038776351302083336,
+      "ci_seconds": [
+        0.003846681396484377,
+        0.003910121285807292
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "validation",
+      "mean_seconds": 0.005706763359375,
+      "ci_seconds": [
+        0.005491101033854167,
+        0.005923361610026042
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study1",
+      "policy": "g2",
+      "boundary": "receiver",
+      "mean_seconds": 0.0056789453645833335,
+      "ci_seconds": [
+        0.0054558116796875,
+        0.005904568008463541
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "validation",
+      "mean_seconds": 0.004234155416666666,
+      "ci_seconds": [
+        0.004207333004557293,
+        0.004262488585937502
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study2",
+      "policy": "joint_d0.5",
+      "boundary": "receiver",
+      "mean_seconds": 0.003886984921875,
+      "ci_seconds": [
+        0.0038542611783854174,
+        0.003922522675781251
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "validation",
+      "mean_seconds": 0.005579605260416667,
+      "ci_seconds": [
+        0.00536829769986979,
+        0.005792925916666668
+      ]
+    },
+    {
+      "seed": 5105,
+      "study": "Study2",
+      "policy": "g2_50",
+      "boundary": "receiver",
+      "mean_seconds": 0.0055374422656249995,
+      "ci_seconds": [
+        0.005319636472656251,
+        0.00575236790559896
+      ]
+    }
+  ],
+  "mixture": [
+    {
+      "study": "Study1",
+      "boundary": "validation",
+      "g3_seconds": 0.0050993594531250006,
+      "g2_seconds": 0.007117700760416667,
+      "g3_ci": [
+        0.005067616834765627,
+        0.005135078863151042
+      ],
+      "g2_ci": [
+        0.0068589119679687525,
+        0.007382396713281251
+      ],
+      "g3_to_g2_ratio": 0.7164335260459146,
+      "ratio_ci": [
+        0.6924200309776694,
+        0.7420400012152599
+      ],
+      "difference_ci": [
+        -0.0022671190368489585,
+        -0.0017692036955729176
+      ],
+      "g3_frame_period_ratio": 8.498932421875002,
+      "g2_frame_period_ratio": 11.862834600694447
+    },
+    {
+      "study": "Study1",
+      "boundary": "receiver",
+      "g3_seconds": 0.004759306432291667,
+      "g2_seconds": 0.007084300416666666,
+      "g3_ci": [
+        0.004720962221744792,
+        0.0048001739968750005
+      ],
+      "g2_ci": [
+        0.0068195501109375,
+        0.007350878505208334
+      ],
+      "g3_to_g2_ratio": 0.6718103626851888,
+      "ratio_ci": [
+        0.6491202875104369,
+        0.6963273390440762
+      ],
+      "difference_ci": [
+        -0.00257764319830729,
+        -0.0020707940364583345
+      ],
+      "g3_frame_period_ratio": 7.932177387152779,
+      "g2_frame_period_ratio": 11.807167361111112
+    },
+    {
+      "study": "Study2",
+      "boundary": "validation",
+      "g3_seconds": 0.005099454692708334,
+      "g2_seconds": 0.006995994677083334,
+      "g3_ci": [
+        0.005069300005729168,
+        0.005132372712630209
+      ],
+      "g2_ci": [
+        0.006747780775000001,
+        0.007250834133072917
+      ],
+      "g3_to_g2_ratio": 0.7289106021496178,
+      "ratio_ci": [
+        0.704504334548651,
+        0.7543941435166353
+      ],
+      "difference_ci": [
+        -0.0021425653716145854,
+        -0.0016584455167968732
+      ],
+      "g3_frame_period_ratio": 8.499091154513891,
+      "g2_frame_period_ratio": 11.659991128472225
+    },
+    {
+      "study": "Study2",
+      "boundary": "receiver",
+      "g3_seconds": 0.004758801953125001,
+      "g2_seconds": 0.006968002192708334,
+      "g3_ci": [
+        0.004723439151822917,
+        0.004795635659114583
+      ],
+      "g2_ci": [
+        0.006715837789192709,
+        0.007227086007031251
+      ],
+      "g3_to_g2_ratio": 0.6829506968446206,
+      "ratio_ci": [
+        0.6599205161796601,
+        0.7072084678342406
+      ],
+      "difference_ci": [
+        -0.0024584960165364603,
+        -0.001967428802213543
+      ],
+      "g3_frame_period_ratio": 7.931336588541669,
+      "g2_frame_period_ratio": 11.613336987847223
+    }
+  ],
+  "raw_measurements": 76800
+}

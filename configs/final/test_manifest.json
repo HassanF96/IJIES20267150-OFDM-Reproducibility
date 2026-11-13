@@ -1,0 +1,5901 @@
+{
+  "version": 1,
+  "split": "test",
+  "master_seed": 2026100802,
+  "blocks": [
+    {
+      "block_id": "P0-GATES-01",
+      "experiment_id": "P0-GATES-01",
+      "frames": 8192,
+      "distribution": "matched_iid"
+    },
+    {
+      "block_id": "P0-MATCHED-01-C000",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C001",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C002",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C003",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C004",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C005",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C006",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C007",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C008",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C009",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C010",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C011",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C012",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C013",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C014",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C015",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C016",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C017",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C018",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C019",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C020",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C021",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C022",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C023",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C024",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C025",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C026",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-MATCHED-01-C027",
+      "experiment_id": "P0-MATCHED-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C000",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C001",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C002",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C003",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C004",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C005",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C006",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C007",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C008",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C009",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C010",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C011",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C012",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C013",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C014",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C015",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C016",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C017",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C018",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C019",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C020",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C021",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C022",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C023",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C024",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C025",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C026",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C027",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "B",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C028",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C029",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C030",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C031",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C032",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C033",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C034",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C035",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C036",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C037",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C038",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C039",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C040",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C041",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C042",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C043",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C044",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C045",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C046",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C047",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C048",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C049",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C050",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C051",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C052",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C053",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C054",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-CHANSHIFT-01-C055",
+      "experiment_id": "P0-CHANSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-INTSHIFT-01-C000",
+      "experiment_id": "P0-INTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-INTSHIFT-01-C001",
+      "experiment_id": "P0-INTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-INTSHIFT-01-C002",
+      "experiment_id": "P0-INTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-INTSHIFT-01-C003",
+      "experiment_id": "P0-INTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-INTSHIFT-01-C004",
+      "experiment_id": "P0-INTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-INTSHIFT-01-C005",
+      "experiment_id": "P0-INTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-INTSHIFT-01-C006",
+      "experiment_id": "P0-INTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C000",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_8_0.25",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C001",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_8_0.5",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C002",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_8_1.0",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C003",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_32_0.25",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C004",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_32_0.5",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C005",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_32_1.0",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C006",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_128_0.25",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C007",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_128_0.5",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C008",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_128_1.0",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C009",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_8_0.25",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C010",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_8_0.5",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C011",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_8_1.0",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C012",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_32_0.25",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C013",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_32_0.5",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C014",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_32_1.0",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C015",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_128_0.25",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C016",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_128_0.5",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C017",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_128_1.0",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C018",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_8_0.25",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C019",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_8_0.5",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C020",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_8_1.0",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C021",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_32_0.25",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C022",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_32_0.5",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C023",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_32_1.0",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C024",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_128_0.25",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C025",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_128_0.5",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C026",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_128_1.0",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C027",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_8_0.25",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C028",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_8_0.5",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C029",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_8_1.0",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C030",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_32_0.25",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C031",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_32_0.5",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C032",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_32_1.0",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C033",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_128_0.25",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C034",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_128_0.5",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C035",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_128_1.0",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C036",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_8_0.25",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C037",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_8_0.5",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C038",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_8_1.0",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C039",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_32_0.25",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C040",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_32_0.5",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C041",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_32_1.0",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C042",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_128_0.25",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C043",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_128_0.5",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C044",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_128_1.0",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C045",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_8_0.25",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C046",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_8_0.5",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C047",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_8_1.0",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C048",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_32_0.25",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C049",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_32_0.5",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C050",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_32_1.0",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C051",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_128_0.25",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C052",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_128_0.5",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C053",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_128_1.0",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C054",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_8_0.25",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C055",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_8_0.5",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C056",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_8_1.0",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C057",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_32_0.25",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C058",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_32_0.5",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C059",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_32_1.0",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C060",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_128_0.25",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C061",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_128_0.5",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C062",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_0_128_1.0",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C063",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_8_0.25",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C064",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_8_0.5",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C065",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_8_1.0",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C066",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_32_0.25",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C067",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_32_0.5",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C068",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_32_1.0",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C069",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_128_0.25",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C070",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_128_0.5",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C071",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_10_128_1.0",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C072",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_8_0.25",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C073",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_8_0.5",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C074",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_8_1.0",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C075",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_32_0.25",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C076",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_32_0.5",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C077",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_32_1.0",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C078",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_128_0.25",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C079",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_128_0.5",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C080",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "sweep_20_128_1.0",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C081",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_8_0.25",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C082",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_8_0.5",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C083",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_8_1.0",
+          "inr_db": 0,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C084",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_32_0.25",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C085",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_32_0.5",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C086",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_32_1.0",
+          "inr_db": 0,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C087",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_128_0.25",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C088",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_128_0.5",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C089",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_0_128_1.0",
+          "inr_db": 0,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C090",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_8_0.25",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C091",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_8_0.5",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C092",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_8_1.0",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C093",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_32_0.25",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C094",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_32_0.5",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C095",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_32_1.0",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C096",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_128_0.25",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C097",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_128_0.5",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C098",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_10_128_1.0",
+          "inr_db": 10,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C099",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_8_0.25",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C100",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_8_0.5",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C101",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_8_1.0",
+          "inr_db": 20,
+          "duration": 8,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C102",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_32_0.25",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C103",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_32_0.5",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C104",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_32_1.0",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C105",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_128_0.25",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.25
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C106",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_128_0.5",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-BURST-01-C107",
+      "experiment_id": "P0-BURST-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "sweep_20_128_1.0",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C000",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C001",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C002",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C003",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C004",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C005",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C006",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C007",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C008",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C009",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C010",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C011",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C012",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C013",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C014",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C015",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C016",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C017",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C018",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C019",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C020",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C021",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C022",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C023",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C024",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C025",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C026",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-16QAM-01-C027",
+      "experiment_id": "P0-16QAM-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "16QAM",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P0-COST-01",
+      "experiment_id": "P0-COST-01",
+      "frames": 128,
+      "distribution": "matched_iid"
+    },
+    {
+      "block_id": "P1-JOINTSHIFT-01-C000",
+      "experiment_id": "P1-JOINTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": -5,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-JOINTSHIFT-01-C001",
+      "experiment_id": "P1-JOINTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 0,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-JOINTSHIFT-01-C002",
+      "experiment_id": "P1-JOINTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 5,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-JOINTSHIFT-01-C003",
+      "experiment_id": "P1-JOINTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 10,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-JOINTSHIFT-01-C004",
+      "experiment_id": "P1-JOINTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 15,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-JOINTSHIFT-01-C005",
+      "experiment_id": "P1-JOINTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 20,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-JOINTSHIFT-01-C006",
+      "experiment_id": "P1-JOINTSHIFT-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 8,
+        "snr_db": 25,
+        "burst": {
+          "id": "stress20",
+          "inr_db": 20,
+          "duration": 128,
+          "probability": 1.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C000",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C001",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C002",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C003",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C004",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C005",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C006",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C007",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C008",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C009",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C010",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C011",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C012",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C013",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C014",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C015",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C016",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C017",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C018",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C019",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C020",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C021",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C022",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C023",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C024",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C025",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C026",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C027",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C028",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C029",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C030",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C031",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C032",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C033",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C034",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C035",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C036",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C037",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C038",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C039",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C040",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C041",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C042",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C043",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C044",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C045",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C046",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C047",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C048",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C049",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C050",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C051",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C052",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C053",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C054",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C055",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "A",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C056",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C057",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C058",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C059",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C060",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C061",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C062",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C063",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C064",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C065",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C066",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C067",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C068",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C069",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C070",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C071",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C072",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C073",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C074",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C075",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C076",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C077",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C078",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C079",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C080",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C081",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C082",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C083",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 4,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C084",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C085",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C086",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C087",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": -5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C088",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C089",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C090",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C091",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 0,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C092",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C093",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C094",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C095",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 5,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C096",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C097",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C098",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C099",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 10,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C100",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C101",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C102",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C103",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 15,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C104",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C105",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C106",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C107",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 20,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C108",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "none",
+          "inr_db": 0,
+          "duration": 1,
+          "probability": 0.0
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C109",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "short10",
+          "inr_db": 10,
+          "duration": 8,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C110",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "long10",
+          "inr_db": 10,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    },
+    {
+      "block_id": "P1-PILOTS-01-C111",
+      "experiment_id": "P1-PILOTS-01",
+      "frames": 512,
+      "cell": {
+        "family": "C",
+        "modulation": "QPSK",
+        "stride": 16,
+        "snr_db": 25,
+        "burst": {
+          "id": "long20",
+          "inr_db": 20,
+          "duration": 32,
+          "probability": 0.5
+        }
+      }
+    }
+  ]
+}

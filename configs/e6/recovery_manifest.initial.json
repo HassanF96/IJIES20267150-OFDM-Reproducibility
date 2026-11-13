@@ -1,0 +1,31 @@
+{
+  "label": "DEVELOPMENT — NOT FINAL RESEARCH RESULT",
+  "binding": "ef47d7167e45205361c86a9607d64431498bc066f818814b9856659e19061ecd",
+  "files": {
+    "scripts/run_e6_recovery.py": "3a324a60350feed6f5232ce8c61be257fa26a41007a20ac72e585bf6620aed9a",
+    "scripts/run_e6_comparators.py": "1e03962c76c08666d96c97da3879eb42b63ea23f6baddc608c68a2b26782499a",
+    "src/e6/comparators.py": "6c6b46f34fb413b14e9f941971a47d0dd45ba74d41c8527ed756ad32734382c1",
+    "E6_TRAINING_RECOVERY_PROTOCOL.md": "2c2d9cdf68260a55f5a6522079f553c92d0969421454f6a1eafa6e6a817c285d",
+    "configs/e6/comparator_manifest.json": "89b9ab2e38a4e3350f27211b9b25590f37f7703c69a22b3718caf1705f11df4a",
+    "configs/e6/execution_manifest.json": "75f149648fbe36257a774f6e2f3864693cfd413ec63bb75fad2dcdd8f029f508"
+  },
+  "training": {
+    "max_epochs": 120,
+    "patience": 50,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "adam_epsilon": 1e-07,
+    "lr_patience": 40,
+    "lr_factor": 0.8,
+    "lr_min": 1e-05,
+    "loss": "unnormalized MSE"
+  },
+  "seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105
+  ],
+  "protocol_commit": "f5b6794be27c4d1150df38f5435dad9957e02a91"
+}

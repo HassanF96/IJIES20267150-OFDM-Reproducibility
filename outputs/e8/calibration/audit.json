@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-03T17:24:30.242049+00:00",
+  "protocol_sha256": "12f00e254473a067024eba32dcde6368b97fe59b12f38eeb5639cdcd93522e6a",
+  "frames": 8192,
+  "seeds": [
+    5101,
+    5102,
+    5103,
+    5104,
+    5105
+  ],
+  "certificates": 105,
+  "shard_inventory_sha256": "13f163d41fb8363157642668fd9a24cb84b0a67e26e3711060a490148d80dd6f",
+  "certificate_sha256": "f9289c36606c9560fb8f7c38c075d9284ef621ff5e08bdea69495bc324c10121",
+  "selected_thresholds_sha256": "aeed8f9482ecd0913827db4638190bab9442f40afc7c57c49321fb718b4a31ac",
+  "test_accessed": false
+}

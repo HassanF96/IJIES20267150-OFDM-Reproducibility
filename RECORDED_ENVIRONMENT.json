@@ -1,0 +1,16 @@
+{
+  "python": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "cpu_count": 12,
+  "ram_bytes": 34194378752,
+  "threads": 1,
+  "libraries": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "torch": "2.14.0+cu126",
+    "sionna-no-rt": "2.2.0",
+    "pandas": "3.0.6"
+  },
+  "provenance": "Recorded execution environment for the retained post-review experiment, not a new timing measurement."
+}

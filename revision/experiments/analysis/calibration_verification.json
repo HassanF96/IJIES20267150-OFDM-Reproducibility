@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "tested_rows": 2040,
+  "policies": 20,
+  "source_sha256": "d344e8403b3c3bba03e22f2c75577dc3c686389e11fc4045df842bcbe53e0d6f",
+  "independent_binomial_and_raw_replay": true
+}

@@ -1,0 +1,129 @@
+label: DEVELOPMENT / S1 -- NOT FINAL RESEARCH RESULT
+mode: development
+stage: E5
+cycle: 0
+seeds:
+  train_master: 2026100501
+  validation_master: 2026100502
+  condition_master: 2026100503
+  training: [5101, 5102, 5103]
+  tie: 71990
+  bootstrap: 71991
+  timing: 71992
+  challenge: 71993
+  mismatch_bootstrap: 71994
+  strata_bootstrap: 71995
+samples:
+  train: 4096
+  V-design: 2048
+  V-cal-dev: 4096
+  V-assess: 8192
+  V-panel: 7168
+conditions:
+  snr_db: [-5, 0, 5, 10, 15, 20, 25]
+  primary_snr_db: [0, 5, 10, 15, 20]
+  modulations: [QPSK, 16QAM]
+  primary_domain: matched generic_A QPSK 0 through 20 dB
+  primary_burst_weights: [0.25, 0.25, 0.25, 0.25]
+  burst_durations: [0, 8, 32, 32]
+  burst_inr_db: [null, 10, 10, 20]
+  burst_probabilities: [0, 0.5, 0.5, 0.5]
+  panel_frames_per_cell: 64
+  panel_status: preregistered diagnostic panel; no secondary certificates or SUCCESS route
+model:
+  family: pilot-only shared mask-compatible residual CNN
+  width: 32
+  architecture: Conv3x3(7,32)-ReLU-Conv3x3(32,32)-ReLU-Conv3x3(32,32)-ReLU-Conv1x1(32,2)
+  output: real-imag residual times allowed-pilot scale and active mask
+  initialization: zero final convolution; ordinary torch initialization elsewhere
+training:
+  device: cuda:0
+  fallback: cpu
+  dtype: float32
+  cpu_threads: 1
+  optimizer: Adam
+  learning_rate: 0.001
+  hyperparameter_candidates: 1
+  weight_decay: 0.00001
+  gradient_clip: 1.0
+  batch_size: 16
+  max_epochs: 20
+  patience: 4
+  min_delta: 0.000001
+  loss: mean linear active-grid frame NMSE
+  selection_loss: mean V-design all-pilot linear frame NMSE
+  masks: each train frame full plus one partial; six fraction-policy combinations by frame index modulo six
+  checkpoint: every epoch; best V-design loss; resume model/optimizer/data-order RNG
+  sequential_seeds_only: true
+scores:
+  primary: [g3_hard, g3_soft]
+  controls: [g1, g2, evm, evm_neural, llr, llr_neural, pilot]
+  diagnostics: [g3_hard_mean, g3_soft_mean, g3_mean_only, pilot_mean, g3_anchor, weighted_evm_identity]
+  direction: larger means more harm; accept T <= threshold
+  kappa: sqrt(log(20))
+  variance_floor: 0.0000000001
+  scale_energy_floor: 0.000000000001
+  evm_channel_floor: 0.000001
+  g2_fractions: [0.25, 0.5]
+  g2_policies: [random, interleaved, block]
+  g2_aggregators: [huber, mean]
+  design_selection: lowest mean across seeds R_C at 0.50 coverage; ties highest useful acceptance then lexical name
+  design_selection_subset: V-design generic_A QPSK 0 through 20 dB for G2, control, logistic and grids
+  confidence_diagnostic: fixed standardized imputed logistic regression C=1; V-design fit only; plus each G3 separately
+statistics:
+  delta_db: 0.5
+  delta_use_db: 0.5
+  sensitivity_db: [0, 0.5, 1]
+  alpha: 0.05
+  epsilon_total: 0.05
+  certificate_methods: [g1, g2, g3_hard, g3_soft, evm, evm_neural, llr, llr_neural, pilot, g0]
+  certificate_count: 30
+  threshold_quantiles: 41
+  accepted_min: 200
+  coverage_min: 0.05
+  useful_min: 0.05
+  coverages: [0.25, 0.5, 0.75]
+  joint_harm_margin: 0.005
+  useful_margin: 0.01
+  cost_coverage_margin: 0.02
+  cost_ratio_upper: 0.90
+  decision_inequalities: 76
+  decision_one_sided_error: 0.05
+  bootstrap_draws: 20000
+  discrimination_bootstrap_draws: 2000
+  mismatch_bootstrap_draws: 2000
+  stratum_bootstrap_draws: 2000
+  bootstrap_batch_size: 64
+  bootstrap_unit: shared whole frames; resample model seeds separately then shared frame weights
+  tie_rule: frozen independent uniform keys with frame IDs; no label-based order
+  stratification: true and estimated SNR [-5,0),[0,10),[10,20),[20,25]; modulation; family; assigned burst cell; actual burst; occupancy
+timing:
+  devices: [cpu, cuda:0]
+  decision_device: cpu
+  model_seed: 5101
+  batch_size: 1
+  cpu_threads: 1
+  warmups: 10
+  frames: 64
+  repetitions: 3
+  resolution_repetitions: 30
+  resolution_rule: baseline replay p95 absolute consecutive time difference measured before assessment
+  order: randomized interleaving with frozen timing seed
+  outlier_rule: retain all valid timings; abort nonfinite/error; never trim by speed
+  synchronization: CUDA synchronize before and after each boundary; include necessary transfers
+  boundaries: grid-to-decision-selected-H; raw-buffer-to-hard-bits; fixed-branch replay subtraction
+challenges:
+  seed: 5101
+  noisy_frames: first frame in every declared panel cell
+  phases: [-90, 90, -30, -15, -5, 5, 15, 30]
+  scales: [0.5, 0.75, 1.25, 2, 3]
+  cross_phase_scale: true
+  perturb_norms: [0.1, 0.5]
+  perturb_supports: [active, data_only]
+  wrong_decision_fractions: [0, 0.1, 0.5, 1]
+  posterior_temperatures: [1, 2, 10, uniform]
+diagnostics:
+  maximum_cycles: 3
+  current_cycles_used: 0
+  allowed: implementation errors; obvious training failure; numerical instability; preregistered choices
+  prohibited: outcome-driven formula search; final split use; criteria changes
