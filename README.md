@@ -1,6 +1,6 @@
-# Risk-calibrated neural residual OFDM acceptance
+# IJIES manuscript 20267150
 
-Research implementation and retained-data reproduction for IJIES manuscript 20267150, **Risk-Calibrated Acceptance of Neural Residual OFDM Channel Estimates**.
+Research implementation and retained-data reproduction for IJIES manuscript 20267150, **IJIES manuscript 20267150**.
 
 Public release: `v1.0.0`. Authors: Hasan Faez Yahya, Ivan Abd Al-Zahra Hashim, Mohammed Husham Alkhafaji.
 
